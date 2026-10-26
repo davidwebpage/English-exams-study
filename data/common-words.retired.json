@@ -1,0 +1,1246 @@
+{
+ "words": [
+  {
+   "id": 104001,
+   "word": "people",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 人们；民族",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104002,
+   "word": "person",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 人；个人",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104003,
+   "word": "personal",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 个人的；私人的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104004,
+   "word": "paper",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 纸；论文",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104005,
+   "word": "pen",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 钢笔",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104006,
+   "word": "online",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 在线的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104007,
+   "word": "parking",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 停车",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104008,
+   "word": "page",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 页；页面",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104009,
+   "word": "part",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 部分；v. 分开",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104010,
+   "word": "path",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 路径；道路",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104011,
+   "word": "past",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 过去的；n. 过去",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104012,
+   "word": "face",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 脸；v. 面对",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104013,
+   "word": "fully",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 完全地",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104014,
+   "word": "easier",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 更容易的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104015,
+   "word": "greatest",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 最大的；最伟大的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104016,
+   "word": "highest",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 最高的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104017,
+   "word": "email",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 电子邮件",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104018,
+   "word": "deadline",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 截止日期",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104019,
+   "word": "performance",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 表现；绩效",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104020,
+   "word": "planning",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 计划；规划",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104021,
+   "word": "programme",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 计划；程序",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104022,
+   "word": "partner",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 伙伴；合伙人",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104023,
+   "word": "passenger",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 乘客",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104024,
+   "word": "passport",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 护照",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104025,
+   "word": "permanent",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 永久的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104026,
+   "word": "prevention",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 预防",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104027,
+   "word": "evaluation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 评价；评估",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104028,
+   "word": "applicant",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 申请人",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104029,
+   "word": "buyer",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 买方",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104030,
+   "word": "defender",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 辩护者",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104031,
+   "word": "freelancer",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 自由职业者",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104032,
+   "word": "traveler",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 旅行者",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104033,
+   "word": "supporter",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 支持者",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104034,
+   "word": "seeker",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 寻找者",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104035,
+   "word": "policymaker",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 决策者",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104036,
+   "word": "regulator",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 监管者",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104037,
+   "word": "subscription",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 订阅",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104038,
+   "word": "subtitle",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 字幕",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104039,
+   "word": "packaging",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 包装",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104040,
+   "word": "revenue",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 收入",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104041,
+   "word": "workforce",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 劳动力",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104042,
+   "word": "workplace",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 工作场所",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104043,
+   "word": "childcare",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 儿童保育",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104044,
+   "word": "healthcare",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 医疗保健",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104045,
+   "word": "gender",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 性别",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104046,
+   "word": "gig",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 零工",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104047,
+   "word": "logo",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 标志",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104048,
+   "word": "cuisine",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 菜肴；烹饪",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104049,
+   "word": "civic",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 市民的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104050,
+   "word": "urban",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 城市的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104051,
+   "word": "participation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 参与",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104052,
+   "word": "predictable",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 可预测的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104053,
+   "word": "systematic",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 系统的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104054,
+   "word": "outcome",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 结果",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104055,
+   "word": "aspect",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 方面",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104056,
+   "word": "role",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 角色",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104057,
+   "word": "issue",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 问题",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104058,
+   "word": "factor",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 因素",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104059,
+   "word": "align",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 对齐；使一致；排列成行",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104060,
+   "word": "audits",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 审计；稽核(audit的复数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104061,
+   "word": "automated",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 自动化的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104062,
+   "word": "backfire",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 适得其反；产生反效果",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104063,
+   "word": "behaviour",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 行为；举止(英式写法)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104064,
+   "word": "bidder",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 出价者；投标者",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104065,
+   "word": "bilingual",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 双语的；n. 通两种语言的人",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104066,
+   "word": "blurs",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 使模糊；变得模糊(blur的第三人称单数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104067,
+   "word": "boardroom",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 董事会会议室；决策层",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104068,
+   "word": "cancellation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 取消；撤销",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104069,
+   "word": "cannot",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 不能(can not)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104070,
+   "word": "congestion",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 拥堵；拥挤；充塞",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104071,
+   "word": "connotations",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 内涵；言外之意(connotation的复数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104072,
+   "word": "cramming",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 死记硬背；填鸭式学习",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104073,
+   "word": "deliverers",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 送货人；投递者(deliverer的复数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104074,
+   "word": "disbelief",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 不相信；怀疑",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104075,
+   "word": "distractions",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 分散注意力的事物(distraction的复数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104076,
+   "word": "dodging",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 躲避；绕开(dodge的现在分词)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104077,
+   "word": "emission",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 排放；散发出的事物",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104078,
+   "word": "emissions",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 排放物(emission的复数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104079,
+   "word": "empathetic",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 有同理心的；共情的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104080,
+   "word": "erase",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 擦除；抹去；清除",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104081,
+   "word": "erodes",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 侵蚀；削弱(erode的第三人称单数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104082,
+   "word": "flattens",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 使变平；使更为平整(flatten的第三人称单数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104083,
+   "word": "fluency",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 流利；流畅",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104084,
+   "word": "frugal",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 节俭的；朴素的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104085,
+   "word": "frustration",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 挫折；沮丧；受挫",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104086,
+   "word": "goodwill",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 善意；好意；商誉",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104087,
+   "word": "grid",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 电网；网格；栅格",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104088,
+   "word": "grids",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 网格；电网(grid的复数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104089,
+   "word": "guesswork",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 猜测；臆测",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104090,
+   "word": "immersion",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 沉浸；浸没；投入",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104091,
+   "word": "interventions",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 干预；介入(intervention的复数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104092,
+   "word": "kilowatt",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 千瓦",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104093,
+   "word": "learners",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 学习者(learner的复数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104094,
+   "word": "lifestyle",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 生活方式",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104095,
+   "word": "livelihood",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 生计；谋生手段",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104096,
+   "word": "meaningful",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 有意义的；有目的的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104097,
+   "word": "memorized",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 记住；背熟(memorize的过去分词)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104098,
+   "word": "mindless",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 无意识的；不动脑子的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104099,
+   "word": "misinformation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 错误信息；虚假信息",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104100,
+   "word": "motorway",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 高速公路",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104101,
+   "word": "nomads",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 游牧民；四处漂泊者(nomad的复数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104102,
+   "word": "nudging",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 轻推；促使(nudge的现在分词)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104103,
+   "word": "optimizes",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 优化；最优化(optimize的第三人称单数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104104,
+   "word": "outperform",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 胜过；表现优于",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104105,
+   "word": "outrage",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 愤怒；愤慨；v. 激怒",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104106,
+   "word": "oversight",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 监督；监管；疏忽",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104107,
+   "word": "pandemic",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 大流行病；全球性流行病",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104108,
+   "word": "partial",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 部分的；不完整的；偏袒的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104109,
+   "word": "passive",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 被动的；消极的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104110,
+   "word": "pause",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 暂停；停顿；v. 暂停",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104111,
+   "word": "pauses",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 暂停；停顿(pause的第三人称单数)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104112,
+   "word": "peak",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 顶峰；最高点；v. 达到顶点",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104113,
+   "word": "penalized",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 处罚；对…不利(penalize的过去分词)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104114,
+   "word": "perk",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 额外待遇；补贴；小费",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104115,
+   "word": "persist",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 坚持；持续存在",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104116,
+   "word": "persuading",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 说服；劝阻(persuade的现在分词)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104117,
+   "word": "persuasion",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 说服；劝说；信念",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104118,
+   "word": "re",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. (前缀/缩写) 重新；关于",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104119,
+   "word": "rebuild",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 重建；改建",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104120,
+   "word": "reconsidering",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 重新考虑(reconsider的现在分词)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104121,
+   "word": "reconstruction",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 重建；复原；再建",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104122,
+   "word": "reliably",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 可靠地；可信地",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104123,
+   "word": "renewables",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 可再生能源",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104124,
+   "word": "renovate",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 翻新；修复；革新",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104125,
+   "word": "reshape",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 重塑；改造；重新塑形",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104126,
+   "word": "shortcut",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 捷径；快捷方式",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104127,
+   "word": "shuffling",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 洗牌；慢吞吞地走(shuffle的现在分词)",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104128,
+   "word": "transparency",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 透明；透明度；公开",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104129,
+   "word": "unchecked",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未受约束的；未经检查的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104130,
+   "word": "uneven",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 不平坦的；不均匀的；参差的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104131,
+   "word": "unpaid",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未支付的；无偿的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104132,
+   "word": "unspoken",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未说出口的；心照不宣的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104133,
+   "word": "untouched",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未被触碰的；一成不变的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104134,
+   "word": "unused",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未使用的；闲置的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104135,
+   "word": "unverified",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未经核实的",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104136,
+   "word": "verification",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 核实；验证；证实",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104137,
+   "word": "villain",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 反派；恶棍；坏人",
+   "kind": "common",
+   "premastered": true
+  },
+  {
+   "id": 104138,
+   "word": "wrestling",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 摔跤；扭打；搏斗",
+   "kind": "common",
+   "premastered": true
+  }
+ ]
+}

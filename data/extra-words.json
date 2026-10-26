@@ -1,0 +1,740 @@
+{
+ "words": [
+  {
+   "id": 100001,
+   "word": "absenteeism",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 旷工；经常缺席",
+   "extra": true
+  },
+  {
+   "id": 100002,
+   "word": "accountable",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 负有责任的；可解释的",
+   "extra": true
+  },
+  {
+   "id": 100048,
+   "word": "adulthood",
+   "phonetic": "/əˈdəlˌthʊd/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 成年；成年期",
+   "extra": true
+  },
+  {
+   "id": 100049,
+   "word": "affordable",
+   "phonetic": "/əˈfɔrdəbəl/",
+   "pos": [
+    "adj."
+   ],
+   "definition": "adj. 负担得起的",
+   "extra": true
+  },
+  {
+   "id": 100003,
+   "word": "algorithm",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 算法",
+   "extra": true
+  },
+  {
+   "id": 100050,
+   "word": "app",
+   "phonetic": "/æp/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 应用程序（application 的缩写）",
+   "extra": true
+  },
+  {
+   "id": 100076,
+   "word": "celebration",
+   "phonetic": "/ˌsɛləˈbreɪʃən/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 庆祝；庆典",
+   "extra": true
+  },
+  {
+   "id": 100004,
+   "word": "cognitive",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 认知的；认识的",
+   "extra": true
+  },
+  {
+   "id": 100005,
+   "word": "compensation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 补偿；赔偿；报酬",
+   "extra": true
+  },
+  {
+   "id": 100006,
+   "word": "compliance",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 顺从；遵从；合规",
+   "extra": true
+  },
+  {
+   "id": 100007,
+   "word": "consolidation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 巩固；合并",
+   "extra": true
+  },
+  {
+   "id": 100008,
+   "word": "consumerism",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 消费主义",
+   "extra": true
+  },
+  {
+   "id": 100031,
+   "word": "designer",
+   "phonetic": "/dɪˈzaɪnər/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 设计师",
+   "extra": true
+  },
+  {
+   "id": 100042,
+   "word": "disappointment",
+   "phonetic": "/ˌdɪsəˈpɔɪntmənt/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 失望；令人失望的人或事",
+   "extra": true
+  },
+  {
+   "id": 100009,
+   "word": "discrimination",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 歧视；区别",
+   "extra": true
+  },
+  {
+   "id": 100010,
+   "word": "dissatisfaction",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 不满",
+   "extra": true
+  },
+  {
+   "id": 100043,
+   "word": "donation",
+   "phonetic": "/doʊˈneɪʃən/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 捐赠；捐款",
+   "extra": true
+  },
+  {
+   "id": 100033,
+   "word": "economist",
+   "phonetic": "/ɪˈkɑnəmɪst/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 经济学家",
+   "extra": true
+  },
+  {
+   "id": 100034,
+   "word": "founder",
+   "phonetic": "/ˈfaʊndər/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 创始人；奠基者",
+   "extra": true
+  },
+  {
+   "id": 100029,
+   "word": "grandparent",
+   "phonetic": "/ˈgrændˌpɛrənt/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 祖父；祖母；外祖父；外祖母",
+   "extra": true
+  },
+  {
+   "id": 100032,
+   "word": "grower",
+   "phonetic": "/groʊər/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 种植者；栽培者",
+   "extra": true
+  },
+  {
+   "id": 100051,
+   "word": "homework",
+   "phonetic": "/ˈhoʊmˌwərk/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 家庭作业",
+   "extra": true
+  },
+  {
+   "id": 100011,
+   "word": "idiosyncratic",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 特有的；怪异的",
+   "extra": true
+  },
+  {
+   "id": 100012,
+   "word": "impartiality",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 公正；不偏不倚",
+   "extra": true
+  },
+  {
+   "id": 100013,
+   "word": "infrastructure",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 基础设施",
+   "extra": true
+  },
+  {
+   "id": 100052,
+   "word": "innovative",
+   "phonetic": "/ˈɪnəˌveɪtɪv/",
+   "pos": [
+    "adj."
+   ],
+   "definition": "adj. 创新的；新颖的",
+   "extra": true
+  },
+  {
+   "id": 100014,
+   "word": "intangible",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 无形的；难以捉摸的",
+   "extra": true
+  },
+  {
+   "id": 100015,
+   "word": "intergenerational",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 代际的；两代之间的",
+   "extra": true
+  },
+  {
+   "id": 100016,
+   "word": "intermittency",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 间歇性",
+   "extra": true
+  },
+  {
+   "id": 100053,
+   "word": "isolation",
+   "phonetic": "/ˌaɪsəˈleɪʃən/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 隔离；孤立；孤独",
+   "extra": true
+  },
+  {
+   "id": 100035,
+   "word": "landowner",
+   "phonetic": "/ˈlænˌdoʊnər/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 地主；土地所有者",
+   "extra": true
+  },
+  {
+   "id": 100054,
+   "word": "laptop",
+   "phonetic": "/ˈlæpˌtɑp/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 笔记本电脑",
+   "extra": true
+  },
+  {
+   "id": 100055,
+   "word": "laziness",
+   "phonetic": "/ˈleɪzinəs/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 懒惰；懒散",
+   "extra": true
+  },
+  {
+   "id": 100017,
+   "word": "longevity",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 长寿；寿命",
+   "extra": true
+  },
+  {
+   "id": 100036,
+   "word": "loser",
+   "phonetic": "/ˈluzər/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 失败者；输家",
+   "extra": true
+  },
+  {
+   "id": 100056,
+   "word": "mainstream",
+   "phonetic": "/ˈmeɪnˌstrim/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 主流；adj. 主流的",
+   "extra": true
+  },
+  {
+   "id": 100044,
+   "word": "migrant",
+   "phonetic": "/ˈmaɪgrənt/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 移民；候鸟；adj. 移居的",
+   "extra": true
+  },
+  {
+   "id": 100018,
+   "word": "monolingual",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 单语的；n. 只说一种语言的人",
+   "extra": true
+  },
+  {
+   "id": 100030,
+   "word": "newcomer",
+   "phonetic": "/ˈnuˌkəmər/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 新来的人；新手",
+   "extra": true
+  },
+  {
+   "id": 100019,
+   "word": "obsolescence",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 过时；废弃",
+   "extra": true
+  },
+  {
+   "id": 100074,
+   "word": "organise",
+   "phonetic": "",
+   "pos": [
+    "v."
+   ],
+   "definition": "v. 组织；安排（=organize）",
+   "extra": true
+  },
+  {
+   "id": 100077,
+   "word": "outgrow",
+   "phonetic": "/ˌaʊtˈgroʊ/",
+   "pos": [
+    "vt."
+   ],
+   "definition": "vt. 长得比…快；因长大而不再适合",
+   "extra": true
+  },
+  {
+   "id": 100057,
+   "word": "override",
+   "phonetic": "/ˈoʊvərˌraɪd/",
+   "pos": [
+    "vt."
+   ],
+   "definition": "vt. 推翻；优先于",
+   "extra": true
+  },
+  {
+   "id": 100028,
+   "word": "parent",
+   "phonetic": "/ˈpɛrənt/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 父亲；母亲；父母",
+   "extra": true
+  },
+  {
+   "id": 100070,
+   "word": "park",
+   "phonetic": "/pɑrk/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 公园；v. 停车",
+   "extra": true
+  },
+  {
+   "id": 100068,
+   "word": "pass",
+   "phonetic": "/pæs/",
+   "pos": [
+    "v."
+   ],
+   "definition": "v. 通过；传递；n. 通行证",
+   "extra": true
+  },
+  {
+   "id": 100045,
+   "word": "patience",
+   "phonetic": "/ˈpeɪʃəns/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 耐心；忍耐",
+   "extra": true
+  },
+  {
+   "id": 100046,
+   "word": "patient",
+   "phonetic": "/ˈpeɪʃənt/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 病人；adj. 有耐心的",
+   "extra": true
+  },
+  {
+   "id": 100067,
+   "word": "pay",
+   "phonetic": "/peɪ/",
+   "pos": [
+    "v."
+   ],
+   "definition": "v. 支付；付款；n. 工资",
+   "extra": true
+  },
+  {
+   "id": 100069,
+   "word": "perform",
+   "phonetic": "/pərˈfɔrm/",
+   "pos": [
+    "v."
+   ],
+   "definition": "v. 表演；执行；表现",
+   "extra": true
+  },
+  {
+   "id": 100037,
+   "word": "planner",
+   "phonetic": "/ˈplænər/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 规划者；计划者",
+   "extra": true
+  },
+  {
+   "id": 100020,
+   "word": "precondition",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 前提；先决条件",
+   "extra": true
+  },
+  {
+   "id": 100021,
+   "word": "presenteeism",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 出勤主义(带病上班)",
+   "extra": true
+  },
+  {
+   "id": 100038,
+   "word": "provider",
+   "phonetic": "/prəˈvaɪdər/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 提供者；供应者",
+   "extra": true
+  },
+  {
+   "id": 100058,
+   "word": "readable",
+   "phonetic": "/ˈridəbəl/",
+   "pos": [
+    "adj."
+   ],
+   "definition": "adj. 可读的；易读的",
+   "extra": true
+  },
+  {
+   "id": 100059,
+   "word": "readiness",
+   "phonetic": "/ˈrɛdinəs/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 准备就绪；愿意",
+   "extra": true
+  },
+  {
+   "id": 100073,
+   "word": "recognise",
+   "phonetic": "/ˈrɛkəgˌnaɪz/",
+   "pos": [
+    "v."
+   ],
+   "definition": "v. 认出；承认（=recognize）",
+   "extra": true
+  },
+  {
+   "id": 100071,
+   "word": "rehearse",
+   "phonetic": "/riˈhərs/",
+   "pos": [
+    "v."
+   ],
+   "definition": "v. 排练；预演",
+   "extra": true
+  },
+  {
+   "id": 100072,
+   "word": "reinvent",
+   "phonetic": "/ˌriɪnˈvɛnt/",
+   "pos": [
+    "vt."
+   ],
+   "definition": "vt. 彻底改造；重新发明",
+   "extra": true
+  },
+  {
+   "id": 100060,
+   "word": "repetitive",
+   "phonetic": "/rɪˈpɛtɪtɪv/",
+   "pos": [
+    "adj."
+   ],
+   "definition": "adj. 重复的；乏味的",
+   "extra": true
+  },
+  {
+   "id": 100075,
+   "word": "retrain",
+   "phonetic": "/riˈtreɪn/",
+   "pos": [
+    "v."
+   ],
+   "definition": "v. 重新培训；再教育",
+   "extra": true
+  },
+  {
+   "id": 100061,
+   "word": "reusable",
+   "phonetic": "/riˈuzəbəl/",
+   "pos": [
+    "adj."
+   ],
+   "definition": "adj. 可重复使用的",
+   "extra": true
+  },
+  {
+   "id": 100047,
+   "word": "reuse",
+   "phonetic": "/riˈjuz/",
+   "pos": [
+    "vt."
+   ],
+   "definition": "vt. 再次使用；回收利用",
+   "extra": true
+  },
+  {
+   "id": 100022,
+   "word": "rhetorical",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 修辞的",
+   "extra": true
+  },
+  {
+   "id": 100062,
+   "word": "risky",
+   "phonetic": "/ˈrɪski/",
+   "pos": [
+    "adj."
+   ],
+   "definition": "adj. 有风险的；冒险的",
+   "extra": true
+  },
+  {
+   "id": 100040,
+   "word": "sandbag",
+   "phonetic": "/ˈsændˌbæg/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 沙袋；vt. 用沙袋加固",
+   "extra": true
+  },
+  {
+   "id": 100063,
+   "word": "sane",
+   "phonetic": "/seɪn/",
+   "pos": [
+    "adj."
+   ],
+   "definition": "adj. 神志清醒的；明智的",
+   "extra": true
+  },
+  {
+   "id": 100023,
+   "word": "skepticism",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 怀疑态度；怀疑论",
+   "extra": true
+  },
+  {
+   "id": 100024,
+   "word": "sophistication",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 复杂性；精致",
+   "extra": true
+  },
+  {
+   "id": 100025,
+   "word": "stigma",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 污名；耻辱",
+   "extra": true
+  },
+  {
+   "id": 100078,
+   "word": "supplier",
+   "phonetic": "/səˈplaɪər/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 供应商；供应者",
+   "extra": true
+  },
+  {
+   "id": 100026,
+   "word": "sustainability",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 可持续性",
+   "extra": true
+  },
+  {
+   "id": 100027,
+   "word": "sustainable",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 可持续的",
+   "extra": true
+  },
+  {
+   "id": 100064,
+   "word": "teenage",
+   "phonetic": "/ˈtiˌneɪʤ/",
+   "pos": [
+    "adj."
+   ],
+   "definition": "adj. 青少年的；十几岁的",
+   "extra": true
+  },
+  {
+   "id": 100039,
+   "word": "traveller",
+   "phonetic": "/ˈtrævələr/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 旅行者（=traveler）",
+   "extra": true
+  },
+  {
+   "id": 100065,
+   "word": "walkable",
+   "phonetic": "",
+   "pos": [
+    "adj."
+   ],
+   "definition": "adj. 适合步行的",
+   "extra": true
+  },
+  {
+   "id": 100041,
+   "word": "warranty",
+   "phonetic": "/ˈwɔrənti/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 保修单；保证书",
+   "extra": true
+  },
+  {
+   "id": 100066,
+   "word": "wetlands",
+   "phonetic": "/ˈwɛˌtlændz/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 湿地",
+   "extra": true
+  },
+  {
+   "id": 100079,
+   "word": "workforce",
+   "phonetic": "/ˈwərkˌfɔrs/",
+   "pos": [
+    "n."
+   ],
+   "definition": "n. 劳动力；全体员工",
+   "extra": true
+  }
+ ]
+}

@@ -1,0 +1,2691 @@
+{
+ "words": [
+  {
+   "id": 103001,
+   "word": "a",
+   "phonetic": "",
+   "pos": [],
+   "definition": "art. 一个；任一",
+   "kind": "basic"
+  },
+  {
+   "id": 103002,
+   "word": "an",
+   "phonetic": "",
+   "pos": [],
+   "definition": "art. 一个",
+   "kind": "basic"
+  },
+  {
+   "id": 103003,
+   "word": "the",
+   "phonetic": "",
+   "pos": [],
+   "definition": "art. 这；那",
+   "kind": "basic"
+  },
+  {
+   "id": 103004,
+   "word": "i",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 我",
+   "kind": "basic"
+  },
+  {
+   "id": 103005,
+   "word": "me",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 我(宾格)",
+   "kind": "basic"
+  },
+  {
+   "id": 103006,
+   "word": "my",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 我的",
+   "kind": "basic"
+  },
+  {
+   "id": 103007,
+   "word": "mine",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103008,
+   "word": "you",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 你；你们",
+   "kind": "basic"
+  },
+  {
+   "id": 103009,
+   "word": "your",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 你的；你们的",
+   "kind": "basic"
+  },
+  {
+   "id": 103010,
+   "word": "yours",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 你的（东西）",
+   "kind": "basic"
+  },
+  {
+   "id": 103011,
+   "word": "he",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 他",
+   "kind": "basic"
+  },
+  {
+   "id": 103012,
+   "word": "him",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 他(宾格)",
+   "kind": "basic"
+  },
+  {
+   "id": 103013,
+   "word": "his",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 他的",
+   "kind": "basic"
+  },
+  {
+   "id": 103014,
+   "word": "she",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 她",
+   "kind": "basic"
+  },
+  {
+   "id": 103015,
+   "word": "her",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 她(宾格)；她的",
+   "kind": "basic"
+  },
+  {
+   "id": 103016,
+   "word": "hers",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103017,
+   "word": "it",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 它",
+   "kind": "basic"
+  },
+  {
+   "id": 103018,
+   "word": "its",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 它的",
+   "kind": "basic"
+  },
+  {
+   "id": 103019,
+   "word": "we",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 我们",
+   "kind": "basic"
+  },
+  {
+   "id": 103020,
+   "word": "us",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 我们(宾格)",
+   "kind": "basic"
+  },
+  {
+   "id": 103021,
+   "word": "our",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 我们的",
+   "kind": "basic"
+  },
+  {
+   "id": 103022,
+   "word": "ours",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103023,
+   "word": "they",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 他们；她们；它们",
+   "kind": "basic"
+  },
+  {
+   "id": 103024,
+   "word": "them",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 他们(宾格)",
+   "kind": "basic"
+  },
+  {
+   "id": 103025,
+   "word": "their",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 他们的",
+   "kind": "basic"
+  },
+  {
+   "id": 103026,
+   "word": "theirs",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103027,
+   "word": "this",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 这个；adj. 这",
+   "kind": "basic"
+  },
+  {
+   "id": 103028,
+   "word": "that",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 那个；conj. 引导从句",
+   "kind": "basic"
+  },
+  {
+   "id": 103029,
+   "word": "these",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 这些",
+   "kind": "basic"
+  },
+  {
+   "id": 103030,
+   "word": "those",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 那些",
+   "kind": "basic"
+  },
+  {
+   "id": 103031,
+   "word": "who",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 谁",
+   "kind": "basic"
+  },
+  {
+   "id": 103032,
+   "word": "whom",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 谁(宾格)",
+   "kind": "basic"
+  },
+  {
+   "id": 103033,
+   "word": "whose",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 谁的",
+   "kind": "basic"
+  },
+  {
+   "id": 103034,
+   "word": "which",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 哪一个",
+   "kind": "basic"
+  },
+  {
+   "id": 103035,
+   "word": "what",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 什么",
+   "kind": "basic"
+  },
+  {
+   "id": 103036,
+   "word": "myself",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103037,
+   "word": "yourself",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103038,
+   "word": "himself",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103039,
+   "word": "herself",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103040,
+   "word": "itself",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103041,
+   "word": "ourselves",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103042,
+   "word": "yourselves",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 你们自己",
+   "kind": "basic"
+  },
+  {
+   "id": 103043,
+   "word": "themselves",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103044,
+   "word": "someone",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 某人",
+   "kind": "basic"
+  },
+  {
+   "id": 103045,
+   "word": "somebody",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103046,
+   "word": "something",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 某事物",
+   "kind": "basic"
+  },
+  {
+   "id": 103047,
+   "word": "anyone",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 任何人",
+   "kind": "basic"
+  },
+  {
+   "id": 103048,
+   "word": "anybody",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103049,
+   "word": "anything",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 任何事物",
+   "kind": "basic"
+  },
+  {
+   "id": 103050,
+   "word": "everyone",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 每个人",
+   "kind": "basic"
+  },
+  {
+   "id": 103051,
+   "word": "everybody",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103052,
+   "word": "everything",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 一切",
+   "kind": "basic"
+  },
+  {
+   "id": 103053,
+   "word": "nobody",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 没有人",
+   "kind": "basic"
+  },
+  {
+   "id": 103054,
+   "word": "nothing",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 没有什么",
+   "kind": "basic"
+  },
+  {
+   "id": 103055,
+   "word": "none",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 一个也没有",
+   "kind": "basic"
+  },
+  {
+   "id": 103056,
+   "word": "some",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 一些；adj. 一些",
+   "kind": "basic"
+  },
+  {
+   "id": 103057,
+   "word": "any",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 任何；adj. 任何",
+   "kind": "basic"
+  },
+  {
+   "id": 103058,
+   "word": "no",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 不；adj. 没有",
+   "kind": "basic"
+  },
+  {
+   "id": 103059,
+   "word": "every",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 每个的",
+   "kind": "basic"
+  },
+  {
+   "id": 103060,
+   "word": "each",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 每个",
+   "kind": "basic"
+  },
+  {
+   "id": 103061,
+   "word": "either",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. (两者)任一；adv. 也(否定)",
+   "kind": "basic"
+  },
+  {
+   "id": 103062,
+   "word": "neither",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 两者都不",
+   "kind": "basic"
+  },
+  {
+   "id": 103063,
+   "word": "both",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 两者都",
+   "kind": "basic"
+  },
+  {
+   "id": 103064,
+   "word": "all",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 全部；adv. 完全",
+   "kind": "basic"
+  },
+  {
+   "id": 103065,
+   "word": "few",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 少数；adj. 很少的",
+   "kind": "basic"
+  },
+  {
+   "id": 103066,
+   "word": "many",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 许多",
+   "kind": "basic"
+  },
+  {
+   "id": 103067,
+   "word": "much",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 许多(不可数)；adv. 很",
+   "kind": "basic"
+  },
+  {
+   "id": 103068,
+   "word": "more",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj./adv. 更多",
+   "kind": "basic"
+  },
+  {
+   "id": 103069,
+   "word": "most",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj./adv. 最多",
+   "kind": "basic"
+  },
+  {
+   "id": 103070,
+   "word": "several",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 几个；adj. 几个的",
+   "kind": "basic"
+  },
+  {
+   "id": 103071,
+   "word": "other",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 其他的；pron. 其他",
+   "kind": "basic"
+  },
+  {
+   "id": 103072,
+   "word": "another",
+   "phonetic": "",
+   "pos": [],
+   "definition": "pron. 另一个",
+   "kind": "basic"
+  },
+  {
+   "id": 103073,
+   "word": "such",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103074,
+   "word": "be",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 是；存在",
+   "kind": "basic"
+  },
+  {
+   "id": 103075,
+   "word": "am",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 是(第一人称单数)",
+   "kind": "basic"
+  },
+  {
+   "id": 103076,
+   "word": "is",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 是(第三人称单数)",
+   "kind": "basic"
+  },
+  {
+   "id": 103077,
+   "word": "are",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 是(复数)",
+   "kind": "basic"
+  },
+  {
+   "id": 103078,
+   "word": "was",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 是(过去) (be的过去式)",
+   "kind": "basic"
+  },
+  {
+   "id": 103079,
+   "word": "were",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 是(过去/虚拟) (be的过去式)",
+   "kind": "basic"
+  },
+  {
+   "id": 103080,
+   "word": "been",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 是(过去分词) (be)",
+   "kind": "basic"
+  },
+  {
+   "id": 103081,
+   "word": "being",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 是(现在分词) (be)",
+   "kind": "basic"
+  },
+  {
+   "id": 103082,
+   "word": "have",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 有；aux. 已经",
+   "kind": "basic"
+  },
+  {
+   "id": 103083,
+   "word": "has",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 有(第三人称单数)",
+   "kind": "basic"
+  },
+  {
+   "id": 103084,
+   "word": "had",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 有(过去式/分词)",
+   "kind": "basic"
+  },
+  {
+   "id": 103085,
+   "word": "having",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 有(现在分词)",
+   "kind": "basic"
+  },
+  {
+   "id": 103086,
+   "word": "do",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 做；aux. 助动词",
+   "kind": "basic"
+  },
+  {
+   "id": 103087,
+   "word": "does",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 做(第三人称单数)",
+   "kind": "basic"
+  },
+  {
+   "id": 103088,
+   "word": "did",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 做(过去式)",
+   "kind": "basic"
+  },
+  {
+   "id": 103089,
+   "word": "done",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 做(过去分词)",
+   "kind": "basic"
+  },
+  {
+   "id": 103090,
+   "word": "doing",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 做(现在分词)",
+   "kind": "basic"
+  },
+  {
+   "id": 103091,
+   "word": "can",
+   "phonetic": "",
+   "pos": [],
+   "definition": "aux. 能；可以",
+   "kind": "basic"
+  },
+  {
+   "id": 103092,
+   "word": "could",
+   "phonetic": "",
+   "pos": [],
+   "definition": "aux. 可以；能(过去式)",
+   "kind": "basic"
+  },
+  {
+   "id": 103093,
+   "word": "may",
+   "phonetic": "",
+   "pos": [],
+   "definition": "aux. 可能；可以",
+   "kind": "basic"
+  },
+  {
+   "id": 103094,
+   "word": "might",
+   "phonetic": "",
+   "pos": [],
+   "definition": "aux. 可能(更委婉)",
+   "kind": "basic"
+  },
+  {
+   "id": 103095,
+   "word": "must",
+   "phonetic": "",
+   "pos": [],
+   "definition": "aux. 必须",
+   "kind": "basic"
+  },
+  {
+   "id": 103096,
+   "word": "shall",
+   "phonetic": "",
+   "pos": [],
+   "definition": "aux. 将要；应该",
+   "kind": "basic"
+  },
+  {
+   "id": 103097,
+   "word": "should",
+   "phonetic": "",
+   "pos": [],
+   "definition": "aux. 应该",
+   "kind": "basic"
+  },
+  {
+   "id": 103098,
+   "word": "will",
+   "phonetic": "",
+   "pos": [],
+   "definition": "aux. 将要；n. 意志",
+   "kind": "basic"
+  },
+  {
+   "id": 103099,
+   "word": "would",
+   "phonetic": "",
+   "pos": [],
+   "definition": "aux. 将会；愿意",
+   "kind": "basic"
+  },
+  {
+   "id": 103100,
+   "word": "ought",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103101,
+   "word": "of",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. …的；关于",
+   "kind": "basic"
+  },
+  {
+   "id": 103102,
+   "word": "in",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…里；adv. 进",
+   "kind": "basic"
+  },
+  {
+   "id": 103103,
+   "word": "on",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…上",
+   "kind": "basic"
+  },
+  {
+   "id": 103104,
+   "word": "at",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在(某处/时刻)",
+   "kind": "basic"
+  },
+  {
+   "id": 103105,
+   "word": "by",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 通过；被；在…旁",
+   "kind": "basic"
+  },
+  {
+   "id": 103106,
+   "word": "with",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 和；用；带着",
+   "kind": "basic"
+  },
+  {
+   "id": 103107,
+   "word": "from",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 从；来自",
+   "kind": "basic"
+  },
+  {
+   "id": 103108,
+   "word": "for",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 为了；对于",
+   "kind": "basic"
+  },
+  {
+   "id": 103109,
+   "word": "to",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 到；向",
+   "kind": "basic"
+  },
+  {
+   "id": 103110,
+   "word": "into",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 进入",
+   "kind": "basic"
+  },
+  {
+   "id": 103111,
+   "word": "onto",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 到…上",
+   "kind": "basic"
+  },
+  {
+   "id": 103112,
+   "word": "upon",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…上",
+   "kind": "basic"
+  },
+  {
+   "id": 103113,
+   "word": "over",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…上方；超过",
+   "kind": "basic"
+  },
+  {
+   "id": 103114,
+   "word": "under",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…下面",
+   "kind": "basic"
+  },
+  {
+   "id": 103115,
+   "word": "between",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…之间",
+   "kind": "basic"
+  },
+  {
+   "id": 103116,
+   "word": "among",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…之中",
+   "kind": "basic"
+  },
+  {
+   "id": 103117,
+   "word": "through",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 穿过；通过",
+   "kind": "basic"
+  },
+  {
+   "id": 103118,
+   "word": "during",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…期间",
+   "kind": "basic"
+  },
+  {
+   "id": 103119,
+   "word": "before",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep./conj. 在…之前",
+   "kind": "basic"
+  },
+  {
+   "id": 103120,
+   "word": "after",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep./conj. 在…之后",
+   "kind": "basic"
+  },
+  {
+   "id": 103121,
+   "word": "about",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 关于；大约",
+   "kind": "basic"
+  },
+  {
+   "id": 103122,
+   "word": "across",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 横过；在…对面",
+   "kind": "basic"
+  },
+  {
+   "id": 103123,
+   "word": "along",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 沿着",
+   "kind": "basic"
+  },
+  {
+   "id": 103124,
+   "word": "around",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 围绕；大约",
+   "kind": "basic"
+  },
+  {
+   "id": 103125,
+   "word": "behind",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…后面",
+   "kind": "basic"
+  },
+  {
+   "id": 103126,
+   "word": "below",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…下面",
+   "kind": "basic"
+  },
+  {
+   "id": 103127,
+   "word": "beneath",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103128,
+   "word": "beside",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…旁边",
+   "kind": "basic"
+  },
+  {
+   "id": 103129,
+   "word": "besides",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103130,
+   "word": "beyond",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 超出；在…那边",
+   "kind": "basic"
+  },
+  {
+   "id": 103131,
+   "word": "inside",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…里面",
+   "kind": "basic"
+  },
+  {
+   "id": 103132,
+   "word": "outside",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…外面",
+   "kind": "basic"
+  },
+  {
+   "id": 103133,
+   "word": "near",
+   "phonetic": "",
+   "pos": [],
+   "definition": "prep. 在…附近",
+   "kind": "basic"
+  },
+  {
+   "id": 103134,
+   "word": "since",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj./prep. 自从；既然",
+   "kind": "basic"
+  },
+  {
+   "id": 103135,
+   "word": "until",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj./prep. 直到",
+   "kind": "basic"
+  },
+  {
+   "id": 103136,
+   "word": "till",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103137,
+   "word": "toward",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103138,
+   "word": "towards",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103139,
+   "word": "within",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103140,
+   "word": "without",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103141,
+   "word": "despite",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103142,
+   "word": "except",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103143,
+   "word": "against",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103144,
+   "word": "above",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103145,
+   "word": "and",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 和；并且",
+   "kind": "basic"
+  },
+  {
+   "id": 103146,
+   "word": "or",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 或者",
+   "kind": "basic"
+  },
+  {
+   "id": 103147,
+   "word": "but",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 但是",
+   "kind": "basic"
+  },
+  {
+   "id": 103148,
+   "word": "if",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 如果",
+   "kind": "basic"
+  },
+  {
+   "id": 103149,
+   "word": "because",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 因为",
+   "kind": "basic"
+  },
+  {
+   "id": 103150,
+   "word": "although",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 虽然",
+   "kind": "basic"
+  },
+  {
+   "id": 103151,
+   "word": "though",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 虽然；adv. 不过",
+   "kind": "basic"
+  },
+  {
+   "id": 103152,
+   "word": "while",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 当…时；然而",
+   "kind": "basic"
+  },
+  {
+   "id": 103153,
+   "word": "unless",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 除非",
+   "kind": "basic"
+  },
+  {
+   "id": 103154,
+   "word": "so",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 所以；如此",
+   "kind": "basic"
+  },
+  {
+   "id": 103155,
+   "word": "than",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 比",
+   "kind": "basic"
+  },
+  {
+   "id": 103156,
+   "word": "as",
+   "phonetic": "",
+   "pos": [],
+   "definition": "conj. 因为；如同；prep. 作为",
+   "kind": "basic"
+  },
+  {
+   "id": 103157,
+   "word": "whether",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103158,
+   "word": "nor",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103159,
+   "word": "yet",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103160,
+   "word": "not",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 不；没有",
+   "kind": "basic"
+  },
+  {
+   "id": 103161,
+   "word": "never",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 从不",
+   "kind": "basic"
+  },
+  {
+   "id": 103162,
+   "word": "always",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 总是",
+   "kind": "basic"
+  },
+  {
+   "id": 103163,
+   "word": "often",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 经常",
+   "kind": "basic"
+  },
+  {
+   "id": 103164,
+   "word": "sometimes",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 有时",
+   "kind": "basic"
+  },
+  {
+   "id": 103165,
+   "word": "usually",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 通常",
+   "kind": "basic"
+  },
+  {
+   "id": 103166,
+   "word": "seldom",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103167,
+   "word": "hardly",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103168,
+   "word": "already",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 已经",
+   "kind": "basic"
+  },
+  {
+   "id": 103169,
+   "word": "also",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 也",
+   "kind": "basic"
+  },
+  {
+   "id": 103170,
+   "word": "even",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 甚至",
+   "kind": "basic"
+  },
+  {
+   "id": 103171,
+   "word": "still",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103172,
+   "word": "again",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 再次",
+   "kind": "basic"
+  },
+  {
+   "id": 103173,
+   "word": "here",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 这里",
+   "kind": "basic"
+  },
+  {
+   "id": 103174,
+   "word": "there",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 那里",
+   "kind": "basic"
+  },
+  {
+   "id": 103175,
+   "word": "now",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 现在",
+   "kind": "basic"
+  },
+  {
+   "id": 103176,
+   "word": "then",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 然后；那时",
+   "kind": "basic"
+  },
+  {
+   "id": 103177,
+   "word": "too",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 也；太",
+   "kind": "basic"
+  },
+  {
+   "id": 103178,
+   "word": "very",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 非常；adj. 正是",
+   "kind": "basic"
+  },
+  {
+   "id": 103179,
+   "word": "just",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 只是；刚刚",
+   "kind": "basic"
+  },
+  {
+   "id": 103180,
+   "word": "only",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 仅仅；adj. 唯一的",
+   "kind": "basic"
+  },
+  {
+   "id": 103181,
+   "word": "really",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 真正地；确实",
+   "kind": "basic"
+  },
+  {
+   "id": 103182,
+   "word": "quite",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 相当；完全",
+   "kind": "basic"
+  },
+  {
+   "id": 103183,
+   "word": "almost",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 几乎",
+   "kind": "basic"
+  },
+  {
+   "id": 103184,
+   "word": "together",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 一起",
+   "kind": "basic"
+  },
+  {
+   "id": 103185,
+   "word": "away",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 离开；远离",
+   "kind": "basic"
+  },
+  {
+   "id": 103186,
+   "word": "soon",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 很快",
+   "kind": "basic"
+  },
+  {
+   "id": 103187,
+   "word": "ever",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103188,
+   "word": "once",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103189,
+   "word": "rather",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103190,
+   "word": "perhaps",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 也许；可能",
+   "kind": "basic"
+  },
+  {
+   "id": 103191,
+   "word": "maybe",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103192,
+   "word": "indeed",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103193,
+   "word": "however",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103194,
+   "word": "therefore",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103195,
+   "word": "thus",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103196,
+   "word": "otherwise",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103197,
+   "word": "instead",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103198,
+   "word": "meanwhile",
+   "phonetic": "",
+   "pos": [],
+   "definition": "",
+   "kind": "basic"
+  },
+  {
+   "id": 103199,
+   "word": "yes",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 是的",
+   "kind": "basic"
+  },
+  {
+   "id": 103200,
+   "word": "oh",
+   "phonetic": "",
+   "pos": [],
+   "definition": "int. 哦",
+   "kind": "basic"
+  },
+  {
+   "id": 103201,
+   "word": "ah",
+   "phonetic": "",
+   "pos": [],
+   "definition": "int. 啊",
+   "kind": "basic"
+  },
+  {
+   "id": 103202,
+   "word": "well",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 好；adj. 健康的",
+   "kind": "basic"
+  },
+  {
+   "id": 103203,
+   "word": "people",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 人们；民族",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103204,
+   "word": "person",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 人；个人",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103205,
+   "word": "personal",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 个人的；私人的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103206,
+   "word": "pen",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 钢笔",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103207,
+   "word": "online",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 在线的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103208,
+   "word": "parking",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 停车",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103209,
+   "word": "page",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 页；页面",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103210,
+   "word": "part",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 部分；v. 分开",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103211,
+   "word": "path",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 路径；道路",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103212,
+   "word": "past",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 过去的；n. 过去",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103213,
+   "word": "face",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 脸；v. 面对",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103214,
+   "word": "fully",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 完全地",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103215,
+   "word": "easier",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 更容易的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103216,
+   "word": "greatest",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 最大的；最伟大的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103217,
+   "word": "highest",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 最高的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103218,
+   "word": "email",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 电子邮件",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103219,
+   "word": "deadline",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 截止日期",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103220,
+   "word": "performance",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 表现；绩效",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103221,
+   "word": "planning",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 计划；规划",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103222,
+   "word": "programme",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 计划；程序",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103223,
+   "word": "partner",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 伙伴；合伙人",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103224,
+   "word": "passenger",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 乘客",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103225,
+   "word": "permanent",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 永久的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103226,
+   "word": "evaluation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 评价；评估",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103227,
+   "word": "applicant",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 申请人",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103228,
+   "word": "buyer",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 买方",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103229,
+   "word": "defender",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 辩护者",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103230,
+   "word": "freelancer",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 自由职业者",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103231,
+   "word": "traveler",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 旅行者",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103232,
+   "word": "supporter",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 支持者",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103233,
+   "word": "seeker",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 寻找者",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103234,
+   "word": "policymaker",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 决策者",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103235,
+   "word": "regulator",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 监管者",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103236,
+   "word": "subtitle",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 字幕",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103237,
+   "word": "packaging",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 包装",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103238,
+   "word": "workforce",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 劳动力",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103239,
+   "word": "workplace",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 工作场所",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103240,
+   "word": "childcare",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 儿童保育",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103241,
+   "word": "healthcare",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 医疗保健",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103242,
+   "word": "gender",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 性别",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103243,
+   "word": "gig",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 零工",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103244,
+   "word": "logo",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 标志",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103245,
+   "word": "cuisine",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 菜肴；烹饪",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103246,
+   "word": "civic",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 市民的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103247,
+   "word": "urban",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 城市的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103248,
+   "word": "participation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 参与",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103249,
+   "word": "predictable",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 可预测的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103250,
+   "word": "align",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 对齐；使一致；排列成行",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103251,
+   "word": "audits",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 审计；稽核(audit的复数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103252,
+   "word": "automated",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 自动化的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103253,
+   "word": "backfire",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 适得其反；产生反效果",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103254,
+   "word": "behaviour",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 行为；举止(英式写法)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103255,
+   "word": "bidder",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 出价者；投标者",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103256,
+   "word": "bilingual",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 双语的；n. 通两种语言的人",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103257,
+   "word": "blurs",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 使模糊；变得模糊(blur的第三人称单数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103258,
+   "word": "boardroom",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 董事会会议室；决策层",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103259,
+   "word": "cancellation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 取消；撤销",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103260,
+   "word": "cannot",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 不能(can not)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103261,
+   "word": "congestion",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 拥堵；拥挤；充塞",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103262,
+   "word": "connotations",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 内涵；言外之意(connotation的复数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103263,
+   "word": "cramming",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 死记硬背；填鸭式学习",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103264,
+   "word": "deliverers",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 送货人；投递者(deliverer的复数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103265,
+   "word": "disbelief",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 不相信；怀疑",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103266,
+   "word": "distractions",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 分散注意力的事物(distraction的复数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103267,
+   "word": "dodging",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 躲避；绕开(dodge的现在分词)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103268,
+   "word": "emissions",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 排放物(emission的复数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103269,
+   "word": "empathetic",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 有同理心的；共情的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103270,
+   "word": "erase",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 擦除；抹去；清除",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103271,
+   "word": "erodes",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 侵蚀；削弱(erode的第三人称单数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103272,
+   "word": "flattens",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 使变平；使更为平整(flatten的第三人称单数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103273,
+   "word": "fluency",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 流利；流畅",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103274,
+   "word": "frugal",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 节俭的；朴素的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103275,
+   "word": "frustration",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 挫折；沮丧；受挫",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103276,
+   "word": "goodwill",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 善意；好意；商誉",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103277,
+   "word": "grid",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 电网；网格；栅格",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103278,
+   "word": "grids",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 网格；电网(grid的复数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103279,
+   "word": "guesswork",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 猜测；臆测",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103280,
+   "word": "immersion",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 沉浸；浸没；投入",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103281,
+   "word": "interventions",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 干预；介入(intervention的复数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103282,
+   "word": "learners",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 学习者(learner的复数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103283,
+   "word": "lifestyle",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 生活方式",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103284,
+   "word": "livelihood",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 生计；谋生手段",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103285,
+   "word": "meaningful",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 有意义的；有目的的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103286,
+   "word": "memorized",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 记住；背熟(memorize的过去分词)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103287,
+   "word": "mindless",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 无意识的；不动脑子的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103288,
+   "word": "misinformation",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 错误信息；虚假信息",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103289,
+   "word": "nomads",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 游牧民；四处漂泊者(nomad的复数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103290,
+   "word": "nudging",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 轻推；促使(nudge的现在分词)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103291,
+   "word": "optimizes",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 优化；最优化(optimize的第三人称单数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103292,
+   "word": "outperform",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 胜过；表现优于",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103293,
+   "word": "outrage",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 愤怒；愤慨；v. 激怒",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103294,
+   "word": "oversight",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 监督；监管；疏忽",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103295,
+   "word": "pandemic",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 大流行病；全球性流行病",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103296,
+   "word": "partial",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 部分的；不完整的；偏袒的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103297,
+   "word": "passive",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 被动的；消极的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103298,
+   "word": "pause",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 暂停；停顿；v. 暂停",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103299,
+   "word": "pauses",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 暂停；停顿(pause的第三人称单数)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103300,
+   "word": "penalized",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 处罚；对…不利(penalize的过去分词)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103301,
+   "word": "perk",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 额外待遇；补贴；小费",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103302,
+   "word": "persuading",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 说服；劝阻(persuade的现在分词)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103303,
+   "word": "re",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. (前缀/缩写) 重新；关于",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103304,
+   "word": "rebuild",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 重建；改建",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103305,
+   "word": "reconsidering",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 重新考虑(reconsider的现在分词)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103306,
+   "word": "reconstruction",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 重建；复原；再建",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103307,
+   "word": "reliably",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adv. 可靠地；可信地",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103308,
+   "word": "renewables",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 可再生能源",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103309,
+   "word": "renovate",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 翻新；修复；革新",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103310,
+   "word": "reshape",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 重塑；改造；重新塑形",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103311,
+   "word": "shuffling",
+   "phonetic": "",
+   "pos": [],
+   "definition": "v. 洗牌；慢吞吞地走(shuffle的现在分词)",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103312,
+   "word": "transparency",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 透明；透明度；公开",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103313,
+   "word": "unchecked",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未受约束的；未经检查的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103314,
+   "word": "uneven",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 不平坦的；不均匀的；参差的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103315,
+   "word": "unspoken",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未说出口的；心照不宣的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103316,
+   "word": "untouched",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未被触碰的；一成不变的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103317,
+   "word": "unused",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未使用的；闲置的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103318,
+   "word": "unverified",
+   "phonetic": "",
+   "pos": [],
+   "definition": "adj. 未经核实的",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103319,
+   "word": "verification",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 核实；验证；证实",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103320,
+   "word": "villain",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 反派；恶棍；坏人",
+   "kind": "basic",
+   "learnable": true
+  },
+  {
+   "id": 103321,
+   "word": "wrestling",
+   "phonetic": "",
+   "pos": [],
+   "definition": "n. 摔跤；扭打；搏斗",
+   "kind": "basic",
+   "learnable": true
+  }
+ ]
+}

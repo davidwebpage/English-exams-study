@@ -1,0 +1,1042 @@
+# CET6 阅读语料离线建库源文件
+# 格式: ==== 起一篇; 头部 title/topic/core; 空行分段; ==译文== 后为中文(与英文段落一一对应)
+#
+====
+title: When a Nation Grows Old
+topic: 老龄化社会
+core: elderly, retirement, pension, household, citizen, responsibility, vulnerable, transition, chronic, medicine
+
+Most countries are growing older, and the change does not announce itself loudly. Every year a slightly smaller share of the population is young, while the number of people past retirement age climbs. The shift is gradual, yet it reaches almost every part of daily life, from the design of housing to the size of the tax bill supported by younger workers.
+
+Researchers who study the age structure of societies do not treat age itself as the enemy. Longer lives mean smaller families, which is a gift in many ways. The real difficulty is that support once given inside the household must now be met through wages, savings and public services. A society with many elderly citizens and few children must plan for a new balance: fewer workers, more people drawing a pension.
+
+The effects show themselves in ordinary institutions. Hospitals fill with older people who must stay for weeks, and care homes struggle to find enough nurses. Local governments face hard choices, since spending on health grows faster than income. Some respond by delaying the retirement age, although older employees often doubt that they can work that long, especially in physically demanding jobs.
+
+Technology may help, but it is not a magic cure. Devices that remind people to take medicine and call for help when someone falls, along with remote contact with a doctor, can keep elderly people independent for longer. Even so, such tools work mainly when they are simple and when someone is on hand to repair them. An instrument nobody understands quickly turns into another household burden.
+
+The deeper lesson is that caring for the old is a social choice as much as a technical one. A nation can spend huge sums on buildings and machines and still fail if it has not decided who will take responsibility for a vulnerable neighbour. The countries that manage the change best are not necessarily the ones with the most money; they are the ones that treat elderly people with respect rather than as a burden. In the end, every society writes its own values into the way it grows old.
+
+==译文==
+许多国家正在变老，这种变化并不会喧闹地宣布自己的到来。每一年，人口中年轻人的占比都会略微缩小，而过了退休年龄的人数却在攀升。变化虽然缓慢，却几乎触达日常生活的每个角落，从住房设计到年轻劳动者所承担税单的规模。
+
+研究社会年龄结构的学者，并不认为年龄本身是敌人。更长寿命意味着更小的家庭，这在很多方面是一种馈赠。真正的困难在于，曾经在家庭内部无偿提供的照顾，如今必须依靠工资、储蓄和公共服务来支付。一个老人众多而儿童稀少的社会必须重新安排自己的经济，因为赚钱的人与领养老金的人之间的平衡每年都在变化。
+
+影响体现在普通机构里。医院里挤满了需要长期住院的老年病人，养老院为招不到足够的护士而发愁。地方政府眼见预算吃紧，因为医疗支出增长快于收入。一些地方选择推迟退休年龄，但年长员工往往怀疑自己能否工作那么久，尤其是在体力要求很高的岗位上。
+
+技术或许有用，但并非灵丹妙药。提醒老人服药的装置、老人跌倒时自动求助的感应器，以及远程联系医生，都能让长者更久地保持独立。然而，这些工具只有在简单易懂、坏了有人能修的时候才有价值。一台没人会用的仪器，很快就会变成又一个家庭负担。
+
+更深刻的教训是，照顾老人与其说是技术问题，不如说是一种社会选择。一个国家即使为大楼和机器投入巨额资金，如果始终没有决定由谁来为脆弱的邻里负责，也仍然可能失败。那些最能平稳度过转型的国家不一定最富有；它们只是把老人当作贡献者而非成本来看待。归根结底，每个社会都会把自己信奉的价值写进它变老的方式里。
+
+====
+title: The City That Learns to Breathe
+topic: 城市化与智慧城市
+core: urban, transit, pedestrian, congestion, suburb, density, municipal, vehicle, resident, network
+
+Cities are crowded, expensive and exciting, and they keep growing. As more people move in, the cost of living rises, roads grow more crowded, and public transport must serve ever greater distances. Governments face a familiar problem: how to keep an urban machine moving without destroying the quieter spaces that make a city worth living in.
+
+For decades, governments believed the answer was to widen the roads. Experience showed the opposite. Extra lanes attract more cars, and within a few years the traffic stands still again. This is why so many large road projects bring so little relief. Building for the private car is, in effect, a way of asking for more of it.
+
+The modern approach treats a city as a system of choices rather than a collection of roads. Better rail links, safe bicycle lanes and cheap buses give residents real alternatives to driving. When walking is pleasant and stations are close, people willingly leave the car at home. The goal is not to punish drivers but to make other ways of moving more convenient.
+
+Technology adds a further layer. Traffic signals can now adjust themselves in real time, and phone applications show whether a bus is crowded before the traveler leaves home. Such tools reduce waste and help the whole network run smoothly. Yet they are only aids; the design of streets and the quality of the data decide whether the smart system truly serves people.
+
+No single solution suits every city. Dense, old centres need different answers from wide, new suburbs, and money is always limited. What the best cities share is a long view: they spend on change that will show results over decades, and they give ordinary citizens a voice in how their streets will look. A city that plans for people, not merely for traffic, tends to stay alive even as its roads are transformed.
+
+==译文==
+城市拥挤、昂贵又充满活力，而且它们还在不断扩张。随着越来越多的人迁入，生活成本上升，道路变得更加繁忙，公共交通必须服务越来越长的距离。各地政府都面临一个熟悉的问题：如何让城市这架机器保持运转，同时又不破坏那些让人愿意在此生活的安静空间。
+
+规划者曾经以为答案是把路修得更宽。经验却给出了相反的结论。更多的车道会吸引更多的汽车，几年之内交通又会重新陷入停滞。这就是为什么那么多庞大的道路工程最终收效甚微。说到底，为私家车修建，其实是在邀请更多私家车。
+
+现代思路不再把城市当作道路的集合，而是看作一系列选择的系统。更好的轨道交通、安全的自行车道和便宜的公交车，为居民提供了真正的替代方案。当步行舒适、车站很近时，人们会心甘情愿地把车留在家里。目标不是惩罚开车的人，而是让其他出行方式更方便。
+
+技术又增添了一层。传感器可以实时调节交通信号，手机应用能在出行者离家之前显示公交车是否拥挤。这类工具减少了浪费，也帮助整个网络平稳运行。然而它们只是帮手；街道的设计和数据质量的优劣，才决定这套“智能系统”是否真正为人服务。
+
+没有哪一种方案适合所有城市。密集的老城区需要和新开发的郊区不同的答案，而资金总是有限。优秀城市的共同点是看得长远：它们愿意投资那些数十年后才见效的改造，并让普通市民对街道的未来有发言权。一个为人们规划、而不是只为交通规划的城市，往往在道路重建之后仍然充满生机。
+
+====
+title: What Online Classes Teach Us About Teaching
+topic: 教育与在线学习
+core: curriculum, lecture, tuition, assessment, feedback, discipline, classroom, seminar, vocation, degree
+
+For more than a decade, university leaders have promised that new technology would transform education. Anyone with a connection, they said, could sit in a lecture at a famous institution, and students in distant countries could follow the same course. The promise was real, but the results have been mixed, and the experience forced teachers to think again about what makes learning work.
+
+The early online courses attracted millions, yet only a small share of learners finished them. Curiosity pulled people in; work and family pulled them away. Researchers found that students learned best not from long recorded talks but from frequent small tasks, regular tests and quick feedback. In other words, discipline matters more than method, and the old tools of the classroom keep their value after all.
+
+The answer is not to abandon the classroom but to mix its strengths with the freedom of the screen. Recorded lectures allow students to pause, repeat and learn at their own speed; live sessions create the pressure and energy that keep people engaged. The best designs use each channel for what it does well, and they measure success by what students carry away, not by how many minutes they watched.
+
+Cost is part of the debate. Supporters of online learning hope it will lower the price of a degree and widen access for those who work during the day. Critics caution that building good materials, marking work properly and offering human help are not cheap. Cutting staff to make a course cheaper, they argue, simply turns an education into a library without a teacher.
+
+What emerges is a quiet lesson. Technology can carry a course to almost anyone, but it cannot carry the relationship that makes a student persist. A screen can stream a lecture to a hundred thousand people; only a good teacher can help a confused student understand why the answer was wrong. The future of education lies not in choosing the screen or the classroom but in learning to use each one honestly.
+
+==译文==
+十多年来，大学领导者一直承诺互联网会变革教育。他们说，只要有网络，任何人都能坐在某所名校的课堂里听讲，远方国家的学生也能跟着同一门课程学习。承诺是真实的，但结果好坏参半，这段经历也迫使教育者反思：到底是什么让学习真正发生。
+
+早期的在线课程吸引了数百万人，但只有一小部分学习者坚持到了结业。好奇心把人们吸引进来，工作与家庭又把人们拉走。研究者发现，学生学得最好的时候，靠的不是冗长的录播课，而是频繁的小任务、定期的测验和快速的反馈。换句话说，重要的不是授课方式，而是自律；学校最古老的教学手段到头来依然有效。
+
+答案并不是抛弃课堂，而是把课堂的优势和屏幕的自由结合起来。录播课允许学生暂停、回放并按自己的节奏学习；直播课堂则带来让人投入的压力与能量。设计得最好的课程会让每种渠道各展所长，并以学生最终带走了什么来衡量成功，而不是以观看了多少分钟来衡量。
+
+成本也是争论的一部分。在线教育的支持者希望它能降低学位的价格，并让那些白天工作的人也能获得机会。批评者则提醒，建设好的课程材料、认真批改作业、提供真人帮助，这些都不便宜。他们认为，为了省钱而裁减教师，只会把教育变成一座没有老师的图书馆。
+
+最终浮现的是一条朴素的经验。技术可以把课程送到几乎任何人面前，却无法传递那种让学生坚持下去的关系。一块屏幕可以把一堂课实时传给十万人；只有耐心的老师，才能帮助困惑的学生明白自己的答案错在哪里。教育的未来，不在于在屏幕和课堂之间二选一，而在于学会诚实地用好两者。
+
+====
+title: The Science of the Early Night
+topic: 睡眠与健康
+core: fatigue, routine, schedule, refresh, recover, symptom, hazard, deprive, mood, judgement, regularity
+
+Sleep is cheap, but it is often treated as something to sacrifice. Students stay up before an exam, workers answer late messages, and whole industries insist that an extra hour of work can be borrowed from the night. Over time the debt comes back with interest, in the form of tiredness, poor memory and slower reactions.
+
+Research connects regular sleep with nearly every measure of health. People who sleep well recover faster from illness, feel sharper in the morning and stay calm through the day. The tired brain, by contrast, makes more mistakes, reaches for sweet food and becomes less relaxed with others. Scientists describe sleep as the time when the mind cleans and repairs itself.
+
+The difficulty is that sleep cannot be saved up in advance. No weekend rest repairs a week of short nights, because a tired person cannot simply order deep sleep when the opportunity finally arrives. What matters more is regularity: going to bed and waking at roughly the same time trains the inner clock and makes falling asleep easier. Irregular habits, researchers warn, confuse that clock and make the nightly struggle longer.
+
+Working life makes the problem worse. Rotating shifts force millions to sleep against their natural rhythm, and bright screens stretch the evening that should belong to rest. Some firms now respond by limiting late mail and giving workers time to recover. Such measures respect a simple truth: a rested employee makes fewer errors and costs the company less than a tired one in the long run.
+
+Sleep, then, is not an enemy of success but one of its foundations. The most productive people are rarely the ones who claim that they manage on four hours. They are the ones who guard their nights as carefully as their working hours, knowing that judgement, kindness and creativity are all built on the same quiet base. To neglect sleep is to borrow energy from tomorrow and face the cost today.
+
+==译文==
+睡眠很廉价，却常常被当作可以牺牲的东西。学生考试前熬夜，员工深夜回复消息，许多行业还坚持认为可以从夜晚借来一小时的工作时间。久而久之，这笔债连本带利地被偿还，表现为疲惫、记忆变差和反应变慢。
+
+研究显示，规律睡眠几乎与一切健康指标都有关联。睡得好的人从疾病中恢复得更快，清晨头脑更清醒，一整天的情绪也更稳定。相反，疲惫的大脑更容易犯错，更想碰甜食，也更容易对别人失去耐心。科学家把睡眠描述为大脑自我清洁和自我修复的时间。
+
+难处在于，睡眠无法提前储存。周末多睡并不能补回一周的短夜，因为疲惫的人无法在机会终于到来时简单地“命令”自己进入深度睡眠。更重要的其实是规律：每天大致在同一时间上床、同一时间醒来，会训练体内的生物钟，让入睡变得更顺利。研究者提醒，不规律的生活节奏会扰乱这个时钟，让每晚的煎熬变得更长。
+
+职场生活让问题雪上加霜。轮班工作迫使数百万人违背身体的自然节律入睡，明亮的屏幕则把本该属于休息的夜晚越拉越长。如今一些公司开始限制深夜邮件，并给员工安排恢复时间。这些做法尊重一个朴素的事实：得到休息的员工比疲惫的员工犯错更少，长期算下来让公司花的钱也更少。
+
+所以说，睡眠不是成功的敌人，而是成功的地基之一。最有生产力的人，很少是那些宣称自己只睡四小时的人。他们是那些像守护工作时间一样守护夜晚的人，他们深知判断力、善意与创造力都建立在同一块安静的地基上。忽视睡眠，等于向明天借能量，却在今天就支付利息。
+
+====
+title: Why Diets Fail and What Works Instead
+topic: 饮食与营养
+core: appetite, portion, protein, vitamin, digest, moderate, recipe, salt, sugar, habit, nutrition, calorie
+
+Almost everyone has made the effort to eat better, and almost everyone has slipped back into old habits. The reason is not that people are weak. The food environment is designed to defeat good intentions: cheap sweet drinks stand in every shop, portions have become larger, and advertising keeps reminding us of food we love.
+
+Scientific evidence points the same way. People digest food quickly and feel hungry again soon after a meal that is rich in sugar and poor in fibre. Protein and vegetables, by contrast, keep the appetite under control for hours. The practical answer is not to weigh every portion but to shift the balance of the plate toward foods that satisfy hunger for longer.
+
+This is why strict diets usually fail. A plan that forbids whole categories of food asks people to fight the body's own signals every single day, and the effort rarely lasts. Studies that followed people for years found that modest, gradual changes lasted far longer than dramatic ones. Cutting sugar slowly, adding vegetables and walking after dinner all beat a sudden, hard transformation.
+
+A balanced approach is a better tool than perfection. A person who allows a small sweet now and again is more likely to stay on course than one who denies every pleasure and then gives up completely on a bad day. The same logic applies to salt and alcohol: the danger lies in the amount, not in the food itself.
+
+Portion control, prepared meals and a fixed shopping list are quiet supports for a difficult task. The most reliable method, however, is social: people who cook with family and eat together generally choose better food without thinking about it. Advice about food and health will keep changing, but the old rule survives every new study, eat a wide variety of whole foods, and let the pleasure of a shared meal guide the portions.
+
+==译文==
+几乎每个人都试过吃得更健康，几乎每个人又都滑回了旧习惯。原因并不是人不够坚强。周围的食品环境本就设计来挫败好的意图：商店里到处是廉价的甜饮料，份量越变越大，广告也不停地提醒我们那些可口的小零食。
+
+科学证据指向同一个方向。人们消化高糖、低纤维的餐食很快，吃完不久又会感到饥饿。而蛋白质和蔬菜恰恰相反，能让食欲在数小时内保持可控。务实的答案不是数着每一卡路里，而是调整餐盘里的平衡，转向那些能更久地满足饥饿感、让人饱足的食物。
+
+这正是严格节食通常失败的原因。一份禁止一整类食物的计划，要求人们每一天都在和身体本身发出的信号作斗争，意志力迟早会耗尽。对人群进行多年的追踪研究显示，温和而渐进的变化远比剧烈的改变更能持久。慢慢减糖、多添蔬菜、晚饭后散步，都比一次痛苦的大改造更有效。
+
+“适度”比“完美”是更好的工具。允许自己大多数晚上吃一小份甜点的人，往往比那个拒绝一切甜食、却在某个糟糕的日子吃掉一整块蛋糕的人更能坚持下去。同样的逻辑也适用于盐、油脂和酒精：危险在于数量，而不在于食物本身。
+
+控制份量、提前备餐和固定的购物清单，都是这项艰难任务背后安静的支持。然而最可靠的办法是社会性的：和家人一起做饭、一起吃饭的人，往往不用多想就能吃得更健康。关于营养的建议还会不断变化，但有一条老规矩在每个新研究面前都能存活：吃种类多样、未经深加工的食物，让共享一餐的快乐来引导你的份量。
+
+====
+title: The Planet That Waits for No One
+topic: 环境与气候变化
+core: climate, emission, burning, fuel, planet, carbon, warmth, action, harvest, scarce
+
+The climate is not a distant issue; it is a set of small changes that are already easy to notice. Winters are shorter, summers warmer, and heavy storms arrive more often. Scientists agree that human activity, especially the burning of fuel, is pushing the planet toward warmer conditions. The argument is no longer about whether this is happening but about how fast the world can respond.
+
+The size of the task is easy to underestimate. Energy that once came from coal must now come from the sun and the wind, and the change touches every factory, home and vehicle. New cars have to be designed, power lines replaced, and millions of workers need new skills. Even when goals are clear, the daily choices of ordinary people still decide whether those goals mean anything.
+
+Critics often point to the cost of climate action, and they are right to say that change is expensive. What they may ignore is the price of doing nothing. Floods destroy homes, extreme heat closes schools, and failed harvests push up food prices while farmers struggle to recover. Measured over the years, the bill for delay can be larger than the bill for action.
+
+The good news is that responses are spreading. Cities are planting trees, building cycle lanes and restricting the use of heavy trucks. Firms compete to cut energy, and many households now face smaller bills thanks to the sun above their roofs. What began as a distant warning has become a practical market in which clean products compete with the old ones on cost.
+
+No single country can solve the problem alone, because the sky is shared. This is why international meetings matter, even when they feel slow and technical. Each side wants to protect its own economy while asking others to move first, and agreement is therefore hard to reach. Yet the direction is no longer in doubt: the planet has a limit, and the nations that plan for that limit early will have the best chance to grow strong.
+
+==译文==
+气候变化并不是一个遥不可及的问题；它是一组已经很容易察觉的小变化。冬天变短了，夏天更热了，强风暴也更频繁了。科学家们一致认为，人类活动——尤其是燃烧燃料——正在把地球推向更温暖的状况。争论不再是要不要发生，而是世界能以多快的速度作出回应。
+
+这项任务的规模很容易被低估。过去来自煤炭的能源，现在必须来自太阳和风，而这一改变触及每一家工厂、每一户家庭和每一辆车。汽车必须重新设计，输电线路要被更换，数百万工人需要重新培训。即使目标清晰，普通人的日常选择仍然决定这些目标是否真的有意义。
+
+批评者常常指出气候行动的成本，他们说得对：改变确实昂贵。但他们有时忽略的是无所作为的代价。洪水摧毁家园，极端高温让学校停课，歉收推高食品价格，而农民们还在艰难地恢复。若以十年来衡量，拖延的账单可能比行动更大。
+
+好消息是，回应正在扩散。城市在种树、修建自行车道，并限制重型卡车的使用。企业竞相削减能耗，许多家庭也因为屋顶的太阳能板而面对更小的账单。曾经遥远的警告，如今已经变成一个务实的市场，清洁产品在这里与旧产品比拼价格。
+
+没有哪个国家能独自解决这个问题，因为天空是共享的。这就是为什么国际会议虽然缓慢而繁琐，却仍然重要。每一方都想先保护自己的经济，再要求别人先行动，因此协议很难达成。但方向已经没有疑问：地球有它的极限，而那些及早为这个极限做规划的国家，将最有希望繁荣。
+
+====
+title: Rewiring the Future, One Kilowatt at a Time
+topic: 能源转型
+core: electric, generation, storage, battery, panel, consumer, demand, vehicle, regulator, transition
+
+For the past century, electricity was simple: giant power stations burned fuel, and the grid sent the power where it was needed. The design worked because supply could be turned up at will. Wind and sunlight change that logic, since they arrive and disappear without warning. Running a modern grid therefore means balancing many small sources rather than controlling one big machine.
+
+The problem is often called variability. When the wind drops or clouds gather, the output falls, sometimes within minutes. Storage can smooth these swings. Batteries that charge during the day and release power in the evening are becoming cheaper, and water saved in a high lake returns as electricity later in the day.
+
+At the same time, homes are starting to give power back. A home with its own solar supply and a garage battery buys from the grid when the price is low and gives its extra power back when demand is high. This two-way flow requires smarter meters and kinder rules from the network. Without them, a household that produces its own power can actually make the system harder to manage.
+
+How the costs of the transformation are shared is a political question as much as a technical one. Old plants still carry fixed costs even when they sit idle, and those costs are shared among all customers. Many governments now use carbon prices and small taxes to steer investment toward cleaner generation. The aim is not to prefer one technology but to make the whole system more stable over time.
+
+Energy is the quiet engine of modern life, so changing it touches everyone. Electric vehicles, heat pumps and new factories will add a huge amount of new demand, and the grid that served the last century cannot simply be enlarged; it needs fresh thinking. The most successful transitions are neither sudden nor endless. They begin with honest numbers, steady regulators and millions of small daily choices that, together, change the direction of the future.
+
+==译文==
+在过去的一个世纪里，电力很简单：巨大的发电站燃烧燃料，电网把电力送到需要它的地方。这种设计之所以可行，是因为供应可以随需要随意调高。风力和太阳光改变了这套逻辑，因为它们来去无常。因此，运行现代电网意味着平衡许多分散的小电源，而不是控制一台大机器。
+
+这个问题通常被称为“变动性”。当风力减弱或云层聚集时，输出会骤然下降，有时只需几分钟。储能可以抚平这些起伏。白天充电、傍晚放电的电池正变得越来越便宜，而白天储存在高处湖泊里的水，也会在一天晚些时候重新变成电力。
+
+与此同时，消费者正在变成生产者。装有太阳能板和车库电池的家庭，会在电价低的时候向电网买电，在需求高的时候把电卖回去。这种双向流动需要更智能的电表和网络本身更友好的规则。没有这些，一个自己发电的家庭实际上会让整个系统更难管理。
+
+谁为这场转型买单，与其说是技术问题，不如说是政治问题。老旧电厂即使闲置，也仍然承担着固定成本，而这些成本由全体用户共同分担。许多国家的政府如今用碳价和小额税收来引导投资转向更清洁的发电。目标不是偏爱某一种技术，而是让整个系统随着时间的推移更加稳定。
+
+能源是现代生活背后安静的引擎，因此改变它会影响每一个人。电动汽车、热泵和新工厂将带来巨大且全新的需求，服务了上个世纪的电网不能简单地扩大规模；它需要被重新思考。最成功的转型既不是突然的，也不是无休止的。它们始于诚实的数字、耐心的监管者，以及数以百万计的日常小选择——这些选择合在一起，重新铺设了未来。
+
+====
+title: Trade, People and the Pull of the World
+topic: 全球化
+core: export, import, tariff, competition, workforce, migration, supply, goods, barrier, capital
+
+Globalization is often described in numbers: ships carrying containers, calls between offices on different continents, and money moving across borders in an instant. Behind the figures lie the quiet ways that distant places now affect one person's daily life. The fruit in the market, the road outside the door, and the money a family sends to a student abroad all connect local routines to the wider world.
+
+Supporters of open trade argue that it makes goods cheaper and spreads new skills. Export industries create jobs, competition raises quality, and products that once seemed special to rich countries become ordinary everywhere. Critics answer that the gains are not shared evenly: some regions gain factories while others lose their old workforce, and the gap between successful cities and declining towns widens every year.
+
+Trade in goods is only one channel. Capital moves quickly, and a single nervous week in one country's finances can affect banks on the other side of the globe. People also move, leaving places with few opportunities and bringing their skills, energy and expectations to countries that need workers. These movements rarely make news until something fails, which is exactly why they are so easy to overlook.
+
+Governments therefore face a balancing act: how to keep the benefits of openness while reducing its costs. Tariffs and barriers can protect some industries, but they also raise prices and invite a harsh response. A more reliable answer is to combine open borders with strong support at home, training workers for new roles and helping declining regions invest in their future.
+
+The debate will not be settled with a single policy, because the world does not stand still. Supply routes change, languages gain new speakers, and a crisis in one corner can echo through every market. The countries that manage the process best do not try to stop it; they learn to steer it, using their laws, their schools and their transport to turn a powerful current into a useful one.
+
+==译文==
+全球化常常用数字来描述：载着集装箱的轮船、不同大陆办公室之间的通话，以及瞬间跨越国界的资金。在这些数字背后，是远方如何悄悄影响一个人日常生活的种种方式。衣柜里的衬衫、市场上的水果、父母发给海外求学孩子的消息，都把小地方的日常与更广阔的世界连接起来。
+
+支持开放贸易的人认为，它让商品变便宜，也传播了新的技能。出口产业创造就业，竞争提升质量，那些曾经在富裕国家显得稀罕的产品，如今在各地都变得平常。批评者的回应是：收益并没有被平均分享——一些地区得到了工厂，另一些地区却失去了旧有的劳动力，成功城市与衰落城镇之间的差距逐年拉大。
+
+商品贸易只是其中的一条渠道。资本流动迅速，某国金融市场里紧张的一周，就可能影响到地球另一端的银行。人也在流动：人们离开机会稀少的地方，把技能、精力和期待带到需要劳动力的国家。这些流动很少成为新闻，直到出了差错，而这恰恰让它们极易被忽视。
+
+因此政府面临一个平衡难题：如何在保留开放好处的同时，减轻它的代价。关税和壁垒可以保护特定产业，但它们也会抬高价格，招来报复。更可靠的答案，是把开放的边界与国内强有力的支持结合起来：培训工人适应新的岗位，帮助衰退的地区投资自己的未来。
+
+这场辩论不会靠某一项政策就了结，因为世界从不停步。供应路线会改变，语言会获得新的使用者，某个角落的危机会在每一个市场里引发回响。最能驾驭这一进程的国家并不试图阻止它；它们学着引导它，用法律、学校和交通，把一股强大的洪流变成一股有用的水流。
+
+====
+title: The Platform, the Gig and the Worker in Between
+topic: 零工经济
+core: platform, contract, wage, temporary, casual, income, shift, rating, employee, flexibility
+
+A worker who picks up a few hours of driving between classes, or who takes a short care job when a household needs help, is working a gig. The word describes a new shape of employment: short tasks, arranged through a screen, earned by the piece rather than by the month. For students, families and retired people, the flexibility looks attractive; for others, it raises hard questions about security.
+
+Platforms that connect workers with customers describe themselves as neutral markets. They argue that no one is forced to work, that workers choose their own hours, and that the service simply matches people with demand. Workers often see a different picture. The rate is set by the platform, reviews control access to future jobs, and leaving at the wrong time may mean losing work altogether.
+
+Both stories contain truth. A mother who fits deliveries around school hours, or a student who earns between lectures, may value the freedom more than a regular contract. Yet the same flexibility can turn into danger when the work is scarce, the income uncertain and no one covers the worker when things go wrong.
+
+Governments are trying to catch up with a new reality. Some demand that platform staff be treated as employees, with minimum wages and rest days. Others warn that such rules could destroy the very flexibility that attracts people to the work. Between these positions, many places are creating a third category of worker, one that carries some protection without all the duties of a normal job.
+
+The gig economy will probably not vanish, because it answers a genuine need for small and occasional work. The question is how society shapes it. If ratings are fair, earnings are clear and workers have somewhere to turn when they are sick or old, the model can add real freedom. If firms instead shift all risk onto individuals, the same technology that promised independence may quietly create a more uncertain world of work.
+
+==译文==
+一个在课间接下几小时开车工作的学生，或是一个在家中有需要时接下短期照护工作的人，做的是“零工”。这个词描述的是一种新的就业形态：短暂的任务，通过屏幕安排，按件计酬，而不是按月领薪。对学生、全职父母和退休者来说，弹性看上去很有吸引力；对另一些人来说，它则引发了对保障的严肃追问。
+
+连接工人与顾客的平台把自己描述成中立的市场。它们辩称工人完全是自愿的，工时可以自由选择，服务只是把人和需求匹配起来。工人们看到的常常是另一幅图景：价格由平台决定，评价决定能否接到未来工作，而在错误的时间离开可能意味着完全失去工作。
+
+两种说法都有其真实之处。一位把配送安排在放学时间的母亲，或一位在课间挣钱的读书人，或许比一份固定合同更看重这种自由。然而同样的弹性，也可能在工作稀少、收入不定、出了事又无人负责的时候变成危险。
+
+立法者正努力追赶这个新的现实。一些人要求把平台人员当作正式雇员对待，享有最低工资和带薪休假。另一些人则警告，这样的规则可能摧毁这份工作最吸引人的弹性。在这两种立场之间，许多地方正在创造第三种劳动者类别：他们获得了一些保护，却不必承担正式工作的一切义务。
+
+零工经济大概不会消失，因为它回应了社会对少量、零散工作的真实需要。问题在于社会如何塑造它。如果评价公平、收入透明，工人生病或年老时有处可去，这种模式就能带来真正的自由。如果企业只是把全部风险推给个人，那么当初承诺独立的同一项技术，可能会悄悄创造出一个更加不确定的工作世界。
+
+====
+title: The Feed Decides What We Feel
+topic: 社交媒体影响
+core: platform, attention, audience, distract, engage, feedback, impulse, screen, habit, virtual
+
+Social media promised to connect the whole world, and in many ways it has. Old classmates stay in touch, distant relatives share news, and people who once felt alone now find communities built around shared interests. But the same tools have also changed the way attention works, and not every change has been for the better.
+
+The business of a platform is attention, not friendship. Every visit is measured, every pause recorded, and the feed is organized to keep users looking as long as possible. Content that stirs anger or surprise tends to win that competition, which is why the most emotional posts so often rise to the top. Users are rarely told that their moods are being managed in secret by a hidden system.
+
+Researchers have found a complicated picture. Some studies find that active contact with friends can reduce the feeling of being alone, while passive reading of other people's lives often does the opposite. The difference seems to lie in the direction of the attention: people who post, reply and share generally feel better than those who only watch. Use, in other words, matters more than time.
+
+The harms appear most clearly among younger users. Hours of carefully selected images can make ordinary bodies and lives seem disappointing, and the pressure to reply instantly can disturb sleep without anyone noticing. Families and schools now argue about phone rules, and some governments have made laws that limit how platforms may collect and use personal information, especially from children.
+
+A better relationship with social media is possible, but it starts with honesty about what the product is. It is a tool designed to hold and sell our attention, not a mirror of the world or a record of how much others are achieving. Users who follow people who actually add to their lives, mute what drains them, and leave the phone out of the room at night often find the medium less harmful and more useful.
+
+==译文==
+社交媒体承诺连接整个世界，而它在许多方面也确实做到了。老同学保持联系，远方的亲戚分享新闻，曾经感到孤独的人如今找到了围绕共同兴趣建立的社群。但同样的工具也改变了注意力运作的方式，而并非每项改变都更好。
+
+平台的生意是注意力，而不是友谊。每一次访问都被测量，每一次停顿都被记录，信息流被精心组织，只为让用户尽可能久地看下去。会激起愤怒或惊讶的内容往往赢得这场竞争，这就是为什么最响亮、最愤怒的帖子常常冲到顶端。用户很少被告知，自己的情绪正被一个隐藏系统悄悄地管理着。
+
+研究者给出了复杂的图景。一些研究发现，与朋友的主动互动可以减少孤独感，而被动浏览他人生活往往适得其反。差别似乎在于注意力的方向：会发帖、回复和分享的人，通常比那些只看不动的人感觉更好。换句话说，重要的不是时长，而是使用方式。
+
+伤害在年轻用户身上最容易看出来。数小时精心挑选的图片，会让普通的身材和普通的生活显得令人失望；即时回复消息的压力还会在无人察觉中打乱睡眠。如今家长和学校在争论手机使用的规则，一些政府也通过了法律，限制平台如何收集和使用个人信息，尤其是儿童的信息。
+
+与社交媒体建立更好的关系是可能的，但首先必须诚实地认识这个产品是什么。它是一种被设计来把注意力卖给广告商的工具，不是世界的镜子，也不是衡量别人成就的记录。关注那些真正让自己的生活增值的人、屏蔽消耗自己的内容、把手机放到卧室外，用户往往会发现这个媒介没那么有害，也更有用。
+
+====
+title: The Weight We Carry Quietly
+topic: 心理健康与压力
+core: anxiety, depression, distress, fatigue, symptom, therapy, treatment, prevention, intensity, stress
+
+Mental health has moved from a private topic to a public concern. Workers across many fields report rising pressure, students describe heavy anxiety before exams, and even young people speak openly about stress in a way the older generation never did. The change in language is healthy in itself, because a problem that cannot be named is a problem that cannot be treated.
+
+The sources of pressure are not mysterious. Long hours, uncertain incomes and the endless demands of the phone all pull attention in many directions at once. When the balance between effort and rest is lost, the body responds first: sleep suffers, energy drops and small failures feel huge. People rarely label these early signs as illness, but they are exactly the moment when help works best.
+
+Workplaces play a growing part. Some companies treat staff welfare as a box to check, offering a phone tool or a poster on the wall and hoping the issue goes away. Others take a deeper approach: they train managers to notice signs of struggle, allow flexible hours, and treat mental sick days as seriously as physical ones. The two styles produce very different rates of absence and very different levels of loyalty.
+
+A healthy life is the best protection. Regular sleep, daily movement, real friendships and time free from the phone are not luxury habits; they are the foundations that keep pressure from becoming illness. Many programmes fail because they try to add these things to already crowded days. The more effective ones remove tasks first, so that rest no longer has to be cut out of a full calendar.
+
+There is also a harder, social side to the problem. Shame still stops many people from asking for help, and crowded clinics cannot always respond in time. Governments can fund services, schools can teach children how to read their own feelings, and employers can share the load. But the first step belongs to individuals: treat the mind with the same care as the body, and speak before silence becomes a habit of years.
+
+==译文==
+心理健康已经从私人话题变成了公共关切。各行各业的员工报告压力不断上升，学生们描述考试前严重的焦虑，甚至连年轻人也开始像他们的父母当年那样公开谈论压力。这种语言上的变化本身就是健康的，因为一个无法被命名的难题，就是一个无法被处理的难题。
+
+压力的来源并不神秘。长时间工作、不确定的收入以及手机无休止的要求，同时把注意力拉向许多方向。当付出与休息之间的平衡被打破时，身体会最先作出反应：睡眠变差、精力下降，小小的挫折也显得巨大。人们很少把这些最初信号称为疾病，但这恰恰是帮助最有效的时刻。
+
+工作场所正扮演越来越重要的角色。一些公司把员工福祉当成一项可以勾掉的清单，放一个应用或贴一张海报，就希望问题自动消失。另一些公司则采取更深层的做法：培训管理者识别挣扎的迹象，允许弹性工时，并把心理方面的病假看得和身体病假一样严肃。两种风格会带来截然不同的缺勤率和忠诚度。
+
+健康的生活是最好的保护。规律睡眠、每日活动、真正的友谊和不被手机占据的时间并不是奢侈的习惯；它们是防止压力变成疾病的基石。许多项目之所以失败，是因为它们试图把这些东西塞进已经排满的日子。更有效的做法是先减掉一些任务，让休息不再需要从满满当当的日程里偷出来。
+
+这个问题还有更艰难、更具社会性的一面。羞耻感仍然阻止许多人开口求助，拥挤的诊所也无法总是及时回应。政府可以资助服务，学校可以教孩子读懂自己的感受，雇主可以分担重担。但第一步始终属于个人：像对待身体一样对待心灵，并在沉默变成多年的习惯之前说出来。
+
+====
+title: The Body That Sits Too Much
+topic: 运动与久坐
+core: exercise, routine, muscle, stretch, heart, disease, gradual, intensity, endurance, energy
+
+Modern offices are quiet and still, and screens keep people at their desks for most of the day. A busy week can go by without a single hour of real movement. Medical research is clear about the price: bodies built for walking and lifting break down in small ways when they sit for long hours of the day, and the damage is often invisible until it becomes serious.
+
+The good news is that movement does not need to be extreme. A daily walk, a few minutes of stairs or a short cycle ride can each lower the risk of heart disease, and the effects add up over a lifetime. Researchers found that activity spread through the day works as well as one long session, which is why realistic routines beat dramatic ones.
+
+Standing up is only the first step. The muscles of the back and stomach weaken quickly without use, so they need small signals through the day. Standing during phone calls, walking to a colleague instead of sending a message, and stretching during breaks all protect the body's frame better than one long weekly session. The best exercise is the kind that fits naturally into an ordinary day.
+
+Offices are changing in response. Desks that change height let people work both standing and sitting, meetings get shorter, and some firms cover the cost of a little sport as part of the job. These measures bring a hidden benefit as well as a health one: workers who move during the day report better focus and more stable moods.
+
+A seated life is not a personal failure; it is a habit built into modern cities and schedules. Machines replace feet, cars replace walking, and leisure itself becomes a seated activity in front of a screen. Correcting the habit is therefore a matter of design, not weakness. When stairs are attractive, streets are calm and free hours actually feel free, movement returns almost by itself.
+
+==译文==
+现代办公室安静而静止，屏幕让人们一天中的大部分时间都坐在桌前。忙碌的一周甚至可能连一小时的真正活动都没有。医学研究对代价说得很清楚：本为行走与负重而生的身体，如果每天长时间坐着，会以各种细微的方式逐渐损耗，而这种损害往往要到严重时才看得见。
+
+好消息是，活动并不需要多么剧烈。每天走一走、爬几分钟楼梯或骑一小段车，都能降低心脏病的风险，而且效果会在一生中不断累积。研究者发现，分散在全天的小小活动，与一次长时间的运动同样有效，这也正是切合实际的日常安排总能胜过剧烈计划的原因。
+
+站起来只是第一步。背部和腹部的肌肉如果不常使用会很快变弱，因此它们一整天都需要小小的提醒。打电话时站着、想发消息时改走几步去找同事、休息时伸展一下，这些做法都比每周一次进大礼堂里锻炼一小时更能保护身体的“框架”。最好的运动，往往是那种能自然融入平常一天的运动。
+
+办公室正在随之改变。可调节高低的书桌让人既能站着也能坐着工作，会议变得更短，一些公司还把少量运动的花费纳入工作福利。这些措施除了健康收益，还带来一项隐藏的好处：白天活动过的人，会报告更好的专注力和更稳定的情绪。
+
+久坐的生活谈不上个人失败；它是被现代城市和日程表建造出来的习惯。电梯取代了楼梯，汽车取代了步行，就连休闲本身也变成屏幕前的一项坐着进行的活动。因此，纠正这个习惯靠的是设计，而不是自责。当楼梯有吸引力、街道安静、自由时间真的让人感到自由时，活动几乎不用刻意选择就会自己回来。
+
+====
+title: The Second Language, the Second Door
+topic: 语言学习与文化
+core: accent, acquisition, fluency, grammar, pronunciation, vocabulary, heritage, identity, translation
+
+Learning another language is often sold as a tool: better work, clearer travel and an advantage in a crowded job market. These benefits are real, but they explain only part of the appeal. A foreign tongue also changes how a person thinks, because every language carries its own way of cutting the world into pieces and fitting relationships into words.
+
+The effort is large and honest. Students must master sounds their mouths have never made and build a vocabulary that refuses to match English word for word. Much of the value, however, lives in that very struggle. Accepting small failures every day, and learning to stay calm through them, builds a more stable confidence than praise ever could.
+
+Researchers have found that thinking in a second language can even shift the way people weigh decisions. Because the foreign words feel slightly less familiar, emotions interfere less, and choices become a little more careful. This does not mean the second tongue makes anyone wiser; it simply offers a fresh angle from which to inspect a familiar problem, which is sometimes all a tired mind needs.
+
+Culture travels with the language. Idioms, jokes and rules of politeness teach the history of a community as surely as any textbook, and they make sense of gestures that would otherwise seem strange. People who learn in this wider sense do not merely translate words; they move between worlds, understanding when a remark is a joke and when it is an insult.
+
+The practical advice that follows is simpler than people fear. Study every day in small amounts rather than once a week; write, speak and listen from the very beginning; and accept the quiet times when progress seems to stop as a normal part of the path. The goal is not perfection but the opening of a second door, letting a learner stand in a new place and still be understood.
+
+==译文==
+学习另一门语言常常被当作一种工具来兜售：更好的工作、更顺利的旅行，以及在拥挤的就业市场中的优势。这些好处是真实的，却只解释了其中的一部分吸引力。一门外语也会改变一个人的思维方式，因为每种语言都有自己把世界切分、把关系放进词语里的方式。
+
+这项努力既庞大又坦诚。学生必须掌握自己嘴巴从未发过的音，并建立起一套不肯与英语逐词对应的词汇。然而，价值的很大一部分恰恰藏在这种挣扎之中。每天接受小小的失败，并学着在其中保持平静，会建立起一种比任何表扬都更稳当的信心。
+
+研究者已经证明，用第二语言思考甚至能改变一个人权衡决定的方式。因为外语词汇让人感到略微陌生，情绪介入得少了一些，选择也就更谨慎一些。这并不是说第二语言能让人变得更聪明；它只是提供了一个全新的角度，从那里审视一个熟悉的问题，而有时候，一个疲惫的大脑需要的正是这个。
+
+文化随语言一起旅行。习语、笑话和礼貌的规则，像任何教科书一样确凿地讲述着一个社群的历史，也能让那些原本显得奇怪的言行变得可以理解。在这种更宽广的意义上学习的人，并不只是在翻译词语；他们在不同世界之间往来，明白哪句话是玩笑，哪句话是冒犯。
+
+由此而来的实用建议，比人们担心的更简单。与其每周一次大剂量学习，不如每天学一点；从第一周起就去真实地写、说、听；并且把进步似乎停止的安静时期，当作道路上正常的一段。目标不是完美，而是打开那第二扇门，让学习者站在一个新的地方，却仍然能被理解。
+
+====
+title: Learning to Read What Is Written About Us
+topic: 媒体素养与假新闻
+core: bias, verify, source, journalist, evidence, claim, editorial, editor, circulate, audience
+
+A single false story can now circle the globe before the truth has begun to move. The speed of sharing and the size of the audience make such stories harder to correct and easier to believe, especially when they confirm what people already wish to hear. This is why media literacy, the quiet skill of judging information, has become as basic as reading itself.
+
+The first lesson is about emotion. Strong feelings are the signal that a claim should be checked, not accepted. A shocking headline, a picture of a disaster from another year, a quote without a name, these are all signals that the message is arranged to move the reader faster than the facts. A careful reader pauses, looks for the source and asks who benefits from attention being sent in this direction.
+
+Sources are the second matter to test. News from a recognized outlet, a university study or a government record is not free of mistakes, but it has a process behind it; an anonymous online post has only its reach. Comparing several accounts, finding the original document and watching what names are actually attached to a claim quickly separate solid reporting from invention.
+
+The problem is that correction does not always heal the damage. Studies show that people often remember the false version even after it is fixed, and that repeated lies feel true simply because they are familiar. This negative power places a heavy duty on the platforms that carry the content. Their hidden systems now decide what most people see, so the rules they write about speed, emotion and spread are, in effect, the rules of our shared attention.
+
+No single law will end the confusion, but habits can. Reading past the headline, checking the date, searching for the other side and waiting an hour before sharing a claim are small costs that prevent large mistakes. Schools that begin this teaching early, and families that practice it at the table, raise the general quality of public argument. A public that questions well is harder to deceive, and harder to deceive is closer to free.
+
+==译文==
+如今，一条虚假消息可以在真相迈出第一步之前就传遍全球。分享的速度和受众的规模让谣言更难被纠正、更容易被相信，尤其是当它们印证了人们本来就愿意相信的东西时。这正是媒介素养——那种安静地判断信息的技能——变得和阅读本身一样基础的原因。
+
+第一课是关于情绪的。强烈的情绪是“这份说法需要核查、而非接受”的信号。一条骇人的标题、一张来自另一年的灾难图片、一段没有名字的引语，这些都是警告：消息被编排成这样，是为了让读者动情绪比查事实更快一步。细心的读者会停下来，去找来源，问一问：把注意力引向这个方向，对谁有好处。
+
+来源是第二个需要检验的问题。来自知名机构、大学研究或政府记录的新闻远非完美，但它背后有一套流程；而平台上一个匿名的帖子，只有它的传播范围。比较几份不同的报道、找到原始文件、看清究竟有哪些名字附着在说法上，很快就能把扎实的报道同凭空编造区分开。
+
+问题是，更正并不总能让伤口痊愈。研究表明，即使错误已被修正，人们往往仍会记得那个错误版本；重复得够多的谎言，会仅仅因为熟悉而被当作真实。这种负面力量给承载内容的平台压上了沉重责任。如今，它们的隐藏系统决定大多数人能看到什么，因此它们关于速度、情绪与传播而写下的规则，实际上就是我们共同注意力的规则。
+
+没有哪一条法律能一举结束混乱，但习惯可以。略过耸动的标题先读正文、核对日期、搜索另一方说法、在转发之前等待一个小时——这些都是很小的代价，却能防止巨大的错误。最早教会这些方法的学校，以及在家里餐桌上练习这些习惯的家庭，会提高公共争论的整体质量。会提出好问题的公众更难被欺骗，而更难被欺骗，也就更接近自由。
+
+====
+title: The Advertised Life and Its Price
+topic: 消费主义与广告
+core: advertise, consumer, commodity, luxury, expense, temptation, transaction, identity, brand, purchase
+
+Advertising has a simple job: to make people want what they did not know they lacked. The best campaigns do not sell objects at all; they sell confidence, belonging and a better version of the self. Once those feelings are attached to a brand, the purchase feels less like spending money and more like making progress toward a life that appears in the advertisement.
+
+The system is efficient, which is exactly its danger. Every choice is measured, every taste is remembered, and messages are sent to each person at the opening moment of weakness. The result is a culture of continuous desire in which the gap between the life sold and the life lived never quite closes. Each new season promises to fix what the last season sold, and buying quietly takes the place of being content.
+
+The true cost is not the money but the habit of comparison. Carefully edited pictures train people to read their own lives against a standard that does not exist. They feel behind, plain or simply not done, and the advertised solution arrives like a gift: buy this, and the feeling of being enough returns for a while. The problem is that the feeling is temporary by design.
+
+Debt completes the picture. Easy credit makes it possible to buy the advertised life before it is earned, and the costs arrive long after the pleasure ends. Households that borrow for wants rather than needs carry a quiet weight that shapes every later choice. Financial education helps, but it is always swimming against a daily tide of messages that say the purchase is necessary, urgent and on sale.
+
+None of this means advertising is wicked or that buying is wrong. Goods genuinely improve comfort, and a new coat can change how a year feels. The mature position is simply to notice the machine: to recognize when a message is selling a mood, to check whether the need existed before the advertisement, and to let desire rest on real evidence rather than on the promise of a better self. The consumer who sees the game is no longer so easy to catch.
+
+==译文==
+广告有一项简单的工作：让人们想要他们原本没意识到自己缺少的东西。最聪明的广告并不卖东西本身；它们卖的是信心、归属感，以及一个更好的自己。一旦这些感觉与某个品牌绑定，购买就不再像花钱，而更像朝着广告里那个生活前进。
+
+这套系统非常高效，而这恰恰是它的危险。每一个选择都被测量，每一种口味都被记下，消息总在人们心防松动的时刻出现。结果是一种无休止渴求的文化：被展示的生活与真实生活之间的差距，从来没有真正弥合过。每一个新季节都承诺修复上一季卖出的问题，而购买悄悄替代了满足。
+
+最深的代价不是金钱，而是比较的习惯。经过精心修图的图片训练人们用一种并不存在的标准来审视自己的生活。他们觉得自己落后、平凡或尚未完成；于是广告里的解决方案像礼物一样到来：买下它，那种“我足够了”的感觉便会回来一阵子。问题在于，这种感觉被刻意做成了暂时的。
+
+债务完成这幅图景。便捷的信贷让人可以在挣到那份广告生活之前就买下它，而账单会在这份快乐结束很久之后继续到达。为想要而非需要而借贷的家庭，背着一种安静却沉重的负担，塑造着此后每一个选择。金融教育有帮助，但它始终在与一股日复一日的洪流对抗——那洪流不断说：这笔消费是必要的、紧急的、正在打折的。
+
+这并不意味着广告邪恶，也不意味着购物就是错的。商品确实改善了舒适，一件新外套甚至能改变一整年的感受。成熟的态度其实只是看清这台机器：识别消息是不是在贩卖一种情绪，检查这个需求在广告出现之前是否已经存在，并让渴望建立在真实证据而不是“更好的自己”的承诺之上。看懂了这场游戏的消费者，就不再是它最容易瞄准的猎物。
+
+====
+title: Privacy in an Always-On World
+topic: 科技伦理与隐私
+core: privacy, consent, disclose, monitor, reputation, autonomy, platform, personal, data, identity
+
+Every free service has a hidden bill. A search engine, a map or a social app may appear free, yet each one quietly gathers small facts: where a person travels, what the messages say and how long the eyes rest on a picture. Collected alone these details mean little; gathered together, they form a portrait fuller and more personal than anything a stranger could ever write.
+
+Companies defend the trade openly. The data, they say, improves the product, keeps the service cheap and has always been part of the bargain. Users, in turn, admit that they rarely read the long agreement and often accept without a second look. Consent in this form is real in name only, and researchers who study the field joke that reading every notice would cost everyone a full working week each year.
+
+The danger appears when records fall into the wrong hands or go further than they were meant to go. A small habit can become a reason to deny a loan, a raise or a place at university, and a private message can be shared, sold or turned into a public scandal. Digital memory does not fade. A mistake made in a message can follow a person for decades, while a spoken word disappears in the same breath.
+
+Regulation is trying to catch up. New laws in several places give people the right to see what is stored about them, to demand a change and even to ask for their own details to be removed. Companies now employ staff whose only task is to answer such requests, and designers speak of building privacy into the product from the start rather than fixing it later. The shift is real but slow, and the rules are used unevenly.
+
+Individuals can act sooner than the law. Reading carefully before accepting, keeping separate accounts for work and personal life, and asking what a service earns from personal attention all reduce risk. So does trusting people over platforms: a private conversation held in a real room cannot be searched, copied or sold. Technology will keep changing the shape of privacy, but the answer keeps returning to awareness and to choice.
+
+==译文==
+每一项免费服务都有一张隐形的账单。搜索引擎、地图或社交应用看起来是免费的，但每一个都在悄悄收集零碎的事实：一个人去了哪里、消息里说了什么、目光在一张图片上停留了多久。单独看，这些细节意义不大；合在一起，它们就构成一幅比任何陌生人都能写出的更完整、更私人的画像。
+
+企业公开为这笔交易辩护。它们说，数据改善了产品、让服务保持廉价，而且一直是交易的一部分。反过来，用户也承认自己很少读那一长串协议，常常看也不看就接受。这种形式的“同意”名存实亡，研究这个领域的学者甚至开玩笑说，把每一条通知都读完，会让每个人每年损失整整一个工作周。
+
+危险出现在这些记录落入错误之手，或被使用得过远的时候。一个小小的习惯可能成为拒绝贷款、加薪或升学的理由；一条私密消息可能被分享、转卖，或被改造成一桩公共丑闻。数字记忆不会消退。消息里犯下的一个错误会跟随一个人几十年，而一句说出口的话却会在呼吸之间消失。
+
+监管正在努力追赶。一些地方的新法律赋予人们查看与自己相关存储信息的权利，允许他们要求修改，甚至要求删除自己的数据。企业如今雇用专责人员来回应这类请求，设计师也开始谈论要把隐私从一开始就建进产品里，而不是事后补救。这种转变是真实的，但速度缓慢，规则的执行也参差不齐。
+
+个人可以比法律走得更快。接受之前认真阅读、把工作与个人生活的账号分开使用、经常问一问这项服务能从我们的注意力里赚到什么，都能降低风险。同样有效的，是信任真人甚于信任平台：在一间真实房间里进行的私人对话，无法被搜索、复制或转卖。技术会不断改变隐私的形态，但答案始终会回到两件事上：觉察与选择。
+
+====
+title: The Smaller Table, the Wider Circle
+topic: 家庭结构变化
+core: household, domestic, marriage, divorce, adopt, guardian, unite, generation, household, single
+
+The shape of the family has changed more in a single lifetime than in centuries before it. Households are smaller, marriage happens later, and many children now spend their early years with one parent or across two homes. Some view these shifts with worry; others see a wider circle of care. What is certain is that the change is here to stay, and that institutions built for older models are struggling to keep up.
+
+Economics explains part of the story. In earlier times a family was also a workplace: land, tools and a small shop all stayed within one circle, and children were hands as well as mouths. Today most income comes from outside the home, and raising children has to be fitted around two full jobs. Small decisions about who cooks and who takes the children to school have become daily talks between adults.
+
+Households are not simply shrinking; they are drawing wider lines. Divorce may break one household but often leaves two strong homes behind, and each may add new partners and extra grandparents. Studies suggest that children who move between two caring homes can do as well as those who stay in one, especially when the adults keep their own conflict out of view.
+
+The visible effects follow the numbers. More families are led by one adult, which means they need childcare that schools alone do not provide, and more grandparents find themselves looking after young children again at an age when their own parents might once have rested. Services designed around a very different home now seem to belong to another age: school hours, holidays and city planning all assume a quantity of free time that fewer families can spare.
+
+None of this means the family is dying; it means family is being rebuilt in many versions. Today people choose part of their family as well as receiving it: friends become family, neighbours share the school run, and communities step in where blood has moved away. The strongest conclusion from the research is simple: children flourish not according to the number of adults around them but according to the quality of care those adults give.
+
+==译文==
+家庭形态在一代人的时间里发生的变化，比之前数个世纪还要大。家庭变得更小，婚姻发生得更晚，许多孩子如今在单亲或两个家之间度过童年。一些人以忧虑看待这些转变，另一些人则看到更宽广的关怀圈。可以确定的是，这种变化已经到来并将持续，而那些为旧有模式建造的机构正在艰难地跟上。
+
+经济学能解释一部分。在更早的年代，家庭同时也是工作场所：土地、工具和小店铺都留在一个小圈子里，孩子既是帮手也是要养的嘴。如今，大多数收入来自家庭之外，养育孩子必须塞进两份全职工作之间。谁做饭、谁送孩子上学这些小决定，已经变成成年人之间每天的交谈。
+
+家庭并不只是在变小；它们也在划出更宽的界线。离婚可能拆散一个家庭，却常常留下两个有力量的家，其中每一个都可能增添新的伴侣和额外的祖辈。研究表明，在两个充满关爱的家之间来往的孩子，可以和一直待在一个家里的孩子一样好，尤其是当成年人把自己的冲突藏在孩子视线之外的时候。
+
+可看见的影响会随着数字而来。越来越多的家庭由一位成年人支撑，这意味着他们需要学校本身无法提供的育儿服务；而越来越多的祖辈，在自己父母当年或许已经能歇息的年纪，又重新开始照看孩子。围绕一种非常不同的家庭设计出的服务如今仿佛属于另一个时代：上学时间、假期和城市规划，都以一种越来越少家庭能腾出的时间为前提。
+
+这些都不意味着家庭正在消亡；它意味着家庭正以多种版本被重建。如今，人们既接受家庭，也选择家庭：朋友成为家人，邻居分担接送孩子的路程，血缘搬走的地方由社群补上。研究得出的最强结论很简单：孩子的好与坏，与身边成年人的数量关系不大，关键在于这些成年人所提供的照料质量。
+
+====
+title: When Machines Take the Repetitive Work
+topic: 自动化与就业
+core: automation, displace, occupation, redundancy, skilled, competence, training, transition, productivity, efficiency
+
+Automation has a long history of promise and panic. Every new wave of machines was supposed to end work, and every wave instead moved people from old tasks toward newer ones. What worries economists today is not whether machines can do things, but how fast the change is arriving and whether the skills people already hold will keep them employed while they adapt.
+
+Winners and losers are divided unevenly. Repetitive, predictable tasks are the first to be automated, which puts pressure on the workers who once performed them. Meanwhile demand grows for the skills machines still find hard: sound judgement, careful communication, creative thinking and personal care. The result is a split labour market, with many openings at the top and a shrinking number of stable middle jobs.
+
+Companies follow the money, not the sentiment. A firm invests in automation when the figures say the machine will cover its cost faster than a training course would. That logic is reasonable inside a single office, yet it leaves the wider society to absorb the older tasks the machine took over, whether they involved typing, counting or driving. Nothing in the market automatically creates a plan for the workers left behind.
+
+Public policy therefore has a quiet but essential job. Everyone agrees that retraining is the answer, though the details are less popular: money for education, time away from work and employers willing to hire without demanding a perfect record. Good schemes combine classroom learning with a real job, because most skills are learned by doing. Governments that treat retraining as cheap insurance tend to ride the transition more smoothly.
+
+The deeper issue is about the value of work itself. If productivity keeps rising while jobs disappear, the same national income could be shared among fewer hours as well as fewer workers. Shorter weeks, flexible careers and proper respect for care work are all being discussed with more seriousness than in earlier decades. The question is no longer whether machines will do more, but what society chooses to do with the time they free.
+
+==译文==
+自动化有着漫长的承诺与恐慌史。每一波新的机器都曾被认为会终结工作，而每一波机器事实上都只是把人们从旧任务推向新任务。今天让经济学家担心的不是机器能否做事，而是这种变化来得有多快，以及人们已掌握的技能能否在他们适应期间保住他们的就业。
+
+赢家与输家被分得很不均匀。重复、可预测的任务最先被自动化，这给曾经从事这些工作的工人带来了压力。与此同时，市场对机器仍感吃力的技能需求在增长：健全的判断、细致的沟通、创造性的思考和个人化的关怀。结果是一个分化的劳动力市场：顶端职位众多，而中间那些稳定的岗位却在不断减少。
+
+企业跟着钱走，而不是跟着情怀走。当数字显示机器比一门培训课程更快收回成本时，公司就会投资自动化。这种逻辑在单独一间办公室里是合理的，但它把旧任务留给了更广的社会去消化——无论是打字、计数还是开车。市场不会自动为被留在身后的工人创造方案。
+
+因此，公共政策承担着一项安静却必不可少的职责。所有人都同意再培训是答案，但细节并不那么受欢迎：教育经费、离开岗位的时间，以及愿意不苛求完美档案就录用人的雇主。好的方案把课堂学习与真实工作结合起来，因为大多数技能都是做出来的。把再培训当作廉价保险来对待的政府，往往能更平稳地渡过转型期。
+
+更深层的问题关乎工作本身的价值。如果生产率持续上升而工作岗位却在消失，同样的国民收入既可以分给更少的工人，也可以分给更短的工作小时。更短的工作周、更灵活的职业生涯，以及对照护工作更恰当的尊重，如今讨论的严肃程度都超过以往几十年。问题不再是机器会不会做得更多，而是社会要如何运用它们腾出来的时间。
+
+====
+title: Machines That Learn, People Who Decide
+topic: 科技与人工智能
+core: artificial, compute, device, digital, innovation, logical, software, virtual, data, network
+
+Artificial intelligence has left the laboratory and entered the ordinary week. A phone camera recognizes a face, a map chooses a route, and an email system sorts the messages and quietly suggests a reply. So much of daily convenience now rests on systems that learned from past examples rather than from fixed rules. The change is so smooth that most people never stop to ask who wrote the rules, or what those rules are designed to serve.
+
+The power of such systems lies in their scale. A human can examine a few hundred cases in a career, while a machine trained on millions can notice connections nobody expected, from a hidden fault in a bridge to an early sign of illness in a medical image. This success has brought machines respect with every passing year, and these respected systems are already helping to design new instruments and new medicines at a speed no single researcher could match.
+
+The limits matter just as much as the power. These systems are strong at tasks they have seen and weak where the world changes shape. They can repeat what they learned, but they cannot fully explain the reasoning behind every choice, and they can quietly carry the bias of the older data they swallowed. Designers therefore keep human judgement in the loop, using the machine for the first fast pass and a person for the final word.
+
+This mixing raises questions of right and wrong rather than of design. Should a bank reject a loan because a hidden score says so? Should a hospital trust a machine's warning over a doctor's judgement? Clear rules can stop the worst uses, but most real questions sit in the grey area in between: how much explanation to demand, who carries the responsibility when the machine makes a mistake, and who decides when human control should take over.
+
+The sensible position is neither wonder nor fear but attention. Machines improve fastest when people use them critically, testing their answers, questioning their examples and learning where confidence hides a weakness. AI will keep spreading, slowly and unevenly, into nearly every field, but the final judge of its results should remain human. A tool that serves people is a helper; a tool that simply decides for them is no tool at all.
+
+==译文==
+人工智能已经离开实验室，进入了普通的一周。手机镜头识别一张脸，地图选择一条路线，邮件系统把信息归类并悄悄建议一个回复。日常便利如今有相当大一部分建立在这些系统之上，而它们是从过去的例子中学来的，而不是靠固定规则写出来的。这种变化如此顺滑，以至于大多数人从未停下来问一问：规则是谁写的，这些规则又被设计来服务于什么。
+
+这类系统的力量在于规模。一个人在一段职业生涯里能审视几百个病例；而一台在数百万样本上训练出来的机器，能发现没人预料到的关联——从桥梁上一处隐蔽的隐患，到医学影像里疾病的早期迹象。这份成就在每一年里都为机器赢得更多尊重，而这些备受尊重的系统已经开始以任何一位研究者都无法匹敌的速度，帮助设计新的仪器和新药。
+
+局限与力量同样重要。这些系统在自己见过的任务上很强，在世界改变形态的地方则很弱。它们能复述学到的内容，却无法完全解释每个选择背后的推理；它们还会悄悄承袭自己吞下的旧数据里的偏见。因此，设计者把人留在这个环节里：第一遍快速筛查交给机器，最终判断交给人类。
+
+这种混合提出了关乎对错、而非关乎设计的问题。银行应该仅仅因为一个隐藏分数就拒绝贷款吗？医院应该因为机器的警告就忽视医生的判断吗？清晰的规则能禁止最恶劣的用途，但大多数真实问题正处两者之间那片灰色地带：要求多少解释、机器出错时由谁负责、人类控制应该在何时接管。
+
+明智的态度既不是惊叹也不是恐惧，而是关注。当人们批判性地使用技术——检验它的答案、质疑它的例子、看清它的自信藏在哪里——技术就会进步得最快。AI 将继续缓慢而不均匀地蔓延到几乎每一个领域，但对它结果的最终裁判仍应是人类。为人服务的工具是帮手；只会替人作决定的工具，根本算不上工具。
+
+====
+title: The Quiet Shift to Electric Streets
+topic: 交通与新能源车
+core: battery, electric, vehicle, fuel, traffic, transit, subsidy, pollution, fleet, charge
+
+The car is changing from the inside out. For a century the engine burned fuel and filled the streets with noise and smoke; the new generation runs on batteries, moves with little sound and leaves no waste behind. The shift matters beyond the vehicles, because how people travel shapes the air they breathe, the design of the city and the whole rhythm of a working day.
+
+The numbers tell a clear story. Battery costs have fallen sharply, and a modern electric car can now cover a full day of driving on a single charge. Governments have offered subsidies, while cities give bus lanes and clean zones a warm welcome. Even drivers who care little about the climate enjoy lower fuel costs each month, which explains why sales keep rising in most markets.
+
+The road, however, still belongs partly to the past. Charging points stand far apart outside the cities, and a long journey can still cause anxiety if every station is busy. Building the charging network is therefore as important as building the cars, and progress here depends on companies, landowners and local councils working together.
+
+Delivery vans and buses are perfect early customers for electricity. They run the same routes every day, return to a base each night and never travel far in one stretch, which makes them easy to charge. As these fleets change, fewer heavy machines pump waste into crowded neighbourhoods, and their overnight charging can be balanced against the evening rush on the grid.
+
+The change is not free of problems. Early models cost more, charging takes time and cold winters reduce their range, issues the industry is working to answer year by year. Consumers, for their part, vote with their spending, and their choices will decide how quickly the transition truly arrives. In the end, the electric street will come not from a single law or factory but from millions of ordinary journeys made on battery power rather than on fuel.
+
+==译文==
+汽车正在从内到外改变。整整一个世纪里，发动机燃烧燃料，用噪音和烟雾填满街道；新一代汽车则靠电池运行，几乎无声地行驶，也不留下任何废物。这场转变的重要性超出了车辆本身，因为人们如何出行，塑造着他们呼吸的空气、城市的设计，以及整个工作日的节奏。
+
+数据把故事说得很清楚。电池成本大幅下降，一辆现代电动汽车如今可以靠一次充电跑满整整一天的行程。各国政府提供了补贴，城市也给公交车专用道和清洁区域以热烈欢迎。即使是并不关心气候的驾驶者，也会享受每月更低的燃料成本，这解释了为什么多数市场的销量仍在上升。
+
+然而，公路仍有一部分属于过去。城市之外的充电点彼此相距很远，如果沿途每个站点都很繁忙，一段长途旅行仍然会让人焦虑。因此，建设充电网络与制造汽车同样重要，而这项进展取决于企业、土地所有者和地方议会能否携手合作。
+
+配送面包车和公交车是电动化最早的完美客户。它们每天走同样的路线，每晚回到固定基地，从不在单程中远行，因此很容易充电。随着这些车队改换动力，更少重型机器拥挤的街区里排放尾气，而它们隔夜充电的时间，还能与晚间高峰的电网负荷相平衡。
+
+这种变化并非没有问题。早期车型更贵、充电耗时，寒冷冬天还会缩短续航里程——这些都是行业正逐年努力解决的难题。消费者则以自己的消费来投票，他们的选择将决定这场转型真正到来的速度。归根结底，电动化的街道不会来自某一条法律或某一家工厂，而来自无数辆以电池而非燃料驱动的普通行程。
+
+====
+title: The Quiet Hour of Rest That Works
+topic: 睡眠与健康
+core: nap, midday, individual, refresh, recover, fatigue, moderate, routine, schedule, mood
+
+The idea of an afternoon nap once belonged to children and the very old. Today it is returning to the workplace, dressed in careful language about energy and recovery. Researchers who study fatigue have long known that a short rest at midday can sharpen attention, steady the mood and repair the small errors that build up during a long morning. The practice is finally being taken seriously.
+
+Yet the research also draws a careful line. A brief nap of fifteen or twenty minutes helps; a long one may leave a person heavy and confused when the alarm sounds. Timing matters just as much as length. The best hours sit a little after lunch, when the body's own clock begins to dip, and many people find that a cup of coffee taken before the rest gives the wake-up an extra push.
+
+The workplace is a natural home for this habit. A driver who stops for a short rest returns to the road with a clearer mind, and a team that builds quiet time into a long shift usually makes fewer errors. Some companies now provide quiet rooms instead of working through the whole afternoon, treating a few minutes of rest as an investment in the hours that follow rather than as a waste of them.
+
+The difficulty is that resting in public still feels strange. Workers fear that a nap will look like laziness, even when the same time spent staring at a screen would attract no attention at all. Changing this culture is slow, because it asks people to admit a need their schedules have always denied. Yet the same divided judgment applies to meals and holidays, both of which were once treated as suspicious interruptions of work.
+
+Sleep itself cannot be replaced by rest, and no nap should excuse a week of short nights. A short pause is useful when the base is healthy; it works best as a small repair, not as a substitute for the main event. People who protect their nights and then allow a brief, regular rest at midday often report a steadier day, a quieter mood and a stronger sense of control over their own time.
+
+==译文==
+午睡的想法曾经只属于小孩和老人。如今，它正披着关于精力与恢复的得体说法，重新回到职场。研究疲劳的学者早已知道，正午短暂休息可以恢复注意力、稳定情绪，并修复漫长上午积累起来的小差错。这种做法的价值终于被认真对待了。
+
+然而研究也划出了一条精细的界线。十五到二十分钟的短睡有帮助；睡得太久，闹钟响起时反而可能让人沉重而迷糊。时机和时长同样重要。最好的时段在午餐稍后，那时候身体的生物钟开始下沉；许多人还发现，睡前喝一杯咖啡，能给醒来时多添一把劲。
+
+职场是这种习惯天然的归宿。司机停下一小会儿再上路，头脑会更清醒；把安静时间排进长班次的团队，通常也会出更少的错。如今一些公司不再让员工整个下午都硬撑，而是提供安静的房间，把几分钟的休息当作对随后几个小时的投入，而不是当作浪费时间。
+
+难处在于，在公开场合休息仍然让人感到别扭。员工害怕打个小盹会显得懒惰，哪怕同样长的时间盯着屏幕，根本不会引来任何注意。改变这种文化很慢，因为它要求人们承认自己的日程一直否认的需求。然而，同样的双重标准也曾适用于吃饭和休假，二者都一度被当作可疑的中断工作的行为。
+
+睡眠本身无法被小憩取代，任何午睡都不该成为一周短夜的借口。当基础健康时，短暂停顿才有用；它最好的角色是一次小修，而不是主事件的替代品。那些好好保护夜晚、又在正午安排一段短暂规律休息的人，往往会拥有更稳定的一天、更平静的心情，以及对自己时间更强的掌控感。
+
+====
+title: The Quiet Power of Cooking at Home
+topic: 饮食与营养
+core: ingredient, recipe, appetite, portion, digest, energy, preference, habit, budget, season
+
+Meals made at home have been losing ground for decades. Families fill more evenings with ordered food, and kitchen counters serve as storage for equipment that is rarely used. The change is convenient and social, but it carries a quiet price for health: restaurant dishes tend to carry more salt, sugar and oil than home cooking, simply because taste and speed matter more to the kitchen that prepares them.
+
+The science behind the difference is fairly simple. When people cook, they control the quantity of oil, the size of the portion and the freshness of the ingredients, and each of these choices shapes the meal more than any single rule about diet. A dish prepared at home with fresh vegetables, a little meat and a sensible helping is usually lighter than its restaurant twin, even when it looks the same on the plate.
+
+Cooking is also a habit with its own rhythm. The weekly shop forces a little planning, the evening routine gives structure to the day, and the smell of food being prepared tells the body that a meal is coming. This expectation has an appetite that is easier to satisfy: people who feel the food arrive feel fuller sooner, and they settle for a smaller portion without noticing.
+
+There are real barriers, and honesty about them helps. Cooking needs time, and the commute has already consumed it. A cheap ready-made meal can also beat the price of fresh produce on any single night. Few households can manage a full effort every day. What works is a small bank of simple recipes, cooking larger portions once or twice a week and using the remaining food the next day, so that the effort happens on a schedule instead of under pressure.
+
+The real value of home cooking may not be health at all. A family that chops vegetables together talks more, and a child who learns one good recipe leaves the house with more than a meal. When health advice keeps changing, the old practice still holds its ground: know what goes into the pot, and the plate will usually look after itself.
+
+==译文==
+在家做饭的地位几十年来不断下降。越来越多的家庭用点餐填满夜晚，厨房台面则沦为堆放很少使用的器皿的架子。这种变化方便又充满社交性，却也带着一种安静的代价：餐馆的菜往往比家常菜含有更多盐、糖和油，原因很简单——对准备它的厨房来说，口味和速度比健康更重要。
+
+这背后的科学差别相当简单。当人们自己做饭时，他们能控制油的用量、份量的大小和食材的新鲜程度，而每一个这样的选择对餐食的影响，往往超过任何一条孤立的饮食规则。一盘用新鲜蔬菜、少量肉类和合理分量做出来的家常菜，通常比它那家餐馆里的“双胞胎”更清淡，哪怕端上桌时看起来一模一样。
+
+做饭也是一种自带节奏的习惯。每周采购强迫你稍微做些计划，晚间流程给一天提供了结构，而食物烹调的香味会告诉身体：饭快好了。这种期待带来的食欲反而更易满足：感受到食物到来的人会更快有饱腹感，也会在不经意间满足于更小的一份。
+
+障碍是真实的，坦诚面对它们更有帮助。做饭需要时间，而这段时光早已被通勤吃掉；从单看某一个晚上，最便宜的外卖甚至能比新鲜食材更省。答案很少是每天都完美地亲自动手。多数得心应手的家庭都储备一批简单菜谱，一周做一到两次大份量并善用剩菜，让做饭这件事按日程进行，而不是在压力下突击完成。
+
+在家做饭最深层的价值，也许根本不在营养。一家人一起切菜时会聊得更多；一个记住了自己拿手菜的孩子，离家时带走的也不仅仅是一顿饭。当营养建议不断变化时，老做法依然站得住脚：知道锅里放了什么，餐盘通常就会自己照顾自己。
+
+====
+title: The Sport That Stays With Us
+topic: 运动与久坐
+core: athlete, team, season, league, compete, training, strength, endurance, coach, discipline
+
+Children who play sport are often told they are building character. The belief is repeated so often that it has become easy to mock, yet the research keeps returning to the same conclusion: team games teach young people a set of skills that classrooms rarely deliver. Winning and losing, taking turns, following a plan and trusting a colleague all arrive naturally when a group shares a single goal.
+
+The lessons are not always pleasant, and that is part of the point. A lost match can hurt, but it also teaches a child how to lose without collapsing, how to handle an unfair decision and how to return the next day with a level head. These small trials are far safer than the adult versions of the same disappointments, which is why so many parents accept the early mornings and the muddy kit without complaint.
+
+Experts now warn against one mistake: taking the fun out too soon. When competition is pushed too hard and too early, children often drop the sport in their teenage years and never come back. The hours of pressure are not the same thing as the pleasure of moving, and a child who only learns to fear the score usually stops moving altogether. The aim at the start should be play, not performance.
+
+The social side matters as much as the physical one. A team offers a ready group of friends, a place where shy children can speak without first being noticed and where weight and ability matter less than reliability. Coaches who remember this often turn the least promising child into the most loyal member, because belonging, not victory, is what binds the group together.
+
+Adults who keep playing tend to be the best advertisement for sport. They move without needing to be told, treat exercise as a pleasure rather than a punishment, and carry the lessons of the field into meetings and family life. A childhood of games, it turns out, does not end at adulthood; it quietly becomes the habit of a lifetime, and the character it was said to build turns out to be real after all.
+
+==译文==
+人们常常告诉打体育的孩子，他们正在塑造品格。这句话被重复得太多，以至于容易被嘲笑，但研究一次次回到同一个结论：团队运动教会年轻人一套课堂上很少提供的技能。赢与输、轮流、遵守计划、信任队友——当一群人为了同一个目标而相聚时，这些东西都会自然地发生。
+
+这些教训并非总是愉快，而这恰恰是它的一部分意义。输掉一场比赛会难过，但它也教会孩子如何不失态地输、如何面对一次不公的判罚，以及第二天如何带着平静的心态回来。这些小小的考验，远比成年后同样性质的一次次失望要安全，这也是为什么那么多家长毫无怨言地接受清晨早起和沾满泥土的球衣。
+
+专家如今会就一个错误提出警告：过早把乐趣拿走。当竞争被过早、过重地推向极端时，孩子往往在青少年时期就放弃体育，并且再也不回头。高压训练的时间并不等同于运动的快乐；一个只学会害怕比分的孩子，通常干脆停止活动了。起始阶段的目标应该是玩耍，而不是表现。
+
+社交的一面和身体的一面同样重要。一支队伍提供了现成的一群朋友，让害羞的孩子不必先被注意就能开口，让体重和能力不如可靠来得重要。记住这一点的教练，常常能把最不起眼的孩子变成最忠实的队员，因为把团体凝聚在一起的不是胜利，而是归属感。
+
+一直坚持运动的成年人，恰好是体育最好的广告。他们不需要别人提醒就会动起来，把锻炼当作乐趣而非惩罚，并把球场上的教训带进会议和家庭生活。事实证明，童年的比赛并不在成年时结束；它会悄悄变成一辈子的习惯，而人们常说的那种“塑造品格”，到头来是真的。
+
+====
+title: How People Learn to Live With Extreme Weather
+topic: 环境与气候变化
+core: adapt, flood, drought, disaster, storm, relief, donate, volunteer, climate, recovery
+
+The debate about climate often stays in the language of graphs and targets. Man on the ground, the change arrives as weather: a flooded street, a ruined harvest, a week of dangerous heat. Because these events are local, people rarely connect them to a single cause; they simply learn, season after season, that the emergency services and the insurance bills are both getting busier.
+
+Helping after a disaster has become a quiet national habit. Neighbours check on the elderly, volunteers fill sandbags, and donations of food, clothes and time arrive faster than the official lists can count them. This instinct to help is a genuine strength, and it grows stronger with every flood and every storm, leaving communities closer than they were before.
+
+Yet relief is not the same as preparation. Waiting until the water rises makes every rescue harder and every recovery longer, and it places the heaviest weight on the people who can least afford it. Experts argue that money spent on prevention beats money spent on repair by a wide margin, because a strengthened wall or an early warning costs little compared with the years of rebuilding that follow a single major event.
+
+Governments are therefore shifting their attention from reaction to readiness. New building rules keep homes out of the lowest ground, plans of every flood and storm are rehearsed before the season, and natural barriers such as trees and wetlands are protected inside the city plan itself. These measures are less dramatic than a rescue, but they quietly reduce the price of every future crisis.
+
+The deeper change is cultural, and it begins with memory. Societies that remember their last disaster clearly are the most willing to prepare for the next; societies that forget soon rebuild in the same dangerous places. Families that keep emergency bags, agree on a meeting point and practise the plan for a few minutes each year are not being strange or timid. They are doing exactly what the new research recommends: they treat the worst day as a real possibility and, in doing so, make it far less likely to become one.
+
+==译文==
+关于气候的讨论常常停留在图表和目标的语言里。而在地面上，这种变化以天气的形式到来：一条被淹的街道、一场绝收的庄稼、一周危险的高温。因为这类事件是局部的，人们很少把它们同某个单一原因联系起来；他们只是年复一年地体悟到，应急服务和保险账单变得越来越忙。
+
+灾后援助已经成为一种安静的民族习惯。邻居会探望老人，志愿者会装填沙袋，食物、衣物和时间的捐赠来得比官方名单数得过来的速度还快。这种援助的本能是一份真正的力量，它在每一次洪水、每一场风暴之后都会变得更强，让社区比以往更加紧密。
+
+然而，救援并不等于准备。等到水位上涨再做任何努力，都会让每一次救援更艰难、每一次重建更漫长，也会把最沉重的负担压在最难以承受的人身上。专家指出，花在预防上的钱远比花在修缮上的钱划算：一堵加固的墙或一次提前的预警，与一次大事件之后长达数年的重建相比，成本简直微不足道。
+
+因此，各国政府正把注意力从事后反应转向事前准备。新的建筑规则让房屋避开最低洼的地段，洪水和风暴的预案会在季节来临前排演，树木和湿地这类自然屏障也被写进城市规划本身。这些措施不像救援那样戏剧化，却会悄悄降低每一场未来危机的代价。
+
+更深层的变化是文化性的，它始于记忆。那些清楚记得上一次灾害的社会，最愿意为下一次做准备；而那些很快遗忘的社会，会在同样的危险地点重新建起房屋。会准备应急包、约定集合点、每年花几分钟演练一次计划的家庭，并不是在表现得古怪或胆小。他们做的正是新研究所推荐的：把最坏的一天当作真实可能来对待，并因此让它远不那么容易成为现实。
+
+====
+title: Fair Work Beyond the Nine to Five
+topic: 零工经济
+core: platform, contract, wage, temporary, casual, income, shift, rating, employee, security
+
+The phrase "nine to five" still describes a job in most minds, but it now misses most of the economy. A growing share of work is temporary, part-time or arranged task by task through an application. The design of this new work decides more about a worker's life than the label on the contract, and the same screen that offers freedom can also hide its own rules.
+
+The fairness question usually starts with money, and it rarely stops there. Beyond the wage lies a whole list of smaller questions: whether the work can be counted, whether the platform explains how the price is set, whether a worker can challenge a bad rating and whether the data about performance belongs to the person who produced it. Each in isolation seems small; together they decide whether the work feels secure or simply uncertain.
+
+Different countries are landing in different places. Some treat the platform worker as a full employee, with the rights and costs that come with the title. Others keep the worker independent but require the platform to pay into a shared fund that covers illness and old age, turning the gig into a recognized part of the official system. The variety is no accident; each choice reflects a different view of who carries the risk.
+
+Technology could make the system fairer, though it does not always. Clear rules, readable prices and simple appeal processes are cheap to build, and a few leading platforms have already made them part of the job. The harder step is cultural: workers must believe that questioning the system will not cost them their next shift, and that silence is a choice rather than a survival skill.
+
+The practical message for individuals is modest. Learn the difference between a cost and an investment, keep money aside for the quiet weeks, and never let a low rating override good judgement about when to say no. The wider message for society is larger. When a large part of the workforce has no fixed schedule, no retirement plan and no clear path of complaint, the entire idea of fair work needs to be reinvented, not merely repaired.
+
+==译文==
+“朝九晚五”在大多数人心里仍然描述着一份工作，但它如今已经错过经济中的很大一部分。越来越大的劳动份额是临时的、兼职的，或是通过一个应用逐项安排的。这种新型工作的设计，比合同上的标签更能决定一个劳动者的生活；同一块提供自由的屏幕，也可能藏着自己的规则。
+
+公平问题通常从钱开始，却很少在那里结束。在工资之外，还站着一长串更小的问题：工作能否被计算、平台是否解释价格如何设定、工人能否对差评提出异议、关于业绩的数据是否属于产出它的人。每一个问题单独看都很小；合在一起，它们决定着这份工作是令人安心，还是仅仅令人不安。
+
+不同国家正落在不同的位置。有的把平台工人当作正式雇员，享受这个头衔随之而来的权利与成本。有的则让工人保持独立身份，但要求平台向一项共同基金缴费，以覆盖疾病与老年——把零工变成正式体系中被承认的一部分。这种差异并非偶然；每一种选择都反映着“谁承担风险”这一问题的不同答案。
+
+技术本可以让系统更公平，尽管它并不总是如此。清晰的规则、可读的价格和简单的申诉流程建造起来并不昂贵，几家领先的平台已经把它们变成工作的一部分。更艰难的一步是文化性的：工人必须相信，质疑系统不会让自己丢掉下一班工作，也必须明白沉默是一种选择，而不是一种生存技能。
+
+给个人的实用提示其实很朴素。分清成本和投资，为清闲的几周准备好积蓄，永远别让一条低评分压倒你对何时该说“不”的判断。给社会的提示则更大。当很大一部分劳动力没有固定作息、没有退休计划、也没有清晰的投诉渠道时，“体面工作”的整个概念都需要被重新发明，而不只是修补。
+
+====
+title: Medicine Beyond the Hospital Walls
+topic: 医疗与公共卫生
+core: medicine, treatment, clinic, prevention, reduce, recover, routine, contact, welfare, public
+
+For most of recent history, good medicine lived inside special buildings. People waited in crowded rooms, consulted a doctor face to face and carried home a paper with the name of the medicine. That picture is fading. Care is spreading outward, into clinics near the home, into old buildings changed into places of treatment, and into the daily choices people make about food, rest and movement.
+
+The shift is partly economic. Hospitals are expensive to build and expensive to run, and one long stay can cost as much as a family's whole year of income. Preventing an illness in the first place is almost always cheaper than treating it late. Regular checks, early contact with a clinic and attention to the small warning signs of the body can keep small problems from growing into long and costly crises.
+
+Public health works best far from the operating room. Clean water, safe food, steady housing and air worth breathing keep more people well than any single therapy ever could. When governments invest in these quiet foundations, the effect shows up years later in longer lives, steadier days at work and lighter pressure on the health services. The success is almost invisible, which is why it is so easy to forget.
+
+Technology is extending the reach of the system. A device worn on the wrist can now follow the rhythm of the heart; a simple camera can photograph the back of the eye and spot early signs of illness; and a video call lets a rural family speak to an expert in a city without a long journey. These tools do not replace the doctor; they widen the door, so that many more people can walk through it before their condition becomes an emergency.
+
+The deepest change is cultural as well as technical. A generation ago, health was a subject people avoided until something failed; today it is a daily set of steps, minutes and scores, managed through the same screen as the morning news. The danger is that self-care becomes another performance; the opportunity is that people finally have the numbers, the contact and the knowledge to take real control of their own health. Medicine is no longer what happens inside a hospital. It is the sum of what we do on the other three hundred and sixty-four days.
+
+==译文==
+在过去大部分近代历史里，好的医学都待在一类特殊建筑之中。人们挤在拥挤的房间里，当面咨询医生，然后带回家一张写着药名的纸张。这幅图景正在消退。照护正在向外扩散：进入家门附近的诊所，进入被改造成治疗场所的旧楼，也进入人们对饮食、休息和活动的日常选择。
+
+这种转变有一部分是经济性的。医院建设贵、运营也贵，而一次长期住院的花费可能相当于一家人整整一年的收入。从一开始就预防疾病，几乎总是比拖到晚期再治疗更省钱。定期检查、尽早联系诊所、留意身体发出的微小预警信号，都能防止小问题演变成漫长而昂贵的大危机。
+
+公共卫生最擅长的工作场所，离手术室最远。干净的水、安全的食物、稳定的住所和值得呼吸的空气，比任何单一疗法都能让更多人保持健康。当政府投资这些安静的基础时，效果会在多年后显现：更长的寿命、更稳定的出勤和更轻的医疗服务压力。这份成功几乎隐形，正因如此它才如此容易被遗忘。
+
+技术正在延展这套系统的触角。戴在手腕上的一只小装置如今可以追踪心跳的节律；一台简单的相机可以拍下眼底，及早发现疾病的信号；而一次视频通话，就能让乡下的家庭不必长途奔波便与城市里的专家对话。这些工具并不取代医生；它们只是加宽了门，让更多的人能在病情变成急诊之前走进来。
+
+最深的变化既是文化性的，也是技术性的。一代人之前，健康是人们在出问题之前避而不谈的话题；如今它变成每天记录步数、分钟和分数的清单，和早间新闻共用同一块屏幕。风险在于，自我照护会变成又一场表演；机会则在于，人们终于拥有数字、联系和知识，能够真正掌握自己的健康。医学不再只是发生在医院里的事；它是其余三百六十四天里我们所作所为的总和。
+
+====
+title: The Tourist and the Place That Waits
+topic: 旅游与体验经济
+core: tourist, hotel, resort, resident, attraction, revenue, guest, season, identity, hospitality
+
+A city that welcomes tourists gains far more than praise. Visitors bring new money, new work and a reason for quiet streets to stay open after dark. The danger appears when a place becomes little more than a stage for its own image: museums run on ticket money, residents feel crowded out of their own neighbourhoods, and the busy season turns daily life into a performance for visitors.
+
+The numbers explain the pressure. In the smallest historic towns, a single week of mass arrivals can deliver more people than the entire local population. Hotels rise, rents climb, and the shops that once served everyday needs are replaced by stores that sell the same small gifts to the same travellers. The people who remain watch their own home slowly become someone else's product.
+
+Travel also changes the traveller. Seeing a street market in one city and a library in another quietly breaks the idea that one way of life is simply normal. Comparison of that kind is uncomfortable at first, but it teaches flexibility, patience and the habit of treating a foreign custom as a solution rather than as a mistake. Done well, travel becomes education wearing a relaxed shirt.
+
+The successful destinations are learning to say no. Some limit the number of tickets, others stop advertising their most famous corners, and a few have closed parts of the old centre to coaches altogether. The aim is not to chase away money but to control its timing, spreading visitors across the year and across the map. When a city measures success by how long people stay rather than how quickly they move on, both the residents and the city's accounts end up healthier.
+
+The deepest resource a destination owns is not its buildings but the ordinary life around them. A traveller remembers the morning market more clearly than the formal hall, and a place that keeps its people happy usually keeps its guests happy too. The wise town does not sell its soul for a season; it protects the daily round of shops, schools and local voices that make the place worth finding in the first place. In that balance, both the host and the guest win.
+
+==译文==
+一座欢迎游客的城市，收获的远不止赞美。游客带来新的资金、新的工作，也让安静的街道在入夜之后仍有理由保持开业。危险在于，一个地方会逐渐沦为自身形象的一处舞台：博物馆靠门票运转，居民感到被挤出了自己生活的街区，而繁忙季节把日常生活变成一场演给游客看的表演。
+
+数字能说明这种压力。在最小的历史古镇里，一周的大批涌入就可能带来比全城人口还多的游客。酒店拔地而起，房租节节攀升，曾经服务日常需求的商店被清一色售卖同样小礼品的店铺取代。留下的居民眼看着自己的家园慢慢变成别人的产品。
+
+旅行也同样改变旅行者。在一座城市看过街市、在另一座城市看过图书馆，会悄悄打破“只有一种生活方式才正常”的想法。这种比较起初令人不适，但它教会人灵活、耐心，以及把异国习俗当作一种解决方式而非一个错误来对待的习惯。做得好时，旅行就成了一场穿着休闲衫的教育。
+
+成功的旅游地正在学会说“不”。有的限制门票数量，有的停止宣传自己最有名的角落，还有少数地方干脆对大巴关闭了老城区的部分路段。目的不是赶走钱，而是控制它到来的时机，让游客分散到一整年和一整张地图上。当一座城市用“人们停留多久”而不是“人们多快路过”来衡量成功时，居民和城市账本都会更健康。
+
+一座目的地最深的资源并不是它的建筑，而是建筑四周的日常生活。旅行者对清晨的早市，比对正式的大厅记得更清楚；而一个能让自己的居民快乐的去处，通常也能让客人快乐。聪明的城镇不会为某一年旺季出卖自己的灵魂；它保护那由商店、学校和当地声音构成的日常循环，正是这些让这地方最初就值得被发现。在这种平衡里，主人和客人都赢了。
+
+====
+title: Learning to Learn at Sixty
+topic: 教育与终身学习
+core: curriculum, training, skill, confidence, assessment, feedback, revision, engagement, digital, habit
+
+The old model of life ran in three clear stages: study first, work second, rest last. Longer lives and a faster-changing economy have shaken that order. People now change skills several times in a career, take new training at forty-five and start a different path at sixty. The new model has no timetable; it treats learning as a habit that should last as long as life.
+
+The big shifts of the digital age have pushed this change along. A once common factory skill can lose its value within a decade, while a shortage of capable workers in health and care remains empty for years. Employers no longer promise a career for life; instead they offer training for the job in front of them. The individual, in turn, must act like a small company, constantly improving its own product — the personal skills it has to offer.
+
+The obstacles are not about age; they are habits of mind. Many learners stop not because their brains have grown weaker but because their confidence has. A forty-year-old who has not sat in a classroom since youth may fear the sight of a page of numbers or a strict timetable, and adults who hesitate and forget feel twice the shame that children do. The strongest programmes handle this carefully: they start where the learner is, celebrate small wins and keep the pace gentle until confidence comes back.
+
+Technology has lowered the door even further. A person with a connection can now follow a short course on a phone during a break, join a morning class from a village and test their progress with a practice exam at night. The same tools also share the weak point of all distance learning: attention, homework and honest feedback still rest on humans. The best providers mix the cheap freedom of the screen with the warmth of a real teacher, and the blend usually beats either alone.
+
+The final reason to keep learning is the oldest one: interest. A mind that meets something new, fails a little and tries once more stays alive in a way that a comfortable routine cannot. Retirement, in this light, is no longer a stop but a change of route. The people who make that change best are not the most gifted; they are the ones who kept the ordinary courage of being a beginner. Learning at sixty is not a second chance at youth; it is the natural shape of a long life with its eyes open.
+
+==译文==
+旧式的人生分三个阶段：先学习，再工作，最后休息。更长的寿命和变化更快的经济动摇了这个顺序。如今人们在一段职业生涯中多次更换技能，四十五岁再接受新的培训，六十岁又踏上另一条道路。新模型没有时间表；它把学习当作一种应当和生命一样长久的习惯。
+
+数字时代的大变迁推动了这个变化。曾经很普通的工厂技能可能在十年内就失去价值，而健康和照护领域能干人的短缺却常年无法填补。雇主不再承诺一份终身职业；他们转而提供眼下这份工作所需的培训。反过来，个人也必须像一家小公司一样经营自己，不断改良自己的“产品”——也就是它拿得出手的能力。
+
+障碍不在于年龄，而在于思维习惯。许多学习者停下来，不是因为大脑变弱了，而是因为他们的信心变弱了。一个自年轻时就没再坐进过教室的四十多岁的人，可能会害怕一页数字或一份严格的时间表；而踌躇、遗忘的成年人，会感受到比孩子加倍难堪。最有力的课程会小心处理这一点：从学习者所在的地方起步，庆祝每一个小小的胜利，并让节奏保持平缓，直到信心重新回来。
+
+技术又把门槛降低了。有网络的人如今可以在休息时用手机跟完一门短课，从乡村加入清晨的课堂，并在夜里用一次模拟考来检验自己的进展。同样的工具也共享远程学习共同的弱点：注意力、作业和诚实的反馈仍然要落在真人身上。最好的提供者会把屏幕廉价带来的自由，与真人教师的温暖混合起来，而这种混合通常比单独任何一者都更有效。
+
+坚持学习的最后一个理由也最古老：兴趣。遇到新事物、稍微失败一下、再试一次——这样的心灵会保持鲜活，这是舒适的日常无法提供的。这样一来，退休不再是停止，而是换一条路线。最能完成这种转换的人，往往不是最有天分的人，而是那些保住了“当一名初学者”的普通勇气的人。六十岁学习并不是对青春的第二次机会；它是一段睁着眼睛的长久人生本来的样子。
+
+====
+title: The City Where a Roof Grew Scarce
+topic: 住房与城市生活
+core: housing, rent, landlord, tenant, income, supply, shortage, subsidy, population, value
+
+Few problems hurt as quietly as the price of a home. Housing is not a luxury that can be refused; it is the frame around almost every part of life, from work and school to health and rest. When homes grow scarce and expensive, the effects spread far beyond the monthly rent: young people delay forming a family, teachers and nurses leave the city, and the whole character of a neighbourhood slowly shifts.
+
+The causes are tangled. In many growing cities the population has outgrown the stock of homes, and each year's new towers have been designed for the investor rather than for the person who will live inside. Land near the centre stays empty while its value climbs; building rules move slowly; and the price of a small flat now stands far above anything a younger family could expect.
+
+Governments reach for familiar tools. Public housing returns to favour in times of crisis, rent control limits the rise from month to month, and laws discourage leaving whole buildings empty. Each has a cost: too much control may slow new supply, while too little leaves the market alone to decide who gets a roof. The craft lies in the details — who qualifies, how long the price stays fixed and where the new money for building comes from.
+
+Neither despair nor quick fixes are helpful. Success in other countries shows that serious building programmes, supported by patient public funding, can turn the price curve within a decade. The same studies show something less comfortable: cities that treat housing purely as an investment for the rich end up paying for it in the health of their residents and the energy of their people.
+
+The most practical view treats housing as shared infrastructure, something the state helps organise, like roads and cleaner water, rather than something left entirely to chance. Cities that plan the land, fund social homes and tax empty value tend to keep the middle of society inside the old centre instead of pushing it to the edge. A roof is many things at once: a shelter, a store of family money, a child's address and a citizen's picture of home. Societies that keep it within reach of the many seldom regret the effort.
+
+==译文==
+很少有哪个问题会像一所房子的价格这样，安静地带来伤害。住房不是可以拒绝的奢侈品；它是生活几乎每个部分的框架——工作、上学、健康与休息都环绕其周围。当住房变得稀缺而昂贵，影响会远远超出那笔月租：年轻人推迟组建家庭，教师和护士离开城市，整个街区的气质也悄悄改变。
+
+原因是缠绕在一起的。在许多增长中的城市，人口已经超出了住房存量，而每年新起的高楼是为投资者设计的，而不是为将要住在里面的人设计的。市中心附近的土地一边空置一边升值；建设审批推进缓慢；而一套小公寓的价格，如今已经远远超过年轻家庭能够想象的范围。
+
+政府会拿起一些熟悉工具。危机时期公共住房重新受青睐，租金管制限制每月上涨，法律也阻止整栋楼空置。每一种做法都有代价：管制太多可能拖慢新供应，而管制太少则又让市场独自决定谁能分到一片屋顶。微妙之处全在细节里——谁有资格申请、价格锁定多久、建造的新资金从何而来。
+
+绝望和速成方案都没有帮助。别国的成功显示，在耐心公共资金支持下认真推进的建设计划，能在十年内扭转价格曲线。同样的研究则显示出不那么舒服的一面：那些把住房纯粹当作富人投资品的城市，最终会以居民的健康和民众的活力为代价来偿还。
+
+最务实的观点，是把住房当作共享基础设施：像道路和更干净的水一样，由政府帮助组织，而不是任由其完全听凭运气。那些规划土地、资助社会住房、并对空置价值征税的城市，往往能把社会的中坚留在老城区里面，而不是把他们推到边缘。一片屋顶同时意味着许多东西：一个栖身之所、一份家庭积蓄、一个孩子的地址，以及一个市民心目中家的图景。让屋顶保持在大多数人力所能及之内的社会，很少会后悔这份努力。
+
+====
+title: The Gap That Screens Do Not Close
+topic: 数字鸿沟与科技
+core: digital, access, network, rural, skill, connection, device, online, gap, education
+
+Digital tools are treated as so everyday that their absence is easy to forget. In a well-connected home, a broken phone is repaired within a day; in a poor district it may mean missing a job interview, a doctor's note or a child's online class. The divide is not really about machines; it is about who can reach the machines and use them well. Screens may be designed for everyone, but access to them is still arranged by money, place and luck.
+
+The first layer of the gap is physical. Some homes still share a single slow connection, some villages lie beyond the reach of fast lines, and a low data limit can turn a term of study into a careful struggle over the final days of the month. Devices are part of the story too: an old phone cannot run the newest class or the newest job form, and a repair is often more expensive than the original purchase.
+
+The second layer is about skill. Being online is not the same as being digitally able. Reading the settings, judging a risky link, filling a form correctly and knowing when to switch off all take practice, and the practice is shared unevenly. The skills divide rarely shows up in the price of a phone; it shows up in small daily failures that feel personal even when they are not.
+
+Responses are growing in number. Some countries treat a basic connection as a right and put public funds into rural towers and school devices; others support low-price plans and free training in their libraries. The most successful schemes combine three parts: affordable access, devices that work, and patient human help in a place where beginners feel safe to ask. One without the others soon becomes a cupboard full of unused machines.
+
+The best image of the gap is a set of steps rather than a wall. Each opened door, each fixed signal and each quiet lesson moves a few more people up a step, while the market keeps adding new floors on top. The race will never be finished, and that is acceptable. What matters is that the steps stay cheap, the doors stay open and no one is told that they are simply too far behind to begin. Every willing learner, given a working screen and one honest teacher, can climb further than the books suggest.
+
+==译文==
+数字工具被视为如此日常的东西，以至于它们的缺席很容易被遗忘。在一个网络通畅的家里，坏掉的手机一天之内就能修好；而在一个贫困的街区，它可能意味着错过一次求职面试、一张医生证明，或孩子的一堂网课。这条鸿沟其实与机器关系不大；它关乎谁能触达机器、并善于使用它们。屏幕也许是为所有人设计的，但通往它的通道仍由金钱、地点和运气来安排。
+
+鸿沟的第一层是物理性的。有些家庭仍共用一个缓慢的连接，有些村庄地处快速线路的覆盖之外，而一个低流量的套餐，能把一个学期变成对月末最后几天的精细算计。设备也是故事的一部分：一部旧手机跑不动最新的课程或最新的求职表格，而维修一次往往比当初购买还贵。
+
+第二层关乎技能。在线上和具备数字能力并不是一回事。读懂设置、判断一条可疑链接、正确填写表格、知道何时该关掉网络，这都需要练习，而练习的分配并不均匀。技能鸿沟很少显示在手机的价格里；它显示在一个个小而日常的挫败中，这些挫败让人觉得是自己的问题，即使它们并不是。
+
+应对措施正在增加。一些国家把基础连接当作一项权利，把公共资金投入乡村信号塔和学校设备；另一些则资助低价套餐和图书馆里的免费培训。最成功的方案把三个部分合在一起：负担得起的接入、能正常工作的设备，以及在一个初学者敢于提问的地方提供的耐心人工帮助。缺了任何一环，剩余部分很快就会变成一柜子没人用的机器。
+
+把这条鸿沟想象成一段台阶，比想象成一堵墙更准确。每打开一扇门、每修好一个信号、每上完一堂耐心的课，就会有人向上走一步；与此同时，市场总是在顶层不断加盖新的楼层。这场赛跑永远不会结束，而这也可以接受。重要的是台阶保持便宜、大门保持敞开，并且没有人被告知：你已经落后太多，不必开始。每一个愿意学习的人，只要有一块能用的屏幕和一位诚实的老师，就能爬到书本所预言的高度之上。
+
+====
+title: Restoring the Walkable City
+topic: 城市化与智慧城市
+core: pedestrian, transit, suburb, resident, lane, vehicle, district, cycle, downtown, screen
+
+For much of the twentieth century, the busiest cities were the ones with the most lanes. Streets were widened for cars, corners were reshaped to let traffic flow, and public space slowly surrendered to the vehicle. Today a growing number of planners argue the opposite: that a city is most alive when a person can cross it on foot or by bicycle, without a map on a screen, a ticket machine or a single traffic jam.
+
+The evidence for walking is quietly strong. Pedestrians pause at shops, which keeps local streets busy; friendly streets cost little to maintain; and every journey made on foot removes one more car from the crowded morning. Researchers who compare areas find that people in places that are easy to walk in are healthier, spend their money closer to home and report a stronger sense of belonging to their own neighbourhood.
+
+Design, not technology, is at the heart of the change. Narrower lanes slow cars naturally, crossing points lowered to the level of the street make the walker visible, and trees along the walking path turn a bare road into a room with a ceiling of leaves. None of these moves is expensive by itself; together they can change the whole feeling of a district without a single new building.
+
+The results appear in the numbers. Streets near the centre report more customers, property becomes more valuable, and emergency services sometimes arrive faster because the roads they need are no longer blocked by parked cars. Even the climate notices: shorter journeys by walking and cycling cut the pollution that once came from waiting engines, giving the city air a chance to clear.
+
+Change still meets resistance. Drivers fear the loss of a lane, shops fear the loss of a parking place, and local politics rewards the loudest complaint. The most successful cities have learned to keep the first move small, to test one busy street as an experiment, to measure the results honestly and to keep only what works. The walkable city is not a dream of the past or a luxury of a few lucky districts; it is a standard that any town can begin to meet with its very next repair.
+
+==译文==
+在二十世纪的大部分时间里，最繁忙的城市就是车道最多的城市。街道为汽车而拓宽，路口为车流而被改造，公共空间慢慢向车辆让步。今天，越来越多的规划者提出相反的观点：当一个人能靠步行或自行车穿过一座城市，不需要看屏幕上的地图、用售票机、或被困在一场堵车中时，这座城市才最有活力。
+
+关于步行的证据安静而有力。过路人会在商店前驻足，这让本地的街道保持热闹；宜人的街道几乎不需要维护成本；而每一次步行出门，都会让拥挤的清晨少一辆车。比较过不同街区的研究者一再发现，生活在对步行友好地区的人们更健康，消费更靠近家门口，对所在社区也报告出更强的归属感。
+
+变化的要害在于设计，而不是技术。更窄的车道自然能让汽车减速，与路面齐平的过街点让步行者更醒目，道路两旁的树木则把一条光秃秃的马路变成一间有树叶屋顶的房间。这些改动单独拿出来都不贵；合在一起，它们却能在不新建任何一栋楼的情况下，改变一个城区的整体气质。
+
+结果会反映在数字里。城市中心附近的街道报告更多顾客，房产变得更值钱，应急服务有时也来得更快，因为所需道路不再被停放的汽车堵死。连气候都注意到了这一点：用步行和骑行完成的较短行程，减少了过去来自怠速引擎的污染，让城市空气有机会变干净。
+
+改变仍会遇到阻力。开车的人害怕失去一条车道，商店害怕失去一个停车位，地方政治也总在奖励声音最大的抱怨。最成功的城市学会了把第一步做得小一点：先拿一条繁忙的街道做实验，诚实地测算结果，只留下有效的那部分。宜居的步行城市不是过去的怀旧梦，也不是少数幸运城区的奢侈品；它是任何城镇都能够在下一次修缮时就着手实现的标准。
+
+====
+title: The Office That Learned to Work Anywhere
+topic: 科技与职场
+core: remote, meeting, camera, screen, schedule, flexible, communication, trust, career, network
+
+For decades the office was the stage of working life. Meetings, decisions and chances of a better job all happened inside the same four walls, and sitting at your station was treated as proof of effort. A health crisis forced millions to move home almost overnight, breaking that connection and asking both managers and staff to invent a new set of habits on the spot.
+
+Early results were mixed. Some workers found the freedom liberating: no journey to work, no fixed hours, more time with family and a rhythm that fit their own needs. Others felt the boundaries dissolve, with messages arriving late, meals interrupted and the quiet corners of the day slowly swallowed by calls. Productivity rose in many offices, but so did tiredness, and both changes were real.
+
+Managers discovered that their old tools did not travel well. Watching the room, reading faces and pulling someone aside after a meeting had carried most of the unspoken communication of a company, and none of it worked through a camera. Teams that survived the change best were the ones that wrote things down, reviewed decisions aloud and made room for casual talk on purpose, because distance removes the accidental conversations that once kept people aligned.
+
+Now the choices are being made deliberately. Some firms have returned to the office five days a week, some support full remote work, and many have settled on a middle path of two or three days together. The mixed model may be no easier than the others; it demands that schedules be shared, rooms be booked and communication be even more explicit. What is becoming clear is that no single shape fits every job, every person or every season of a company's life.
+
+The deepest lesson is about trust. Fixed hours existed partly because nobody could see whether distant work was being done; new tools now measure output directly, which removes that excuse. The companies that treat the workplace as a place to meet, to build bonds and to exchange ideas, rather than as a giant clock of attendance, tend to get the best from both the office and the home. The future of work is not a building; it is the question of how a group keeps its promises to one another.
+
+==译文==
+几十年来，办公室一直是职业生涯的舞台。会议、决策和晋升的机会都发生在同一间四堵墙里，坐在工位上就被当作努力的证明。一场健康危机几乎在一夜之间迫使数百万人回到家里办公，打破了这种联系，也让管理者与员工都必须当场发明一套全新的习惯。
+
+最初的结果好坏参半。一些员工觉得这种自由令人解放：不用通勤、没有固定时间、能多陪家人，节奏也更贴合自己的需要。另一些人则感到界限在消融：深夜还收到消息，吃饭被打断，一天中安静的角落慢慢被通话吞掉。许多公司的生产率上升了，但疲惫也随之上升，而这两种变化都是真实的。
+
+管理者发现，他们旧有的手段并不能很好地迁移。观察整个房间、阅读表情、在会后把人拉到一边——这些曾经的“潜台词”承载了公司内部绝大部分没说出口的沟通，而它们没有一个能透过摄像头工作。最能平稳度过这场变化的是那些把事情写下来、把决定大声复述一遍、并刻意为闲聊留出空间的团队，因为距离带走了那些曾经让彼此保持一致的偶然交谈。
+
+如今，这些选择正被有意作出。一些公司恢复每周五天到岗，一些支持完全远程，还有许多选择了每周两三天在一起办公的折中路线。混合模式并不比其它模式更轻松；它要求日程彼此公开、会议室提前预定、沟通更加直白。越来越清楚的是：没有任何单一形态能适配所有工作、所有人，或一家公司生命中的每个阶段。
+
+最深刻的教训关乎信任。固定工时之所以存在，部分是因为没人能看到远距离的工作是否在进行；如今新的工具能直接衡量产出，这便取消了那个借口。那些把工作场所当作见面、建立关系、交换想法的地方，而不是当作一个巨大的考勤时钟来对待的公司，往往能同时从办公室和家中获得最大的好处。工作的未来不是一栋大楼；而是一群人如何彼此守住承诺的问题。
+
+====
+title: Making Less Mean More
+topic: 消费主义与循环经济
+core: reuse, repair, material, waste, recycle, consumer, product, resource, shelf, value
+
+The old economy followed a straight line: take, make, use and throw it away. Materials were pulled from the ground and turned into products used for a short time; when they stopped working, they were wasted. It worked for two centuries because the world seemed large and the damage invisible. As that illusion fades, a different model is entering the mainstream: a circular one, in which goods are designed to last, to be repaired, to be shared and, at the end, to be broken down and used again.
+
+The idea is not new. Families two generations ago repaired socks, kept their tools for decades and passed furniture between houses. What has changed is the economy around the idea. Reusable cups, shared bicycles, second-hand markets and repair services are now available in ordinary streets, and their growth answers a simple shift in taste: consumers are learning that ownership is not the only way to enjoy a product.
+
+Design is where the circle starts. A phone with a closed battery cannot be fixed, while one with parts that come out can be used for years; a coat made of a single material is easier to recycle than one woven from a mixture. Laws in some areas now ask producers to plan the end of a product at its beginning, and the results have been measurable: longer warranties, lighter packaging and more spare parts in the local shop.
+
+The economy does not have to lose by tightening the loop. Repair jobs tend to stay local, since a skilled neighbour can fix what a distant factory only produced; sharing services spread the cost of an expensive machine across many users; and recycled materials are often cheaper than the new ones they replace. Early studies of cities with strong reuse systems find modest but real savings in both money and carbon, with little loss in convenience.
+
+Culture, not engineering, is the last barrier. People replace things early because they are bored, not because the object has failed, and no design can rescue a product from a hunger for constant newness. The circular economy therefore asks for a modest change of mind as well as a change of materials: keep it longer, fix it sooner, borrow what you rarely need and choose fewer, better things. In that quieter relationship with objects lies both a greener planet and a lighter sense of freedom.
+
+==译文==
+旧经济走的是一条直线：取用、制造、使用，然后扔掉。材料被从地里挖出来，制成只能用一小段时间的产品；一旦坏了，就被浪费掉。这种模式运转了两个世纪，因为世界看上去很大，破坏也看不见。随着这种幻觉消退，另一种模式正进入主流：一种循环模式——商品被设计来耐用、可修、可共享，最后还能被拆解并重新使用。
+
+这个想法并不新鲜。两代之前的家庭会补袜子、把工具用上几十年，让家具在不同的房子之间传递。变化的是围绕这个想法建立起来的经济。可重复使用的杯子、共享单车、二手市场和维修服务如今已经出现在普通街道上，它们的增长回应着一种简单的口味转向：消费者逐渐明白，拥有并不是享受一件产品的唯一方式。
+
+循环始于设计。电池密封无法更换的手机很难修理，而零件可拆卸的一款则能用很多年；单一材料制成的外套，也比多种纤维混织的更易回收。一些地区的法律如今要求生产者在产品诞生之初就规划它的终点，成果也确实可测：保修期更长、包装更轻、本地商店里的备用零件更多。
+
+收紧这个循环，经济不一定吃亏。维修类工作往往留在了本地，因为一个技术娴熟的邻居，就能修好远方工厂只负责生产的东西；共享服务把一件昂贵机器的成本摊到许多使用者身上；而回收材料通常比它们所替代的新材料更便宜。对拥有完善再利用体系的城市所作的早期研究，无论在金钱还是碳排放上都发现了温和而真实的节省，方便程度却几乎不受影响。
+
+最后的障碍是文化，而不是工程。人们过早更换物品，是因为厌倦，而不是因为物品已经坏掉；任何设计都无法把一件产品从对“始终新鲜”的渴求中拯救出来。因此，循环经济需要的与其说是材料和工艺的改变，不如说是一次适度的观念转变：用得久一点、修得早一点、不常用就借、少买几样但买得更好。在这种与物品更安静的关系里，藏着更绿的地球，也藏着一种更轻松的自由感。
+
+====
+title: The Quiet Rise of the Small Founder
+topic: 教育创业与中小企业
+core: founder, loan, market, customer, software, service, skill, finance, network, owner
+
+The dream of starting a company once belonged to a lucky few inventors. Capital was hard to reach, offices were expensive and the advice of experts lived inside a handful of powerful cities. Today the cost of starting has fallen sharply. A laptop, a small list of customers reached through the same tools used for shopping, and a web page that takes orders around the clock can turn a simple plan into a business within a month.
+
+The new founders are not the stereotype. Many are parents building a craft business in the evening, engineers leaving a large firm to sell their own software, and service workers opening a small kitchen business from home. The fastest-growing share of new companies is now the simplest: no building, no full-time staff, one owner with a skill and a clear promise made to a small set of buyers.
+
+Success still owes a lot to numbers. A founder who watches the cash, tests the price, keeps the stock small and asks customers what they want before building something expensive avoids the most common cause of failure across all small firms. Research on new businesses keeps returning to the same lines: most collapse because they run out of money before anyone has heard of them, and most survive when the operation stays small, steady and close to the buyer.
+
+Governments have noticed the value of small firms. New companies create many of the new jobs, carry innovation into quiet towns and keep the economy flexible when bigger ones struggle. Support now comes in many forms: small loans, cheaper record-keeping, rooms that can be rented by the hour and courses that cover the dull topics, taxes, contracts and cash, which new owners rarely expect to need.
+
+The wider meaning is social as well as economic. A person who builds a small business learns to manage, to keep promises and to listen; a community with many small owners spreads both wealth and responsibility beyond a single employer. Not every start-up becomes a giant, and that is fine. The healthiest sign of an innovative economy is not the size of its biggest company but the number of ordinary people who decide that they can build something of their own.
+
+==译文==
+创立公司的梦想曾经只属于少数幸运的发明家。资本难以获得，办公室昂贵，专家的建议也只存在于少数几个强大城市里。如今，创业的成本已经大幅下降。一台笔记本电脑、一份用自己的日常工具就能触达的小客户名单，以及一个全天候接单的网页，就能让一个简单的计划在一个月内变成一家生意。
+
+新一代创业者并不是刻板印象里的那类人。许多人是在晚上经营手工艺小买卖的父母，是离开大公司去卖自己软件的工程师，是打开家门做起小餐厨生意的服务人员。如今新公司中增长最快的一类恰恰是最简单的：没有办公楼，没有全职员工，只有一位拥有技能、向一小群买家作出清晰承诺的老板。
+
+成功仍然很大程度上靠的是数字。懂得盯紧现金、测试价格、控制库存，并在花大钱制造任何东西之前先问客户想要什么的创始人，能避开所有小企业中最常见的失败原因。关于新生意人的研究反复得出同样的结论：大多数公司之所以倒闭，是因为在有人听说它们之前就耗尽了资金；而大多数能活下来的，都把规模保持在很小的范围内，业务稳定，离买家也近。
+
+政府已经注意到这些小公司的价值。新企业创造了大量新岗位，把创新带进安静的城镇，并在大公司陷入困境时保持经济的弹性。如今支持的形式多种多样：小额贷款、更便宜的记账服务、按小时出租的房间，以及专门讲解那些创始人们很少预料到自己需要学习的枯燥话题的课程——税收、合同和现金。
+
+这种意义既是经济的，也是社会的。一个经营小买卖的人会学会管理、守约和倾听；一个拥有众多小业主的社区，会把财富与责任分散到不止一个雇主身上。并非每一家初创公司都会成为巨头，这没关系。创新经济最健康的信号，不是它最大公司的规模，而是有多少普通人相信自己能亲手建立起属于自己的东西。
+
+====
+title: From Field to Plate
+topic: 农业与食品安全
+core: farm, farmer, crop, harvest, soil, yield, market, waste, safety, local
+
+A fruit eaten far from its tree, a vegetable out of season and a bag of rice imported from another continent are so ordinary that nobody stops to admire the journey behind them. The route from field to plate now crosses oceans, passes through machines and warehouses, and depends on a chain of workers, ships and local stores. Only when that chain breaks, as it did when shelves went empty in many places, do people notice how close the whole system sits to the edge.
+
+Farming itself has been transformed. Machines now seed, water and harvest whole fields, and the yield of each field has climbed far beyond what older generations could imagine. Fertilizers and better seeds feed larger cities, but they demand care: too much of either can damage the soil and the water that the next harvest will need. A farm today is therefore a careful balance between an efficient business and a delicate natural system.
+
+The distance between producer and buyer creates risks that people rarely see. A crop must survive weeks of travel, so growers choose varieties that keep well rather than those that taste best, and a harvest can be wasted in a warehouse if the timing goes wrong. Food safety depends on every link in the chain, from the inspector who checks the field to the shop that keeps the cold shelves working, and one failure can close a whole market overnight.
+
+Consumers are starting to shorten the chain. Fresh vegetables at local markets, and boxes delivered from nearby farms, bring the supplier closer to the buyer, and schools and hospitals have begun to buy directly from local growers. These arrangements do not replace the global system; the world's cities could not survive on neighbourhood fields alone. What they do build is choice, freshness and trust, and they give the people who do the growing a fairer share of the final price.
+
+A sensible food system is therefore a balance rather than a single choice. It keeps the long routes that feed the great cities, and it adds the short routes that keep farming alive near the houses that eat. It recognises that food is cheap partly because much of its true cost, in soil, water, energy and health, is being paid later. The goal is not to return to an older world but to build a closer one, in which what lands on the plate can still be followed, honestly, back to the field.
+
+==译文==
+一种在其原产地千里之外食用的水果、一种反季的蔬菜、一袋从另一大陆进口的大米，都普通到没人会停下来欣赏它们背后的旅程。从田间到餐桌的路如今要跨越大洋，穿过机器和仓库，依赖一整条由工人、轮船和本地商店组成的链条。只有当这条链断裂时——就像许多地方货架一空那样——人们才会意识到，整个系统距离崩溃的边缘有多近。
+
+农业本身已经发生了改变。机器如今为整片田地播种、浇灌和收割，每块地的单产已远远超出老一代人的想象。化肥和更好的种子养活了更大的城市，但都需要小心使用：两者中任何一种用得过多，都会损害下一季收成所需的土壤和水。因此，今天的农场是高效经营与脆弱自然系统之间的精细平衡。
+
+生产者与买家之间的距离制造着人们很少看到的风险。作物必须经受数周的旅途，所以种植者会选择耐放的品种，而不是口感最好的；一旦时机不对，收成还可能烂在仓库里。食品安全取决于链条上的每一个环节，从检查田地的检验员，到维持冷冻货架运转的商店；一次失误就能让整个市场在一夜间关门。
+
+消费者正在着手缩短这条链。本地市场上的新鲜蔬菜、附近农场送到门口的菜箱，都把供应商拉近了买家；学校和医院也开始直接从本地种植者采购。这些安排无法取代全球体系；世界上那些大城市不可能只靠邻里间的田地存活。但它们建立的是选择、新鲜和信任，也让真正种植的人们获得最终价格中更公平的一份。
+
+一个明智的食品系统因此是一种平衡，而不是二选一。它保留喂养大城市的漫长路线，也增加让农田在家门口的餐桌旁存活的短路径。它承认，食物之所以便宜，一部分原因在于它许多真实成本——土壤、水、能源和健康——被推迟到了以后支付。目标不是退回一个更旧的世界，而是建造一个更近的世界：在这个世界里，落在餐盘上的东西，还能被诚实地一路追溯回那片田地。
+
+====
+title: The Games That Cities Bid For
+topic: 体育经济与赛事
+core: stadium, transport, investment, debt, credit, revenue, spectator, ceremony, renewal, gambling
+
+Hosting a great sporting event looks like a gift that keeps giving. A city appears on the world's screens for weeks, its stadiums become symbols of the place, and a flood of visitors carries money into local shops and hotels. Behind the bright pictures stands a harder calculation: who builds the halls, who stays after the crowd leaves, and whether the new rail links ever fill again.
+
+The costs are easier to miss because they arrive before the games. Stadiums must be ready years early; roads and power lines are built before a single visitor arrives. History holds many hosts who finished the work and then faced years of quiet debt, empty halls and seats nobody rents. The spending feels like energy during the celebration, yet the following years do the counting.
+
+The honest studies reach a plain conclusion: most events do not earn back their investment. In large, already busy cities the losses are smaller, because the hotels and roads already exist and the costs stay under control. In smaller or poorer places, the same event buys a set of expensive stages for a single season and then has little to show for it. Going after sport on this scale is therefore a gamble with other people's taxes.
+
+Yet the story is not only about money. Some cities measure a richer kind of return: confidence at home, pride in public space and a generation of children who grew up watching sport close to their own house. Others use the event as an open push to finish projects that would have taken decades, from a new rail line to the renewal of older districts. These gains are slow and hard to price, but they explain why so many hosts insist that the gamble was worth it.
+
+The lesson for the future is a modest one. Bid for games that fit the size of the city, reuse existing halls instead of raising new ones, and plan from the start for the day after the closing ceremony. A building that stands empty in year three tells the truth that the opening night tried to hide. The best hosts are not those who dream the largest; they are the ones who still love their home when the cameras leave.
+
+==译文==
+主办一场大型体育赛事，看上去像是一份不断带来好处的礼物。一座城市会在全世界的屏幕上亮相数周，它的体育场成为这个地方的象征，源源涌入的游客则把资金带进当地的商店和酒店。在光鲜画面背后，是一道更难的算术题：谁来建造场馆，人群散去之后谁留下来，以及新建的轨道交通是否还会再次坐满。
+
+成本更容易被忽略，因为它们总在赛事之前就到来了。体育场必须提前数年完工；道路和电网要在第一位游客抵达前就修好。历史上充斥着这样的主办方：他们建完了所有设施，随后却面对多年的寂静债务、空荡荡的大厅和无人租用的座位。比赛期间这种花费像能量一样令人兴奋，但随后的岁月会给出账单。
+
+诚实的研究得出一个朴素的结论：大多数赛事都收不回自己的投资。在大型且本来就繁忙的城市里，损失较小，因为酒店和道路已经存在，成本能保持在可控范围内。而在较小或较穷的地方，同样的赛事只是为某一个赛季买下一套昂贵舞台，之后便再没有多少可展示的成果。在这种规模上追逐体育，本质上是一场拿别人税收下的赌注。
+
+然而故事并不只有钱。一些城市衡量的是另一种更丰富的回报：家乡的信心、公共空间的自豪感，以及一代在自己家附近看着体育比赛长大的孩子。另一些城市则把赛事当作一次有力的推动，去完成那些本需几十年的工程，从一条新铁路到老城区的更新。这些收获缓慢而难以定价，但它们解释了为什么那么多主办方坚持认为这场赌注值得。
+
+给未来的教训并不宏大。申请与城市规模相称的赛事，尽量复用现有场馆而不是新建，并从第一天起就为闭幕式之后的那一天做规划。第三年仍然空置的建筑，会说出开幕之夜试图隐藏的真相。最好的主办方并不是梦想最大的人，而是那些在镜头离去之后仍然热爱自己家乡的人。
+
+====
+title: Home, Heritage and the Life Between
+topic: 移民与文化
+core: migrant, heritage, identity, custom, culture, integration, community, language, settlement, tradition
+
+Every migrant carries two addresses: the place of birth and the place of living. In the first years the move feels like a trade, giving up familiar streets for a chance at better work or safety. The honest account of that trade is rarely simple. Some things are gained quickly, such as income and choices, while other things, shared memories and old jokes, simply do not travel.
+
+The second generation lives between worlds even more fully. Children grow up inside the grammar of a new society while welcoming relatives from an older one, and they learn to change style the way others change clothes. This movement is not a weakness. Research finds that people who move between two cultures become quicker readers of social signals and more flexible in their thinking. Living between is not a problem to solve; it is a kind of extra vision.
+
+Society gains as well. Whole areas of the economy depend on hands that arrived from somewhere else, and the best of the newcomers often bring an energy that established places have lost. Busy neighbourhoods, new shops and a wider daily menu follow the flow of people. The fear that the movement of people will empty the host country sits next to strong evidence that it more often adds to it.
+
+The difficulties are just as real. Language divides the schools, foreign rules block skilled newcomers from their old professions, and fear and dislike can turn a talented individual into a permanent outsider. The work of joining the two sides is therefore shared: newcomers must learn to live in the new house, while the host society must widen the door and sometimes move a few of its own customs to create room.
+
+In the long run, culture is not a fixed room that people enter or leave; it is a conversation that never stops. Every newcomer becomes part of the story, and every host learns a version of the tale they had not heard before. The mixed city can be noisy and awkward, but it is also where the most new ideas are born. Home, for the migrant, is no longer a single point on the map; it is the honest name we give to a life lived fully in more than one.
+
+==译文==
+每一个移民都携带着两个地址：出生之地与生活之地。最初几年，这次迁移像一场交易：放弃熟悉的街道，去换取更好的工作或安全的机会。对这场交易的诚实估算很少是简单的。有些东西很快就能获得，比如收入和选择；而另一些东西——共同的记忆、旧日的笑话——根本不会随行。
+
+第二代人在两个世界之间生活得更为彻底。孩子们在新社会的语法里长大，同时迎接着来自更旧世界的亲戚，并学会像别人换衣服一样切换自己的风格。这种流动并不是弱点。研究发现，在两种文化之间往来的人，往往更善于读懂社交信号，思维也更有弹性。生活在两个世界之间不是需要解决的问题；它更像一种额外的视野。
+
+社会同样有所获得。经济中大片领域都依赖着从别处来的一双手，而新来者中最出色的部分，常常带来老地方已经失去的能量。热闹的街区、新开的店铺和更多样的日常菜单，都随着人潮而来。认为人口流动会掏空东道国的担心，与“它实际上更多是加分”的有力证据并存。
+
+困难也同样真实。语言让学校产生隔阂，陌生的规则阻碍有技能的新来者从事自己原来的职业，恐惧与反感则可能把一个有才华的人变成永久的局外人。因此，弥合两边的工作是共同承担的：新来者必须学会住进这座新房子，而东道国社会也必须把门开得更大，有时还要挪动几样自己的习俗来腾出空间。
+
+从长远看，文化并不是人们进出的一间固定房间；它是一场永不停歇的对话。每一个新来者都成为故事的一部分，每一个东道主也会听到一个自己从未听过的故事版本。混合城市可能嘈杂而笨拙，但它也正是最多新想法诞生的地方。对移民来说，家不再是地图上的一个点；它是我们给一段在多个地方完整生活过的人生所起的诚实名字。
+
+====
+title: The Quiet World of the Box at the Door
+topic: 物流与电商
+core: warehouse, freight, shipping, cargo, port, network, retail, order, fleet, hub
+
+A box arrives at the door almost silently. It was ordered in the evening, moved through a vast warehouse in the night, carried by truck and train, and walked the last part by hand, all without a single human conversation. The ease hides a giant machine: warehouses the size of stadiums, fleets of vans and software that knows within a few streets where every item sits. Most customers never think about this world until something stops moving.
+
+The growth of the industry is written in traffic. Vans have become the newest shape of the daily commute, and the same goods that once arrived in one large weekly shop now arrive every few days in many small boxes. The system carries its own heavy costs: crowded streets, waiting engines and fleets that pass the same road three times to serve three routes. The convenience that saves each household time quietly borrows it from the city as a whole.
+
+Technology is trying to straighten the path. Larger sorting machines read thousands of addresses an hour; data helps decide which towns will need which goods days before they are wanted; and loading times are planned so that no truck waits long at the warehouse door. The next steps point further: shared boxes at stations, electric fleets for the last short distance, and local warehouses where a small extra order can be ready within hours.
+
+The human side remains the weakest and most valuable link. Someone must still unload the truck, climb the stairs with the heavy box and face a list of stops that no driver can fully control. These are real jobs with real bodies, and the ratings that judge them add stress to work that already carries risk. As the industry grows, so does the list of voices asking for fair wages, proper breaks and respect for the person at the door.
+
+The deepest truth about this world is how little we notice it. We judge the system by the one box that arrives late, while the ten that came on time vanish from memory. To build a better one, look past the simple box: shorten the distance, spread the traffic, care for the workers and keep the goods as close to the buyers as the town allows. The quiet world at the door will keep working only while we treat it as part of the city, not as something that simply happens after dark.
+
+==译文==
+一个盒子几乎无声地抵达门口。它在前一晚下单，夜里穿过巨大的仓库，由卡车和火车运来，最后一程由人亲手送上门，全程没有一次真人对话。这份轻松背后藏着一台巨大的机器：有体育场一般大的仓库、成队的厢式货车，以及能在几条街的范围内知道每件物品位置的系统。大多数顾客从不会想到这个世界，直到有什么东西不再运送。
+
+这个行业的增长写在交通里。厢式货车已经成为日常通勤最新的形态；曾经随每周一次大采购一同到家的商品，如今变成许多小盒子，每隔几天就送到一次。这套系统带着自己沉重的成本：拥挤的街道、怠速的引擎，以及为跑三条线路而三度经过同一条路的车队。为每家每户省下时间的便利，其实悄悄地把时间从整座城市那里借来。
+
+技术正努力把这条路径弄直。更大型的分拣机一小时内就能读出成千上万个地址；数据能提前几天判断哪些城镇需要哪些商品；装货时间被精心安排，让卡车不用在仓库门口久等。下一步更远：车站里的共享收纳箱、最后几百米用的电动车队，以及能在几小时内备好一份小小追加订单的本地仓库。
+
+人的一侧仍然是最弱、也最有价值的一环。总得有人卸货，有人扛着重盒子上楼梯，有人面对一张任何司机都无法完全掌控的到站点清单。这些都是由真实身体完成的真实工作，而评判它们的评分，给本已带有风险的工作又添了一层压力。随着行业扩张，要求公平工资、适当休息和尊重门口那个人的声音也越来越多。
+
+关于这个世界最深的真相，是我们对它多么视而不见。我们以那个迟到的盒子来评判整个系统，而准时送到的十个盒子却从记忆里消失了。要建造一个更好的系统，就要看穿那个简单的纸箱：缩短距离、分散车流、善待工人，并让商品尽可能贴近买家、贴近这座城镇所能允许的程度。门口这个安静的世界，只有当我们把它当作城市的一部分、而不是天黑之后才发生的事，才会一直运转下去。
+
+====
+title: The Slightly Slower Life
+topic: 时间与生活节奏
+core: leisure, rhythm, routine, patience, balance, reflection, habit, pace, refresh, stillness
+
+Speed has been treated for a century as a form of progress. Faster trains, faster post, faster replies: each step was sold as buying time, and yet people everywhere feel that time has grown shorter. The paradox is not mysterious. Rushing removes the quiet spaces between tasks, so a day fills with more events and fewer moments of rest, and the whole week becomes hard to remember at all.
+
+Slowness is not a waste of time; it is a deliberate choice of depth. A long walk settles a worried mind better than a quick message; a shared meal keeps a family close better than a rushed snack; and a book read without breaks leaves a deeper mark than an hour of random news. The slower option rarely wins by the watch, but it wins by the final account of a life.
+
+The forces pulling us back to speed are stronger than individual intent. Devices are built to interrupt; screens are designed to grab the eye; and a society that treats quick answers as a sign of respect has made waiting feel like failure. Restoring patience therefore takes more than choice. It needs better rules: fewer expectations of instant replies, schedules with empty blocks and a culture that lets people finish their work without counting every minute.
+
+Governments and companies are beginning to shape the clock. Some places have shortened the working week, others protect the evening from work messages by law, and several cities now design whole streets for walking rather than for cars. Each of these moves trades a little speed on paper for a great deal of calm in real life. This is not a return to the past; it is the correction of an error that the present has made.
+
+A slightly slower life is not a full-time job; nobody can keep that up forever. The sane aim is smaller and brighter: protect a few hours a week that belong to no one else, keep one slow habit that stays long after the fashion ends and remember that a body made for walking is badly used when it only ever hurries. Time will keep running short; the only choice we have is the depth we give each hour we are handed.
+
+==译文==
+整整一个世纪以来，速度都被当作进步的一种形态。更快的火车、更快的邮件、更快的回复：每一步都被包装成“买回了时间”，然而处处都有人觉得时间变得更短了。这个悖论并不神秘。匆忙把任务之间安静的缝隙抹掉了，于是一天里充满了更多事件、却更少喘息，整一周也变成一段几乎无法记住的日子。
+
+慢并不是浪费时间；它是经过深思的选择，选择了深度。在抚平焦虑的心情这件事上，一次长走远比一条短信有效；在维系一家人亲密这件事上，一顿共同享用的正餐胜过匆匆吞下的零食；而一本不受打扰读完的书，留下的痕迹比一小时零碎新闻更深。更慢的那个选项很少赢在手表上，却会赢在人生最终的账目上。
+
+把我们拖回速度的东西，比个人的意图更强大。设备生来就要打断人；屏幕被设计来抓住视线；而一个把秒回当成尊重标志的社会，已经让“等待”变成了失败的滋味。因此，恢复耐心需要的东西不止是选择；它需要更好的规则：对即时回复更低的期待、留白的时间表，以及一种允许人们把工作做完、而不必数着每一分钟的文化。
+
+政府和公司开始塑造时钟。一些地方缩短了工作周，另一些用法律保护夜晚不被工作消息侵占，还有几座城市正在为步行而非汽车设计整条街道。这些动作每一项，都是用纸面上的一点点速度，去换取现实生活中大片大片的平静。这不是回到过去；这是对当下所犯错误的一次修正。
+
+稍微慢一点的人生并不是一份全职工作；没有人能永远保持这种状态。清醒的目标可以更小、也更明亮：每周保住几个不属于任何人的小时，保留一个在潮流过去之后仍长久留存的小习惯，并记住：一具为行走而生的身体，若只用来匆匆赶路，便是被用错了地方。时间总会一直变短；我们唯一能选择的，是把手里的每一个小时过得有多深。
+
+====
+title: What the Next Decade Will Ask of Us
+topic: 未来科技与社会
+core: technology, education, automation, welfare, trust, media, environment, knowledge, public, society
+
+The next decade will not be remembered for a single invention. Its changes will be quieter and more connected: an ageing population in the rich world, new centres of power in the south and east, a slow shift in the energy that runs the economy, and a technology that spreads into every gap of daily life. The questions these changes raise are mostly old ones — who carries the cost, who gets the chance and who decides — but they will be asked faster and in front of larger crowds.
+
+The first question is about work. Automation will keep dissolving routine jobs, so the debate about retraining, basic income and shorter weeks will move from the seminar into daily politics. No single answer fits every country; what fits nowhere is the old belief that one school result settles a person's whole career. Learning that used to end at twenty-five will be expected to continue at every age, and institutions that only teach the young will look strange by the end of the decade.
+
+The second question is about care. Longer lives and smaller families mean that the demand for help, with children, the sick and the very old, will far exceed the supply of willing hands. Those tasks bring little money today, and they will not solve themselves. A society that keeps treating care as invisible work will face the price in tired nurses, empty rural clinics and a middle generation crushed between two generations that both need attention.
+
+The third question is about trust. Business, media and public life all depend on the belief that ordinary people can find out whose claim is true. New tools that can invent false pictures and false voices will make that belief harder to keep, and the search for reliable sources will become a core skill rather than a luxury. The countries that handle this well will not ban each new tool; they will teach their citizens to question well and spend public money on facts as carefully as they spend it on roads.
+
+No one can say exactly what the decade will bring, and the wise are busy preparing rather than promising. The guide is simple and old: keep the basics strong, educate for change, protect the weak, value the work of care and guard the truth. The future is not a gift we receive; it is a building we occupy while it is still being built. The people who do well will not be the ones who guess its shape exactly, but the ones who keep their foundations honest and their doors open.
+
+==译文==
+未来十年不会因为某一件发明而被记住。它的变化会更安静、也更彼此相连：富裕世界的老龄化人口、南方与东方崛起的新权力中心、为经济供能的能源缓慢转型，以及一种蔓延进日常生活每一个空隙的技术。这些变化提出的问题大多是老问题——谁来承担成本、谁得到机会、由谁决定——但它们将以更快的速度、在更多人群面前被提出。
+
+第一个问题关乎工作。自动化会不断消解那些常规岗位，因此关于再培训、基本收入和更短工作周的辩论，将从研讨室走进日常政治。没有哪种答案适合所有国家；而代表一种对任何地方都行不通的，是那个老观念：一次学校成绩就能决定一个人整个职业生涯。曾经在二十五岁时就该结束的学习，如今被期待在每个年龄段继续；而只教年轻人的机构，到十年来临将显得古怪。
+
+第二个问题关乎照护。更长的寿命和更小的家庭意味着，对帮助的需求——要照顾孩子、病人和非常年迈的人——将远远超过愿意伸出的手。这些工作今天带来的收入很少，它们也不会自行解决。一个继续把照护当作隐形劳动的社会，终将为此付出代价：疲惫的护士、空荡的乡村诊所，以及被上下两代都需要关注压垮的中间一代。
+
+第三个问题关乎信任。商业、媒体和公共生活都依赖这样一种信念：普通人能够查清谁的说法是真的。能够凭空制造假画面与假声音的新工具，会让这份信念更难维持；而寻找可靠来源，将成为一项核心技能，而不是一种奢侈。处理得好的国家不会去封禁每一种新工具；它们会教公民善加追问，并像认真对待道路一样，认真地把公共资金花在事实核实上。
+
+没有人能准确说出未来十年会带来什么，而明智的人与其许愿，不如忙于准备。指引其实简单而古老：保持基础稳固，为变化而教育，保护弱者，尊重照护的工作，并守护真相。未来不是我们收到的一份礼物；它是一栋我们边住边建的建筑。最终做得好的人，未必是猜中它形态的人，而是那些让地基保持诚实、把门保持敞开的人。

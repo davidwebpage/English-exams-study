@@ -2,6 +2,8 @@
 
 基于 CET 全大纲（6325 词 = 新东方四级 4440 + 六级 2072 合并去重后）的网页学习工具：在 CET6 风格阅读中记忆单词，已斩词正常显示、未斩词带下划线；点词看释义发音，对角滑词即可"斩"掉已经完全掌握的词。
 
+线上地址：<https://english-7xa.pages.dev>　·　版本历史见 [CHANGELOG.md](./CHANGELOG.md)
+
 ## 运行
 
 项目是纯静态 ES 模块，需要一个 HTTP 服务器（直接打开 HTML 会被浏览器拦截模块加载）：
@@ -24,13 +26,13 @@ python scripts/serve.py 9000     # 自定义端口
 
 - `data/words.json`：6325 词（单词/音标/词性/中文释义）。前 5518 词由 `scripts/build_words.py` 从原始 xls 清洗生成（剔除人名/地名注记，不会误清空释义；例如 `mayor` → `n. 市长`），后 807 词由 `scripts/merge_pdf_words.py` 从新东方四级/六级乱序版 PDF 合并进来（id 从 6001 起，原有 id 不变，学习进度不受影响）。该词表以**原形词**收词（有 `retire`，无 `retirement`）；前端标注会自动做词形还原，文中 `retirement`/`advertising`/`consumed` 会映射回词库原形词参与学习。
 - `data/wordfreq.json`：离线词频/重要度排序（文章语料复现 + 高频考点词加成，功能词后置），供词库「重要程度」排序。
-- `data/mastered.json`：百词斩已斩词清单（**2026-10-26 起不再自动灌入**，仅作历史数据保留）。
-- `data/basic-words.json`：基础词表（321 词，分两类）：202 个语法功能词（`a/an/the`、代词、助动词、介词、连词）点击显示释义并恒为「已斩」、不进斩词统计；另有 119 个日常基础词（people/online/email/performance 等，2026-10-26 由原「常用词」层并入）**不是恒已斩**：未斩带下划线、可手动斩、计入进度。原「常用词」层已取消，存档在 `data/common-words.retired.json`。
+- `data/mastered.json`：百词斩已斩词清单。**仅作历史数据保留，不参与初始化**（初始进度一律为 0）。
+- `data/basic-words.json`：基础词表（321 词，分两类）：202 个语法功能词（`a/an/the`、代词、助动词、介词、连词）点击显示释义并恒为「已斩」、不进斩词统计；另有 119 个日常基础词（people/online/email/performance 等）**不是恒已斩**：未斩带下划线、可手动斩、计入进度。`data/common-words.retired.json` 是已停用的旧「常用词」存档。
 - `data/extra-words.json`：超纲词表（**79 词**，含 `algorithm` 这类学术词，也含 `pay`、`parent`、`patience`、`app` 这类新东方两份表未收的基础实词），**每个超纲词都有音标和中文释义**；阅读中标注「超纲」；能还原成大纲原形的词（如 `flexibility`→`flexible`、`consumed`→`consume`）不在此表，由运行时词形还原归为变形词——还原规则覆盖复数（含 `-ies/-ves`）、过去式/过去分词（含不规则表）、`-ing`、比较级/最高级（`deepest`→`deep`、`busiest`→`busy`）、所有格（`candidate's`）与常见派生后缀。
 - `data/articles.json`：文章语料（当前 50 篇，每篇约 310-430 词、中英对照，风格贴近 CET6 阅读），全部通过「超纲词 ≤3%」校验。运行时自动把文中命中词库的单词标注为学习对象，因此**无需手动标注**。新增文章在 `data/articles.src.txt` 手写源里追加后跑 `scripts/build_articles.py` 重建，再用 `scripts/check_articles.py` 校验；AI 规模化可用 `scripts/build_corpus.py`。
 - 进度存浏览器 localStorage（键 `cet.study.v1`）。
 
-**初始进度为 0**：不再自动把 `mastered.json` 灌成已斩。未登录的游客、以及新注册的账号，一律从空白开始（见下文「账号与同步」）。
+**初始进度为 0**：未登录的游客、以及新注册的账号，一律从空白开始（见下文「账号与同步」）。
 
 ## 语音
 
@@ -81,12 +83,12 @@ git add -A && git commit -m "说明这次改了什么"
 git push                     # 推上去，Cloudflare Pages 自动更新
 ```
 
-> 改了 `src/` 里的 JS/CSS 之后，记得同步把 `index.html` 里的 `?v=20261026-11` 和 `window.__BUILD__` 版本号改掉，否则浏览器/CDN 会用缓存里的旧文件，看起来像"改动没生效"。
+> 改了 `src/` 里的 JS/CSS 之后，记得同步把 `index.html` 里的三处 `?v=` 和 `window.__BUILD__` 改成同一个新版本号（当前 `20261026-13`），否则浏览器/CDN 会用缓存里的旧文件，看起来像"改动没生效"。版本号规则见 CHANGELOG 末尾。
 
 
 ## 账号与同步
 
-**账号是真账号，走 Cloudflare Worker 认证**，不再是本地假账号。
+**账号由 Cloudflare Worker 认证**，进度按账号存在云端，可跨设备同步。
 
 - **未登录（游客）**：可用，进度只存本机，已斩从 0 开始，不联网。
 - **登录后**：进度按账号存在 KV（`state:<用户名>`），多设备共享同一份。

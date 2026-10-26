@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#0f172a">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%230f766e%22/><text x=%2232%22 y=%2242%22 font-size=%2232%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22sans-serif%22 font-weight=%22bold%22>C</text></svg>">
 <title>CET 词汇斩</title>
-<link rel="stylesheet" href="./src/styles.css?v=20261026-11">
+<link rel="stylesheet" href="./src/styles.css?v=20261026-12">
 </head>
 <body>
 <div id="app"></div>
@@ -16,8 +16,14 @@
   <a href="#/listening" data-tab="listening">听读</a>
   <a href="#/me" data-tab="me">我的</a>
 </nav>
-<!-- 启用多设备同步时，把 null 换成 {"url":"<worker域名>/", "token":"<你的token>"} -->
-<script>window.__SYNC__ = null; window.__BUILD__ = "20261026-11";</script>
-<script type="module" src="./src/main.js?v=20261026-11"></script>
+<!-- 多设备同步：指向 Cloudflare Worker（KV 存进度）。改成 null 即退回纯本地 -->
+<script>
+  window.__SYNC__ = {
+    url: 'https://english-study-sync.davidrushgo.workers.dev/',
+    token: 'ce4d6e6b55a4ccf16f4d7c84e00e0bc95f42ea854af8094b'
+  };
+  window.__BUILD__ = "20261026-12";
+</script>
+<script type="module" src="./src/main.js?v=20261026-12"></script>
 </body>
 </html>

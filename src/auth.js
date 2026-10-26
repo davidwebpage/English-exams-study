@@ -1,101 +1,105 @@
-// 本地账号: 注册/登录/登出。数据仅存于浏览器 localStorage, 供单人/演示使用;
-// 后续接 Cloudflare Worker 账号体系时只需替换本模块的实现。
+// 账号：走 Cloudflare Worker（worker/sync.js）的服务端认证。
+// 本地只保存会话 { user, token }，**不再保存密码或密码哈希**。
+// 没登录也能用（游客态），进度存在本机，但不跨设备。
 
-const USERS_KEY = 'cet.users.v1';
-const SESSION_KEY = 'cet.session.v1';
+const SESSION_KEY = 'cet.session.v2';
 
-function load(key, fallback) {
-  try { return JSON.parse(localStorage.getItem(key)) ?? fallback; }
-  catch (e) { return fallback; }
-}
-function save(key, val) {
-  try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) { /* ignore */ }
+function apiBase() {
+  const u = window.__SYNC__ && window.__SYNC__.url;
+  return u ? String(u).replace(/\/+$/, '') : '';
 }
 
-async function sha256(text) {
-  const data = new TextEncoder().encode(text);
-  const digest = await crypto.subtle.digest('SHA-256', data);
-  return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, '0')).join('');
+function readSession() {
+  try { return JSON.parse(localStorage.getItem(SESSION_KEY)) || null; }
+  catch (e) { return null; }
 }
-function randomHex(n) {
-  const a = new Uint8Array(n);
-  crypto.getRandomValues(a);
-  return [...a].map((b) => b.toString(16).padStart(2, '0')).join('');
+function writeSession(v) {
+  try {
+    if (v) localStorage.setItem(SESSION_KEY, JSON.stringify(v));
+    else localStorage.removeItem(SESSION_KEY);
+  } catch (e) { /* ignore */ }
 }
 
-function users() { return load(USERS_KEY, {}); }
-function session() { return load(SESSION_KEY, null); }
+async function call(path, { method = 'GET', body, token, timeout = 12000 } = {}) {
+  const base = apiBase();
+  if (!base) throw new Error('同步服务未配置');
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeout);
+  try {
+    const headers = { 'content-type': 'application/json' };
+    if (token) headers.authorization = 'Bearer ' + token;
+    const res = await fetch(base + path, {
+      method,
+      headers,
+      signal: ctrl.signal,
+      body: body ? JSON.stringify(body) : undefined,
+    });
+    let data = null;
+    try { data = await res.json(); } catch (e) { /* 非 JSON */ }
+    if (!res.ok) throw new Error((data && data.error) || `请求失败（${res.status}）`);
+    return data;
+  } catch (e) {
+    if (e.name === 'AbortError') throw new Error('连接超时，请检查网络');
+    throw e;
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 export const auth = {
-  current() { return session(); },
-  authed() { return !!session(); },
+  current() { return readSession(); },
+  authed() { return !!readSession()?.token; },
+  token() { return readSession()?.token || null; },
+  user() { return readSession()?.user || null; },
+  // 账号隔离用的进度命名空间：登录用户用自己的用户名，游客用 guest
+  scope() { return readSession()?.user || 'guest'; },
 
   async register(username, password) {
     const name = String(username || '').trim();
     if (name.length < 2) throw new Error('用户名至少 2 个字符');
     if (!password || password.length < 6) throw new Error('密码至少 6 位');
-    const u = users();
-    if (u[name]) throw new Error('该用户名已注册');
-    const salt = randomHex(16);
-    u[name] = { salt, hash: await sha256(salt + ':' + password), createdAt: Date.now() };
-    save(USERS_KEY, u);
-    this._login(name);
+    const out = await call('/auth/register', { method: 'POST', body: { username: name, password } });
+    writeSession({ user: out.user, token: out.token });
+    return out;
   },
 
   async login(username, password) {
     const name = String(username || '').trim();
-    const u = users();
-    const rec = u[name];
-    if (!rec) throw new Error('用户名不存在');
-    const hash = await sha256(rec.salt + ':' + String(password || ''));
-    if (hash !== rec.hash) throw new Error('密码错误');
-    this._login(name);
+    if (!name) throw new Error('请输入用户名');
+    const out = await call('/auth/login', { method: 'POST', body: { username: name, password } });
+    writeSession({ user: out.user, token: out.token });
+    return out;
   },
 
-  _login(name) {
-    save(SESSION_KEY, { user: name, at: Date.now() });
+  async logout() {
+    const s = readSession();
+    if (s && s.token) {
+      try { await call('/auth/logout', { method: 'POST', token: s.token }); } catch (e) { /* 本地照样清 */ }
+    }
+    writeSession(null);
   },
 
-  logout() {
-    try { localStorage.removeItem(SESSION_KEY); } catch (e) { /* ignore */ }
-  },
-
-  async changePassword(oldPass, newPass) {
-    const me = session();
-    if (!me) throw new Error('未登录');
-    if (!newPass || newPass.length < 6) throw new Error('新密码至少 6 位');
-    const u = users();
-    const rec = u[me.user];
-    if (!rec) throw new Error('账号数据丢失');
-    const oldHash = await sha256(rec.salt + ':' + String(oldPass || ''));
-    if (oldHash !== rec.hash) throw new Error('原密码错误');
-    const salt = randomHex(16);
-    rec.salt = salt;
-    rec.hash = await sha256(salt + ':' + newPass);
-    save(USERS_KEY, u);
+  async changePassword(oldPassword, newPassword) {
+    const s = readSession();
+    if (!s) throw new Error('未登录');
+    if (!newPassword || newPassword.length < 6) throw new Error('新密码至少 6 位');
+    await call('/auth/password', { method: 'POST', token: s.token, body: { oldPassword, newPassword } });
   },
 
   async rename(newName) {
-    const me = session();
-    if (!me) throw new Error('未登录');
+    const s = readSession();
+    if (!s) throw new Error('未登录');
     const name = String(newName || '').trim();
-    if (name.length < 2) throw new Error('用户名至少 2 个字符');
-    if (name === me.user) return;
-    const u = users();
-    if (u[name]) throw new Error('该用户名已被占用');
-    const rec = u[me.user];
-    if (!rec) throw new Error('账号数据丢失');
-    u[name] = rec;
-    delete u[me.user];
-    save(USERS_KEY, u);
-    me.user = name;
-    save(SESSION_KEY, me);
+    if (name === s.user) return s.user;
+    const out = await call('/auth/rename', { method: 'POST', token: s.token, body: { newUsername: name } });
+    writeSession({ ...s, user: out.user });
+    return out.user;
   },
 
+  // 头像色之类的纯本地偏好，留在会话里，不上服务端
   setProfile(patch) {
-    const me = session();
-    if (!me) return;
-    Object.assign(me, patch);
-    save(SESSION_KEY, me);
+    const s = readSession();
+    if (!s) return;
+    writeSession({ ...s, ...patch });
   },
 };

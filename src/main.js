@@ -74,8 +74,8 @@ function route() {
 
 async function boot() {
   preloadSlash();            // 提前把斩词音效解码好，第一次斩就是采样音
-  await store.init();
-  await initSync(store);
+  await store.init(auth.scope());   // 进度按账号隔离：登录用自己的用户名，未登录是 guest
+  await initSync(store);            // 只有登录后才会真的联网
   window.addEventListener('hashchange', route);
   if (!location.hash) location.hash = '#/reading';
   route();

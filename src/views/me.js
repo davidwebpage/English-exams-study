@@ -54,7 +54,7 @@ function loginCard() {
     <div class="merr" id="m-err"></div>
     <button class="btn primary msubmit" id="m-submit">登录</button>
     <button class="mswitch" id="m-switch">没有账号？去注册</button>
-    <div class="mnote">数据仅保存在当前浏览器</div>`;
+    <div class="mnote">进度按账号存于云端，可在多设备间同步</div>`;
   const user = panel.querySelector('#m-user');
   const pass = panel.querySelector('#m-pass');
   const err = panel.querySelector('#m-err');
@@ -73,11 +73,16 @@ function loginCard() {
   sw.addEventListener('click', () => setMode(mode === 'login' ? 'register' : 'login'));
   async function go() {
     err.textContent = '';
+    submit.disabled = true;
     try {
       if (mode === 'login') await auth.login(user.value, pass.value);
       else await auth.register(user.value, pass.value);
-      renderMe();
-    } catch (e) { err.textContent = e.message; }
+      // 账号变了 = 进度命名空间变了，整页重载最稳（boot 会按新账号载入对应进度）
+      location.reload();
+    } catch (e) {
+      err.textContent = e.message;
+      submit.disabled = false;
+    }
   }
   submit.addEventListener('click', go);
   pass.addEventListener('keydown', (e) => { if (e.key === 'Enter') go(); });
@@ -90,13 +95,16 @@ function profileCard() {
   const panel = el('div', 'panel mprofile');
   const ac = avatarColor();
   const up = (n) => String(n).padStart(2, '0');
-  const d = new Date(me.at);
-  const joined = `${d.getFullYear()}-${up(d.getMonth() + 1)}-${up(d.getDate())}`;
+  let joinedLine = '';
+  if (me.at) {
+    const d = new Date(me.at);
+    joinedLine = `<div class="mjoined">加入于 ${d.getFullYear()}-${up(d.getMonth() + 1)}-${up(d.getDate())}</div>`;
+  }
   const c = store.counts();
   panel.innerHTML = `
     <div class="mavatar" style="background:${ac.grad}">${esc((me.user || '?')[0].toUpperCase())}</div>
     <div class="mname">${esc(me.user)}</div>
-    <div class="mjoined">加入于 ${joined}</div>
+    ${joinedLine}
     <div class="mstats">
       <div><b>${c.mastered}</b><span>已斩单词</span></div>
       <div><b>${store.streak()}</b><span>连续天数</span></div>
@@ -120,7 +128,10 @@ function menuCard() {
   panel.querySelector('#m-pass').addEventListener('click', () => { changePassword(); });
   panel.querySelector('#m-records').addEventListener('click', () => { location.hash = '#/me/records'; });
   panel.querySelector('#m-settings').addEventListener('click', () => { location.hash = '#/me/settings'; });
-  panel.querySelector('#m-logout').addEventListener('click', () => { auth.logout(); renderMe(); });
+  panel.querySelector('#m-logout').addEventListener('click', async () => {
+    await auth.logout();
+    location.reload();   // 回到游客态，重新载入 guest 那份进度
+  });
   return panel;
 }
 
@@ -279,10 +290,12 @@ function editProfile() {
   panel.querySelector('#e-save').addEventListener('click', async () => {
     err.textContent = '';
     const name = panel.querySelector('#e-user').value.trim();
+    const renamed = !!name && name !== me.user;
     try {
-      if (name && name !== me.user) await auth.rename(name);
+      if (renamed) await auth.rename(name);
       auth.setProfile({ color: picked });
-      navMe();
+      if (renamed) location.reload();   // 用户名就是进度命名空间，改名后整页重载
+      else navMe();
     } catch (e) { err.textContent = e.message; }
   });
   panel.querySelector('#e-cancel').addEventListener('click', () => { navMe(); });

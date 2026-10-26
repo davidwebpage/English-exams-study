@@ -1,7 +1,12 @@
 // Core store: word library, per-word status, reading history, stats.
-// Persisted to localStorage. Vanilla pub/sub reactive store.
+// Persisted to localStorage, **按账号隔离**：cet.study.v1:<scope>，游客用 guest。
+// Vanilla pub/sub reactive store.
 
-const LS_KEY = 'cet.study.v1';
+const LEGACY_KEY = 'cet.study.v1';       // 旧的全局键（改账号体系前用的），只用于一次性迁移
+const KEY_PREFIX = 'cet.study.v1:';     // 新键：KEY_PREFIX + scope
+let scope = 'guest';
+const lsKey = () => KEY_PREFIX + scope;
+
 // 本地日期(不用 toISOString: 那是 UTC, 中国时区凌晨斩词会被记到前一天)
 function dayKey(d = new Date()) {
   const p = (n) => String(n).padStart(2, '0');
@@ -11,25 +16,56 @@ const today = () => dayKey();
 
 const listeners = new Set();
 
-let state = {
-  statuses: {},          // wordId -> 'new'|'learning'|'mastered'
-  history: [],           // {articleId,title,readAt,snapshot:{id:status},counts}
-  settings: { ratio: 0.5, sitRate: 0.9 },
-  slashedByDay: {},      // 旧字段(早期逻辑有 bug, 一直记不上), 保留兼容
-  slashLog: {},          // wordId -> 'YYYY-MM-DD' 斩词日期, 日历/统计的唯一数据源
-  slashArt: {},          // wordId -> articleId 这个词是在哪篇里斩的(决定横线在哪篇出现)
-  learnedArticles: {},  // articleId -> true (该篇已标记学习完成)
-  seeded: false,
-};
-
-function load() {
-  try { Object.assign(state, JSON.parse(localStorage.getItem(LS_KEY) || '{}')); }
-  catch (e) { /* corrupted or unavailable */ }
+function blankState() {
+  return {
+    statuses: {},          // wordId -> 'new'|'learning'|'mastered'
+    history: [],           // {articleId,title,readAt,snapshot:{id:status},counts}
+    settings: { ratio: 0.5, sitRate: 0.9 },
+    slashedByDay: {},      // 旧字段(早期逻辑有 bug, 一直记不上), 保留兼容
+    slashLog: {},          // wordId -> 'YYYY-MM-DD' 斩词日期, 日历/统计的唯一数据源
+    slashArt: {},          // wordId -> articleId 这个词是在哪篇里斩的(决定横线在哪篇出现)
+    learnedArticles: {},  // articleId -> true (该篇已标记学习完成)
+    seeded: true,          // 2026-10-26 起不再自动灌百词斩种子, 置 true 表示这步已跳过
+    purgedCommon: true,
+  };
 }
+
+let state = blankState();
+
+function readRaw(key) {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : null;
+  } catch (e) { return null; }
+}
+function writeRaw(key, val) {
+  try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) { /* storage full */ }
+}
+
+// 读某个 scope 的进度；不存在就建一份空的。
+// 迁移规则：登录账号第一次出现、且本机还留着旧的全局进度时，把旧进度接收过来
+// （只发生一次，接收后旧键删除）。游客不接收，所以未登录永远是干净的 0。
+function loadScope(name) {
+  const saved = readRaw(KEY_PREFIX + name);
+  if (saved) return { ...blankState(), ...saved };
+
+  if (name !== 'guest') {
+    const legacy = readRaw(LEGACY_KEY);
+    if (legacy) {
+      try { localStorage.removeItem(LEGACY_KEY); } catch (e) { /* ignore */ }
+      const s = { ...blankState(), ...legacy, seeded: true };
+      writeRaw(KEY_PREFIX + name, s);
+      return s;
+    }
+  }
+  const s = blankState();
+  writeRaw(KEY_PREFIX + name, s);
+  return s;
+}
+
 const persistHooks = new Set();
 function save() {
-  try { localStorage.setItem(LS_KEY, JSON.stringify(state)); }
-  catch (e) { /* storage full or unavailable */ }
+  writeRaw(lsKey(), state);
   persistHooks.forEach((fn) => fn());
 }
 function emit() { listeners.forEach((fn) => fn()); }
@@ -50,12 +86,12 @@ export const store = {
   daily: [],
   ready: false,
 
-  async init() {
+  async init(scopeName) {
     if (this.ready) return;
-    load();
-    const [words, mastered, articles, freq, extra, basic, common] = await Promise.all([
+    scope = scopeName || 'guest';
+    state = loadScope(scope);
+    const [words, articles, freq, extra, basic, common] = await Promise.all([
       fetch('./data/words.json').then((r) => r.json()),
-      fetch('./data/mastered.json').then((r) => r.json()),
       fetch('./data/articles.json').then((r) => r.json()),
       fetch('./data/wordfreq.json').then((r) => r.json()),
       fetch('./data/extra-words.json').then((r) => r.json()).catch(() => ({ words: [] })),
@@ -121,18 +157,22 @@ export const store = {
       this.byId.set(w.id, w);
       this.byWord.set(w.word, w);
     }
-    // Seed once:百词斩已斩 words start as mastered.
-    if (!state.seeded) {
-      for (const word of mastered.mastered || []) {
-        const id = this.byWord.get(word)?.id;
-        if (id) state.statuses[id] = 'mastered';
-      }
-      state.seeded = true;
-      save();
-    }
+    // 2026-10-26 起不再自动灌百词斩种子：未登录/新账号一律从 0 开始。
+    // 老用户的历史进度走 loadScope() 的一次性迁移。
     this.ready = true;
     emit();
   },
+
+  // 切换账号（登录/登出时调用）：先把当前进度落盘，再载入目标 scope 的那份。
+  switchScope(scopeName) {
+    const next = scopeName || 'guest';
+    if (next === scope) return;
+    writeRaw(lsKey(), state);
+    scope = next;
+    state = loadScope(scope);
+    emit();
+  },
+  currentScope() { return scope; },
 
   subscribe(fn) { listeners.add(fn); return () => listeners.delete(fn); },
 

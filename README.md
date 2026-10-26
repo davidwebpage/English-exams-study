@@ -49,23 +49,24 @@ python scripts/generate_audio_edge_tts.py --limit 50 # 先试 50 个
 
 静态站点可直接部署到任意静态托管（Cloudflare Pages / Vercel / GitHub Pages），无需构建。
 
-**GitHub Pages（当前线上环境）**
+仓库：<https://github.com/davidwebpage/English-exams-study>，默认分支 `main`，根目录即站点根。
 
-仓库：<https://github.com/davidwebpage/Engligh-exams-study>，默认分支 `main`，根目录即站点根。
+**Cloudflare Pages（当前线上环境）**
 
-首次启用：仓库 **Settings → Pages → Source 选 "Deploy from a branch" → Branch 选 `main` / `/ (root)` → Save**。约 1 分钟后访问：
+1. Cloudflare Dashboard → Workers & Pages → Create → Pages → **Connect to Git**，授权 GitHub 并选本仓库。
+2. 构建设置全部留空：Framework preset = `None`，Build command = 空，Build output directory = `/`。
+3. Save and Deploy，约 30 秒出线上地址（`<项目名>.pages.dev`）。
 
-```text
-https://davidwebpage.github.io/Engligh-exams-study/
-```
+之后每次 `git push` 到 `main` 都会自动重新部署。手机上用浏览器"添加到主屏幕"，体验接近原生 App。
 
-之后每次 `git push` 到 `main`，Pages 自动重新构建（约 1 分钟生效）。手机上可用浏览器"添加到主屏幕"，体验接近原生 App。
+> **路径注意**：代码里所有资源都是相对路径（`./data/...`、`./src/...`）。用 `*.pages.dev` 根域名访问时天然没问题；但如果以后换到子路径（如 GitHub Pages 的 `/English-exams-study/`），也照样能跑，**前提是别改成 `/data/...` 这种绝对路径**。
 
-> 注意：站点部署在 `/Engligh-exams-study/` 子路径下，所以代码里**所有资源必须用相对路径**（`./data/...`、`./src/...`），不能写成 `/data/...`，否则线上 404。当前代码已全部是相对路径。
+**GitHub Pages（备选）**
 
-**其他平台**
+仓库 **Settings → Pages → Source 选 "Deploy from a branch" → Branch 选 `main` / `/ (root)` → Save**，地址为 `https://davidwebpage.github.io/English-exams-study/`。
 
-- Cloudflare Pages：直接把仓库根目录设为构建输出（无构建命令）即可。
+**其他**
+
 - 注意事项：`data/words.json`（约 858KB）与音频目录较大，正式部署前建议开启压缩/Cache；本仓库自带 `serve.py` 用于本地调试。
 
 ## 日常迭代
@@ -73,21 +74,34 @@ https://davidwebpage.github.io/Engligh-exams-study/
 ```bash
 python scripts/serve.py      # 本地看效果（8321 端口）
 git add -A && git commit -m "说明这次改了什么"
-git push                     # 推上去，Pages 自动更新
+git push                     # 推上去，Cloudflare Pages 自动更新
 ```
+
+> 改了 `src/` 里的 JS/CSS 之后，记得同步把 `index.html` 里的 `?v=20261026-11` 和 `window.__BUILD__` 版本号改掉，否则浏览器/CDN 会用缓存里的旧文件，看起来像"改动没生效"。
 
 
 ## 多设备同步（可选，阶段 1）
 
 默认完全离线本地存储。要跨设备同步进度：
 
-1. 新建 Cloudflare Worker 并创建 KV namespace，把 `worker/wrangler.toml` 里的 `REPLACE_WITH_KV_NAMESPACE_ID` 换成真实 id。
-2. `wrangler deploy` 发布 `worker/sync.js`。
-3. 把 `index.html` 里 `window.__SYNC__` 从 `null` 改成你的配置（默认为 null，保持纯本地）：
+1. **建 KV**：Cloudflare Dashboard → Storage & Databases → KV → Create namespace，名字随便（如 `cet-study-sync`）。
+2. **建 Worker**：Workers & Pages → Create → Worker，命名 `cet-study-sync`，把 `worker/sync.js` 全文粘进去，Deploy。
+3. **绑 KV**：该 Worker → Settings → Bindings → Add → KV namespace，**Variable name 必须写 `STATE`**，选上一步的 namespace。
+4. 拿到 Worker 地址，形如 `https://cet-study-sync.<子域>.workers.dev/`。
+5. 把 `index.html` 里 `window.__SYNC__` 从 `null` 改成配置（默认 null 表示纯本地）：
    ```html
-   <script>window.__SYNC__ = { url: 'https://your-worker.example.workers.dev/', token: '你的私有token' };</script>
+   <script>window.__SYNC__ = { url: 'https://cet-study-sync.xxx.workers.dev/', token: '你的私有token' };</script>
    ```
+   token 随便一串长随机字符串即可（`openssl rand -hex 24` 生成）。
+
+**为什么必须处理 CORS**：前端在 `xxx.pages.dev`、同步接口在 `xxx.workers.dev`，属于跨域；请求带 `x-token` 自定义头，浏览器会先发 `OPTIONS` 预检。`worker/sync.js` 已返回 `access-control-*` 头并放行 `OPTIONS`，少了这一步同步会静默失败。
+
+**首次开启的顺序很重要**：同步是「整体覆盖 + 后写赢」。请**先在有你完整进度的那台设备上开启**，等它把数据推上去之后，再在另一台设备打开。顺序反了会用空进度覆盖掉原有进度。
+
+**安全提醒**：`index.html` 是公开仓库里的文件，token 会随代码公开，理论上知道 token 的人可以读写你的进度。个人使用影响很小；真要收紧，把 Worker 里 `access-control-allow-origin` 从 `*` 改成你自己的 `pages.dev` 域名即可。
+
 在 Worker 上再接账号体系即可升级为多用户（阶段 2，前端几乎不用改）。
+
 
 ## 待扩展
 

@@ -79,6 +79,8 @@ async function boot() {
   window.addEventListener('hashchange', route);
   if (!location.hash) location.hash = '#/reading';
   route();
+  // 昵称/头像存在服务端，拉回来后再刷一次界面；不阻塞首屏
+  if (auth.authed()) auth.loadProfile().then(() => route()).catch(() => {});
 }
 
 boot();

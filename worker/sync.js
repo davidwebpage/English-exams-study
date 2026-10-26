@@ -118,7 +118,27 @@ export default {
       if (path === '/me' && method === 'GET') {
         const user = await bearerUser(env, request);
         if (!user) return send({ error: '未登录或会话已过期' }, 401);
-        return send({ user });
+        const rec = JSON.parse(await env.STATE.get(`user:${user}`) || '{}');
+        return send({ user, profile: rec.profile || {} });
+      }
+
+      // 昵称、头像色等资料，存在 user:<用户名> 记录里
+      if (path === '/profile' && method === 'PUT') {
+        const user = await bearerUser(env, request);
+        if (!user) return send({ error: '未登录或会话已过期' }, 401);
+        const ukey = `user:${user}`;
+        const raw = await env.STATE.get(ukey);
+        const rec = raw ? JSON.parse(raw) : null;
+        if (!rec) return send({ error: '账号数据丢失' }, 404);
+        let body;
+        try { body = await request.json(); }
+        catch (e) { return send({ error: 'invalid json' }, 400); }
+        const patch = {};
+        if (typeof body.nickname === 'string') patch.nickname = body.nickname.trim().slice(0, 24);
+        if (typeof body.color === 'string') patch.color = body.color.slice(0, 24);
+        rec.profile = { ...(rec.profile || {}), ...patch };
+        await env.STATE.put(ukey, JSON.stringify(rec));
+        return send({ profile: rec.profile });
       }
 
       if (path === '/auth/password' && method === 'POST') {

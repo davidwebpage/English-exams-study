@@ -96,10 +96,33 @@ export const auth = {
     return out.user;
   },
 
-  // 头像色之类的纯本地偏好，留在会话里，不上服务端
-  setProfile(patch) {
+  // 昵称 / 头像色等资料存在服务端 user:<用户名> 记录里，本地 session 只做缓存，
+  // 这样换设备登录也能拿到同一套资料。
+  profile() {
     const s = readSession();
-    if (!s) return;
-    writeSession({ ...s, ...patch });
+    return (s && s.profile) || {};
+  },
+
+  // 启动时调一次，把服务端资料同步到本地缓存。失败就沿用缓存，不阻塞渲染。
+  async loadProfile() {
+    const s = readSession();
+    if (!s || !s.token) return null;
+    try {
+      const out = await call('/me', { token: s.token, timeout: 6000 });
+      const next = { ...s, user: out.user || s.user, profile: out.profile || {} };
+      writeSession(next);
+      return next.profile;
+    } catch (e) {
+      return this.profile();
+    }
+  },
+
+  // 保存资料到服务端（失败抛出，由调用方提示）
+  async saveProfile(patch) {
+    const s = readSession();
+    if (!s || !s.token) throw new Error('未登录');
+    const out = await call('/profile', { method: 'PUT', token: s.token, body: patch });
+    writeSession({ ...s, profile: out.profile || {} });
+    return out.profile;
   },
 };

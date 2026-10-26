@@ -39,9 +39,16 @@ function navMe() {
 }
 
 function avatarColor() {
-  const me = auth.current() || {};
-  const id = me.color || 'teal';
+  const p = auth.profile();
+  const id = p.color || 'teal';
   return AVATAR_COLORS.find((c) => c.id === id) || AVATAR_COLORS[0];
+}
+
+// 显示名优先用昵称，没设就用用户名
+function displayName() {
+  const me = auth.current() || {};
+  const nick = (auth.profile() || {}).nickname;
+  return nick || me.user || '?';
 }
 
 function loginCard() {
@@ -102,8 +109,8 @@ function profileCard() {
   }
   const c = store.counts();
   panel.innerHTML = `
-    <div class="mavatar" style="background:${ac.grad}">${esc((me.user || '?')[0].toUpperCase())}</div>
-    <div class="mname">${esc(me.user)}</div>
+    <div class="mavatar" style="background:${ac.grad}">${esc(displayName()[0].toUpperCase())}</div>
+    <div class="mname">${esc(displayName())}</div>
     ${joinedLine}
     <div class="mstats">
       <div><b>${c.mastered}</b><span>已斩单词</span></div>
@@ -258,10 +265,14 @@ function editProfile() {
   root.append(topbar);
 
   const panel = el('div', 'panel card');
-  const cur = avatarColor();
+  const prof = auth.profile();
   panel.innerHTML = `
     <div class="mfield">
-      <label>用户名</label>
+      <label>昵称</label>
+      <input id="e-nick" maxlength="24" placeholder="显示用的名字，留空则显示用户名" value="${esc(prof.nickname || '')}">
+    </div>
+    <div class="mfield">
+      <label>用户名（登录用，改动较重）</label>
       <input id="e-user" value="${esc(me.user)}">
     </div>
     <div class="mfield">
@@ -274,7 +285,7 @@ function editProfile() {
       <button class="btn ghost" id="e-cancel">取消</button>
     </div>`;
   const colors = panel.querySelector('#e-colors');
-  let picked = me.color || 'teal';
+  let picked = prof.color || 'teal';
   AVATAR_COLORS.forEach((c) => {
     const dot = el('button', 'avatar-dot');
     dot.style.background = c.grad;
@@ -290,10 +301,11 @@ function editProfile() {
   panel.querySelector('#e-save').addEventListener('click', async () => {
     err.textContent = '';
     const name = panel.querySelector('#e-user').value.trim();
+    const nick = panel.querySelector('#e-nick').value.trim();
     const renamed = !!name && name !== me.user;
     try {
       if (renamed) await auth.rename(name);
-      auth.setProfile({ color: picked });
+      await auth.saveProfile({ nickname: nick, color: picked });
       if (renamed) location.reload();   // 用户名就是进度命名空间，改名后整页重载
       else navMe();
     } catch (e) { err.textContent = e.message; }

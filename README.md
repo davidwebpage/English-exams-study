@@ -53,11 +53,15 @@ python scripts/generate_audio_edge_tts.py --limit 50 # 先试 50 个
 
 **Cloudflare Pages（当前线上环境）**
 
+线上地址：<https://english.pages.dev>
+
 1. Cloudflare Dashboard → Workers & Pages → Create → Pages → **Connect to Git**，授权 GitHub 并选本仓库。
 2. 构建设置全部留空：Framework preset = `None`，Build command = 空，Build output directory = `/`。
-3. Save and Deploy，约 30 秒出线上地址（`<项目名>.pages.dev`）。
+3. Save and Deploy，约 30 秒出线上地址。本项目实际使用项目名 `english`。
 
-之后每次 `git push` 到 `main` 都会自动重新部署。手机上用浏览器"添加到主屏幕"，体验接近原生 App。
+之后每次 `git push` 到 `main` 都会自动重新部署（约 30 秒）。手机上用浏览器"添加到主屏幕"，体验接近原生 App。
+
+> 新版控制台把 Workers & Pages 收在左侧「计算」下，没有独立一级入口；KV 在「存储和数据库 → Workers KV」。直达链接：`https://dash.cloudflare.com/?to=/:account/workers-and-pages`。
 
 > **路径注意**：代码里所有资源都是相对路径（`./data/...`、`./src/...`）。用 `*.pages.dev` 根域名访问时天然没问题；但如果以后换到子路径（如 GitHub Pages 的 `/English-exams-study/`），也照样能跑，**前提是别改成 `/data/...` 这种绝对路径**。
 
@@ -84,19 +88,22 @@ git push                     # 推上去，Cloudflare Pages 自动更新
 
 默认完全离线本地存储。要跨设备同步进度：
 
-1. **建 KV**：Cloudflare Dashboard → Storage & Databases → KV → Create namespace，名字随便（如 `cet-study-sync`）。
-2. **建 Worker**：Workers & Pages → Create → Worker，命名 `cet-study-sync`，把 `worker/sync.js` 全文粘进去，Deploy。
-3. **绑 KV**：该 Worker → Settings → Bindings → Add → KV namespace，**Variable name 必须写 `STATE`**，选上一步的 namespace。
-4. 拿到 Worker 地址，形如 `https://cet-study-sync.<子域>.workers.dev/`。
-5. 把 `index.html` 里 `window.__SYNC__` 从 `null` 改成配置（默认 null 表示纯本地）：
-   ```html
-   <script>window.__SYNC__ = { url: 'https://cet-study-sync.xxx.workers.dev/', token: '你的私有token' };</script>
-   ```
-   token 随便一串长随机字符串即可（`openssl rand -hex 24` 生成）。
+1. **建 KV**：Cloudflare Dashboard → **存储和数据库 → Workers KV** → Create namespace。本项目用 `english`。
+2. **建 Worker**：Workers & Pages → Create → Worker，本项目命名 `english-study-sync`，把 `worker/sync.js` 全文粘进去，Deploy。
+3. **绑 KV**：该 Worker → 设置 → 绑定 → 添加 → KV 命名空间，**变量名称必须正好是 `STATE`**（大写，代码里写死的），选上一步的 namespace。
+4. Worker 地址：`https://english-study-sync.davidrushgo.workers.dev/`。
+5. 配置在 `index.html` 的 `window.__SYNC__` 里（已接入；改成 `null` 即退回纯本地）。
 
 **为什么必须处理 CORS**：前端在 `xxx.pages.dev`、同步接口在 `xxx.workers.dev`，属于跨域；请求带 `x-token` 自定义头，浏览器会先发 `OPTIONS` 预检。`worker/sync.js` 已返回 `access-control-*` 头并放行 `OPTIONS`，少了这一步同步会静默失败。
 
-**首次开启的顺序很重要**：同步是「整体覆盖 + 后写赢」。请**先在有你完整进度的那台设备上开启**，等它把数据推上去之后，再在另一台设备打开。顺序反了会用空进度覆盖掉原有进度。
+**首次开启的顺序很重要**：同步是「整体覆盖 + 后写赢」。`src/sync.js` 在**远程为空时会自动把本机进度推上去**，所以正确做法是：
+
+1. 先在**有你完整进度的那台设备/那个地址**打开页面（例如一直用的 `localhost:8321`），它会把进度推到 KV。
+2. 等十几秒，再在另一台设备或新域名（`english.pages.dev`）打开，会拉到这份进度。
+
+顺序反了，先用没有进度的设备打开，它会把自己的种子状态推上去，反倒把另一边覆盖掉。
+
+> **localStorage 按域名隔离**：`localhost:8321` 和 `english.pages.dev` 是两个独立的存储空间，进度不会自动搬过去，**只能靠这套同步搬运**。所以第一次迁移务必先开老地址、再开新地址。
 
 **安全提醒**：`index.html` 是公开仓库里的文件，token 会随代码公开，理论上知道 token 的人可以读写你的进度。个人使用影响很小；真要收紧，把 Worker 里 `access-control-allow-origin` 从 `*` 改成你自己的 `pages.dev` 域名即可。
 

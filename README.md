@@ -24,13 +24,13 @@ python scripts/serve.py 9000     # 自定义端口
 
 - `data/words.json`：6325 词（单词/音标/词性/中文释义）。前 5518 词由 `scripts/build_words.py` 从原始 xls 清洗生成（剔除人名/地名注记，不会误清空释义；例如 `mayor` → `n. 市长`），后 807 词由 `scripts/merge_pdf_words.py` 从新东方四级/六级乱序版 PDF 合并进来（id 从 6001 起，原有 id 不变，学习进度不受影响）。该词表以**原形词**收词（有 `retire`，无 `retirement`）；前端标注会自动做词形还原，文中 `retirement`/`advertising`/`consumed` 会映射回词库原形词参与学习。
 - `data/wordfreq.json`：离线词频/重要度排序（文章语料复现 + 高频考点词加成，功能词后置），供词库「重要程度」排序。
-- `data/mastered.json`：百词斩已斩种子。
+- `data/mastered.json`：百词斩已斩词清单（**2026-10-26 起不再自动灌入**，仅作历史数据保留）。
 - `data/basic-words.json`：基础词表（321 词，分两类）：202 个语法功能词（`a/an/the`、代词、助动词、介词、连词）点击显示释义并恒为「已斩」、不进斩词统计；另有 119 个日常基础词（people/online/email/performance 等，2026-10-26 由原「常用词」层并入）**不是恒已斩**：未斩带下划线、可手动斩、计入进度。原「常用词」层已取消，存档在 `data/common-words.retired.json`。
 - `data/extra-words.json`：超纲词表（**79 词**，含 `algorithm` 这类学术词，也含 `pay`、`parent`、`patience`、`app` 这类新东方两份表未收的基础实词），**每个超纲词都有音标和中文释义**；阅读中标注「超纲」；能还原成大纲原形的词（如 `flexibility`→`flexible`、`consumed`→`consume`）不在此表，由运行时词形还原归为变形词——还原规则覆盖复数（含 `-ies/-ves`）、过去式/过去分词（含不规则表）、`-ing`、比较级/最高级（`deepest`→`deep`、`busiest`→`busy`）、所有格（`candidate's`）与常见派生后缀。
 - `data/articles.json`：文章语料（当前 50 篇，每篇约 310-430 词、中英对照，风格贴近 CET6 阅读），全部通过「超纲词 ≤3%」校验。运行时自动把文中命中词库的单词标注为学习对象，因此**无需手动标注**。新增文章在 `data/articles.src.txt` 手写源里追加后跑 `scripts/build_articles.py` 重建，再用 `scripts/check_articles.py` 校验；AI 规模化可用 `scripts/build_corpus.py`。
 - 进度存浏览器 localStorage（键 `cet.study.v1`）。
 
-首启时会把 `mastered.json` 里的词自动置为"已斩"作为初始进度。
+**初始进度为 0**：不再自动把 `mastered.json` 灌成已斩。未登录的游客、以及新注册的账号，一律从空白开始（见下文「账号与同步」）。
 
 ## 语音
 
@@ -84,30 +84,42 @@ git push                     # 推上去，Cloudflare Pages 自动更新
 > 改了 `src/` 里的 JS/CSS 之后，记得同步把 `index.html` 里的 `?v=20261026-11` 和 `window.__BUILD__` 版本号改掉，否则浏览器/CDN 会用缓存里的旧文件，看起来像"改动没生效"。
 
 
-## 多设备同步（可选，阶段 1）
+## 账号与同步
 
-默认完全离线本地存储。要跨设备同步进度：
+**账号是真账号，走 Cloudflare Worker 认证**，不再是本地假账号。
 
-1. **建 KV**：Cloudflare Dashboard → **存储和数据库 → Workers KV** → Create namespace。本项目用 `english`。
-2. **建 Worker**：Workers & Pages → Create → Worker，本项目命名 `english-study-sync`，把 `worker/sync.js` 全文粘进去，Deploy。
-3. **绑 KV**：该 Worker → 设置 → 绑定 → 添加 → KV 命名空间，**变量名称必须正好是 `STATE`**（大写，代码里写死的），选上一步的 namespace。
-4. Worker 地址：`https://english-study-sync.davidrushgo.workers.dev/`。
-5. 配置在 `index.html` 的 `window.__SYNC__` 里（已接入；改成 `null` 即退回纯本地）。
+- **未登录（游客）**：可用，进度只存本机，已斩从 0 开始，不联网。
+- **登录后**：进度按账号存在 KV（`state:<用户名>`），多设备共享同一份。
+- **新注册账号**：从 0 开始，不继承任何其他账号的进度。
+- **旧版本进度**：改账号体系前存在全局键 `cet.study.v1`。**第一个登录的账号**会自动接收这份旧进度并删除旧键（`store.js` 的 `loadScope()`），之后其他账号都是干净的 0。
 
-**为什么必须处理 CORS**：前端在 `xxx.pages.dev`、同步接口在 `xxx.workers.dev`，属于跨域；请求带 `x-token` 自定义头，浏览器会先发 `OPTIONS` 预检。`worker/sync.js` 已返回 `access-control-*` 头并放行 `OPTIONS`，少了这一步同步会静默失败。
+### 服务端接口（`worker/sync.js`）
 
-**首次开启的顺序很重要**：同步是「整体覆盖 + 后写赢」。`src/sync.js` 在**远程为空时会自动把本机进度推上去**，所以正确做法是：
+| 方法 | 路径 | 说明 |
+|---|---|---|
+| POST | `/auth/register` | `{username, password}` → `{token, user}` |
+| POST | `/auth/login` | `{username, password}` → `{token, user}` |
+| POST | `/auth/logout` | Bearer token，作废会话 |
+| POST | `/auth/password` | `{oldPassword, newPassword}` |
+| POST | `/auth/rename` | `{newUsername}`，连同进度一起改名 |
+| GET | `/state` | Bearer token，取该账号进度 |
+| PUT | `/state` | Bearer token，覆盖该账号进度 |
 
-1. 先在**有你完整进度的那台设备/那个地址**打开页面（例如一直用的 `localhost:8321`），它会把进度推到 KV。
-2. 等十几秒，再在另一台设备或新域名（`english-7xa.pages.dev`）打开，会拉到这份进度。
+KV 键：`user:<用户名>`（salt + hash）、`state:<用户名>`（进度快照）、`session:<token>`（30 天 TTL）。
 
-顺序反了，先用没有进度的设备打开，它会把自己的种子状态推上去，反倒把另一边覆盖掉。
+### 部署 Worker
 
-> **localStorage 按域名隔离**：`localhost:8321` 和 `english-7xa.pages.dev` 是两个独立的存储空间，进度不会自动搬过去，**只能靠这套同步搬运**。所以第一次迁移务必先开老地址、再开新地址。
+1. **建 KV**：Dashboard → **存储和数据库 → Workers KV** → Create namespace。本项目用 `english`。
+2. **建 Worker**：命名 `english-study-sync`，把 `worker/sync.js` **全文替换**进去，Deploy。
+3. **绑 KV**：该 Worker → 设置 → 绑定 → 添加 → KV 命名空间，**变量名称必须正好是 `STATE`**（大写，代码里写死的）。
+4. 地址填进 `index.html` 的 `window.__SYNC__.url`；置 `__SYNC__ = null` 则退回纯本地。
 
-**安全提醒**：`index.html` 是公开仓库里的文件，token 会随代码公开，理论上知道 token 的人可以读写你的进度。个人使用影响很小；真要收紧，把 Worker 里 `access-control-allow-origin` 从 `*` 改成你自己的 `pages.dev` 域名即可。
+### 几个必须知道的技术点
 
-在 Worker 上再接账号体系即可升级为多用户（阶段 2，前端几乎不用改）。
+- **CORS 不能省**：页面在 `xxx.pages.dev`、接口在 `xxx.workers.dev`，跨域；请求带 `Authorization` 头会触发 `OPTIONS` 预检。`worker/sync.js` 已返回完整 `access-control-*` 并放行 `OPTIONS`，少了这步同步会**静默失败**（看着像没同步，其实请求根本没发出去）。
+- **密码哈希用单次加盐 SHA-256**：Workers 免费版每请求只有 10ms CPU，PBKDF2 十万次迭代必然超时。对"背单词进度"这类数据够用；要更强得换成付费计划或在客户端预算慢哈希。
+- **同步是整体覆盖、后写赢**：别两台设备同时斩词。切设备前停 2 秒，等当前设备的 1.5s 防抖推送完成。
+- **localStorage 按域名隔离**：`localhost:8321` 和线上域名是两个独立存储；换域名时进度靠"登录 + 云端同步"搬运，不是自动带过去。
 
 
 ## 待扩展

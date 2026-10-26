@@ -53,11 +53,11 @@ python scripts/generate_audio_edge_tts.py --limit 50 # 先试 50 个
 
 **Cloudflare Pages（当前线上环境）**
 
-线上地址：<https://english.pages.dev>
+线上地址：<https://engligh.pages.dev>（注意域名是 `engligh` 少一个 s，Pages 项目名当初拼错了）
 
 1. Cloudflare Dashboard → Workers & Pages → Create → Pages → **Connect to Git**，授权 GitHub 并选本仓库。
 2. 构建设置全部留空：Framework preset = `None`，Build command = 空，Build output directory = `/`。
-3. Save and Deploy，约 30 秒出线上地址。本项目实际使用项目名 `english`。
+3. Save and Deploy，约 30 秒出线上地址。本项目实际使用项目名 `engligh`（拼写如此，改名后域名会一起变）。
 
 之后每次 `git push` 到 `main` 都会自动重新部署（约 30 秒）。手机上用浏览器"添加到主屏幕"，体验接近原生 App。
 
@@ -99,11 +99,11 @@ git push                     # 推上去，Cloudflare Pages 自动更新
 **首次开启的顺序很重要**：同步是「整体覆盖 + 后写赢」。`src/sync.js` 在**远程为空时会自动把本机进度推上去**，所以正确做法是：
 
 1. 先在**有你完整进度的那台设备/那个地址**打开页面（例如一直用的 `localhost:8321`），它会把进度推到 KV。
-2. 等十几秒，再在另一台设备或新域名（`english.pages.dev`）打开，会拉到这份进度。
+2. 等十几秒，再在另一台设备或新域名（`engligh.pages.dev`）打开，会拉到这份进度。
 
 顺序反了，先用没有进度的设备打开，它会把自己的种子状态推上去，反倒把另一边覆盖掉。
 
-> **localStorage 按域名隔离**：`localhost:8321` 和 `english.pages.dev` 是两个独立的存储空间，进度不会自动搬过去，**只能靠这套同步搬运**。所以第一次迁移务必先开老地址、再开新地址。
+> **localStorage 按域名隔离**：`localhost:8321` 和 `engligh.pages.dev` 是两个独立的存储空间，进度不会自动搬过去，**只能靠这套同步搬运**。所以第一次迁移务必先开老地址、再开新地址。
 
 **安全提醒**：`index.html` 是公开仓库里的文件，token 会随代码公开，理论上知道 token 的人可以读写你的进度。个人使用影响很小；真要收紧，把 Worker 里 `access-control-allow-origin` 从 `*` 改成你自己的 `pages.dev` 域名即可。
 

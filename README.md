@@ -47,10 +47,35 @@ python scripts/generate_audio_edge_tts.py --limit 50 # 先试 50 个
 
 ## 上线
 
-静态站点可直接部署到任意静态托管（Cloudflare Pages / Vercel / GitHub Pages），无需构建：
+静态站点可直接部署到任意静态托管（Cloudflare Pages / Vercel / GitHub Pages），无需构建。
+
+**GitHub Pages（当前线上环境）**
+
+仓库：<https://github.com/davidwebpage/Engligh-exams-study>，默认分支 `main`，根目录即站点根。
+
+首次启用：仓库 **Settings → Pages → Source 选 "Deploy from a branch" → Branch 选 `main` / `/ (root)` → Save**。约 1 分钟后访问：
+
+```text
+https://davidwebpage.github.io/Engligh-exams-study/
+```
+
+之后每次 `git push` 到 `main`，Pages 自动重新构建（约 1 分钟生效）。手机上可用浏览器"添加到主屏幕"，体验接近原生 App。
+
+> 注意：站点部署在 `/Engligh-exams-study/` 子路径下，所以代码里**所有资源必须用相对路径**（`./data/...`、`./src/...`），不能写成 `/data/...`，否则线上 404。当前代码已全部是相对路径。
+
+**其他平台**
 
 - Cloudflare Pages：直接把仓库根目录设为构建输出（无构建命令）即可。
 - 注意事项：`data/words.json`（约 858KB）与音频目录较大，正式部署前建议开启压缩/Cache；本仓库自带 `serve.py` 用于本地调试。
+
+## 日常迭代
+
+```bash
+python scripts/serve.py      # 本地看效果（8321 端口）
+git add -A && git commit -m "说明这次改了什么"
+git push                     # 推上去，Pages 自动更新
+```
+
 
 ## 多设备同步（可选，阶段 1）
 
